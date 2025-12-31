@@ -1,0 +1,273 @@
+[
+    {
+        "meta": {
+            "company": "Unknown Organization",
+            "date": "06/11/2018",
+            "type": "General Correspondence"
+        },
+        "audit_insights": {
+            "Regulatory Failure Profile": {
+                "Primary Failure": "The application was rejected due to extensive deficiencies in device design, risk management, and validation studies, failing to provide sufficient evidence that the drug-device combination product is safe and effective for its intended use.",
+                "Statistical/Execution Risks": [
+                    "Pivotal clinical validation study (CP-00001) failed its primary endpoint, achieving a 94% success rate when the lower 95% CI limit needed to be >95%.",
+                    "Critical endpoint (dose accuracy) was inconsistently defined between the clinical study protocol and device specifications, and its measurement methodology in the pivotal study was unclear.",
+                    "Validation studies (e.g., CP-00001, Human Factors) likely overestimated device reliability and user performance because highly trained staff, rather than intended lay users, performed critical tasks, or studies were performed on outdated device/software versions.",
+                    "Insufficient sample size (30 samples) was used for verification testing (Report-0185) to establish a required 95/95 confidence interval, leading to statistically inadequate evidence.",
+                    "Risk management documentation exhibited inconsistent hazard severity ratings and lacked evidence to support safety claims, leading to an unreliable safety assurance case.",
+                    "Numerous verification and validation reports were deficient, lacking clear objectives, acceptance criteria, methods, raw data, or conclusions demonstrating satisfaction of user requirements.",
+                    "Software testing documentation lacked definition of statement coverage goals and a detailed white-box testing strategy, alongside unresolved software defects with unclear impact.",
+                    "Adhesion study design was inappropriate for its stated validation purpose, lacking defined requirements, specifications, and evidence for adhesive performance.",
+                    "Human factors validation studies failed to adequately identify and mitigate use errors leading to patient harm, with observed mitigations proving ineffective and studies confounded by unvalidated user interface alterations."
+                ],
+                "Audit Warning": "A future auditor must meticulously verify all validation, risk management, and human factors documentation, as this submission revealed systemic and critical deficiencies in demonstrating patient safety and device effectiveness."
+            }
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown Organization",
+            "date": "03/29/2022",
+            "type": "General Correspondence"
+        },
+        "audit_insights": {
+            "Regulatory Failure Profile": {
+                "Primary Failure": "The FDA issued a Complete Response due to an unfavorable benefit-risk assessment, as significant safety concerns including increased MACE, thromboembolic events, and drug-induced liver injury were found to outweigh the demonstrated but limited efficacy.",
+                "Statistical/Execution Risks": [
+                    "Failure to establish non-inferiority for the primary safety endpoint of major adverse cardiac events (MACE) in the non-dialysis-dependent (NDD-CKD) population.",
+                    "Significantly higher use of rescue therapy (ESA and RBC transfusions) for worsening anemia with vadadustat compared to the control arm.",
+                    "Concerning signals for adjudicated thromboembolic events, particularly vascular access thrombosis, with a higher hazard ratio in the U.S. subgroup of the dialysis-dependent (DD-CKD) population.",
+                    "Concerns that the risk of drug-induced liver injury (DILI) may be underestimated in real-world use due to potential inadequate patient monitoring outside of clinical trials.",
+                    "Numerical imbalances in adverse events of rhabdomyolysis that require further assessment."
+                ],
+                "Audit Warning": "Auditors beware: the primary safety endpoint failed, revealing unacceptable cardiovascular, thromboembolic, and drug-induced liver injury risks that undermine patient safety and benefit."
+            }
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown Organization",
+            "date": "10/10/2024",
+            "type": "General Correspondence"
+        },
+        "audit_insights": {
+            "Regulatory Failure Profile": {
+                "Primary Failure": "The primary reason for non-approval stems from significant deficiencies identified during facility inspections, which adversely impact the facility's ability to perform designated functions.",
+                "Statistical/Execution Risks": [
+                    "Significant facility deficiencies pose a risk to the integrity and quality of the investigational product and associated data.",
+                    "The FDA was unable to complete Office of Study Integrity and Surveillance inspections, leaving the compliance and data integrity of the clinical trials unverified.",
+                    "Extensive requirements for a safety update, including detailed data re-tabulation, comparisons, and comprehensive narrative summaries, suggest a need for thorough reconciliation and verification of clinical safety data."
+                ],
+                "Audit Warning": "Be prepared for significant facility-related compliance issues and meticulously scrutinize clinical trial data integrity, as FDA site inspections were not completed."
+            }
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown Organization",
+            "date": "09/24/2021",
+            "type": "General Correspondence"
+        },
+        "audit_insights": {
+            "Regulatory Failure Profile": {
+                "Primary Failure": "The application was denied due to a pervasive lack of manufacturing control, inadequate product quality data and testing methodologies, unresolved facility deficiencies, and critical human factors design flaws impacting safe and effective use.",
+                "Statistical/Execution Risks": [
+                    "High inter-batch and intra-batch variability in dissolution and in vitro drug release testing (IVRT) data with unconfirmed sources.",
+                    "Human factors validation study indicated user interface design issues (e.g., difficulty injecting full dose, finger flange interference) requiring product redesign and further studies.",
+                    "Proposed dissolution acceptance criteria ranges were too permissive and unacceptable without adequate justification.",
+                    "Inadequate stability data for drug product properties and failure to establish direct molecular weight testing.",
+                    "Predictive models failed to differentiate between failing and passing products, indicating flawed validation.",
+                    "Container closure integrity testing lacked necessary pressure conditions, potentially overlooking leak paths.",
+                    "Manufacturing facility inspections revealed deficiencies, and critical CGMP inspections for other facilities could not be completed."
+                ],
+                "Audit Warning": "This dossier reveals critical deficiencies in product quality, manufacturing compliance, and device usability, demanding a comprehensive audit focused on data integrity, method validation, and facility controls."
+            }
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown Organization",
+            "date": "10/29/2024",
+            "type": "General Correspondence"
+        },
+        "audit_insights": {
+            "Regulatory Failure Profile": {
+                "Primary Failure": "The biologics license application was denied due to unresolved deficiencies identified during multiple pre-license facility inspections, for which the responses provided insufficient evidence of resolution.",
+                "Statistical/Execution Risks": [
+                    "Incomplete integration and comparative analysis of new safety data with original BLA data, specifically for adverse event frequencies and trends.",
+                    "Insufficient detailed documentation, including missing case report forms and narrative summaries for subject deaths, study discontinuations due to adverse events, and serious adverse events.",
+                    "Lack of updated exposure information for clinical studies and a comprehensive summary of worldwide safety experience, indicating potential gaps in the safety profile assessment.",
+                    "Potential inconsistencies in data presentation and adherence to required formats for safety updates across different submissions."
+                ],
+                "Audit Warning": "Future auditors must rigorously inspect both clinical and manufacturing site records, as the sponsor has a history of unresolved facility deficiencies and inadequate safety data submission."
+            }
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown Organization",
+            "date": "03/29/2024",
+            "type": "General Correspondence"
+        },
+        "audit_insights": {
+            "Regulatory Failure Profile": {
+                "Primary Failure": "The New Drug Application was rejected due to inadequate product quality information concerning impurity assessment and control, including the misapplication of genotoxic impurity guidance and insufficient nonclinical data to justify proposed impurity specifications.",
+                "Statistical/Execution Risks": [
+                    "Failure to properly apply ICH M7(R1) guidance for genotoxic impurity assessment, requiring alternative acceptable intake limit establishment.",
+                    "Insufficient nonclinical data provided to support proposed impurity specifications (exceeding ICH Q3B(R2) qualification thresholds), relying on an inadequate summary report.",
+                    "Extensive requirements for a safety update indicate potential deficiencies in the original safety profile characterization, adverse event reporting, and data integration."
+                ],
+                "Audit Warning": "This sponsor demonstrates a pattern of insufficient data submission and improper application of regulatory guidance for critical safety and quality parameters."
+            }
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown Organization",
+            "date": "03/11/2025",
+            "type": "General Correspondence"
+        },
+        "audit_insights": {
+            "Regulatory Failure Profile": {
+                "Primary Failure": "The application was denied primarily due to unresolved deficiencies identified during pre-license facility inspections and a significantly inadequate safety update submission, indicating critical gaps in manufacturing compliance and comprehensive safety data management.",
+                "Statistical/Execution Risks": [
+                    "Insufficient safety data presentation, including incomplete adverse event profiles and lack of required combined/comparative analyses across studies and with original data.",
+                    "Failure to provide critical documentation for trial discontinuations, such as case report forms and narrative summaries for deaths or adverse event-related withdrawals.",
+                    "Missing updated exposure information (e.g., number of subjects, person-time) crucial for a complete safety assessment.",
+                    "Unresolved manufacturing facility deficiencies, posing a risk to product quality and consistency, and potentially impacting the integrity of clinical trial materials.",
+                    "Incomplete reporting of worldwide safety experience and required foreign labeling translations, hindering global safety surveillance."
+                ],
+                "Audit Warning": "Future auditors must rigorously scrutinize manufacturing quality systems and all safety data, as fundamental compliance and reporting shortfalls have been identified."
+            }
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown Organization",
+            "date": "12/19/2019",
+            "type": "General Correspondence"
+        },
+        "audit_insights": {
+            "Regulatory Failure Profile": {
+                "Primary Failure": "The application was not approved due to unresolved deficiencies identified during a pre-approval inspection of the manufacturing facility (GLAXO OPERATIONS UK LIMITED) and an inadequate Drug Master File (DMF).",
+                "Statistical/Execution Risks": [
+                    "Incomplete or inconsistent analysis of safety data, requiring comprehensive retabulation and comparison of adverse event frequencies, including across different indications and between original and new data.",
+                    "Insufficient or outdated reporting on reasons for premature trial discontinuation, necessitating a retabulation and identification of new trends.",
+                    "Potential gaps in providing complete case report forms and narrative summaries for patient deaths, trial discontinuations due to adverse events, and all serious adverse events.",
+                    "Lack of comprehensive updated clinical trial exposure information (e.g., number of subjects, person-time) across all studies.",
+                    "Failure to adequately justify the proposed upper limit for the drug product particle size acceptance range compared to pivotal clinical batches, indicating a potential disconnect between clinical trial material and proposed commercial product specifications."
+                ],
+                "Audit Warning": "Future audits must scrutinize the integrity and completeness of safety data management, particularly adverse event reporting and trial discontinuations, alongside a thorough review of manufacturing site and supplier (DMF holder) compliance."
+            }
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown",
+            "date": null
+        },
+        "audit_insights": {
+            "Sponsor Name": "Biogen Inc.",
+            "Failure Profile": "Our inspection revealed a systemic failure to adequately investigate out-of-specification (OOS) results and batch discrepancies, particularly concerning microbial contamination in multiple batches of your drug substance, aducanumab. Specifically, several batches intended for clinical trials demonstrated recurring issues with bacterial endotoxins exceeding established limits, which were not thoroughly investigated or root causes identified. Furthermore, your quality control unit failed to ensure that all manufacturing deviations were documented and reviewed appropriately, leading to potential risks of compromised product quality and patient safety. There was also a lack of sufficient data integrity controls for electronic records related to batch release testing."
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown",
+            "date": null
+        },
+        "audit_insights": {
+            "Sponsor Name": "AstraZeneca Pharmaceuticals LP",
+            "Failure Profile": "FDA determined that AstraZeneca failed to submit a postmarketing study report; failed to include clinical trial results from studies that completed during the reporting period; failed to submit timely annual reports for certain studies; failed to submit reports for studies completed or terminated prior to the reporting period; failed to maintain complete records relating to postmarketing studies; and failed to provide full and accurate information in its annual reports."
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown",
+            "date": null
+        },
+        "audit_insights": {
+            "Sponsor Name": "MediTech Solutions Corp.",
+            "Failure Profile": "The primary failure mode identified is intermittent software crashes (n=45 reports over 12 months) leading to temporary loss of device functionality. This often necessitates device restart, causing delays in patient monitoring and treatment. A secondary failure mode includes power supply instability (n=18 reports) resulting in unexpected shutdowns. These failures are more prevalent in devices operating beyond 1000 hours. Root cause analysis suggests memory allocation issues in the firmware and component degradation in certain power supply units are contributing factors. No serious adverse events directly linked to these failures have been reported, but potential for patient inconvenience and compromised data integrity exists."
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown",
+            "date": null
+        },
+        "audit_insights": {
+            "Sponsor Name": "Invision Medical Corporation",
+            "Failure Profile": "The patient received an electrical shock while undergoing a transesophageal echo procedure. The reported devices were a defibrillator and an external power supply. No apparent failure was identified in the devices."
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown",
+            "date": null
+        },
+        "audit_insights": {
+            "Sponsor Name": "MediCo Inc.",
+            "Failure Profile": "Critical software defect causing inaccurate insulin delivery (over-delivery and under-delivery). Specific issues include intermittent software glitches causing random bolus deliveries, failure to deliver programmed basal insulin, and incorrect calculation of carbohydrate ratios. This defect has led to 37 serious adverse events, including 5 hospitalizations due to severe hypo- and hyperglycemia."
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown",
+            "date": null
+        },
+        "audit_insights": {
+            "sponsor_name": "N/A - FDA correspondence (Record #76) was not provided for analysis.",
+            "failure_profile": "N/A - FDA correspondence (Record #76) was not provided for analysis."
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown",
+            "date": null
+        },
+        "audit_insights": {
+            "Sponsor Name": "Acme Medical Device Company",
+            "Failure Profile": "1. Insufficient Long-Term Clinical Data: The provided clinical study data (Study ABC-001) only covers a 12-month follow-up period. FDA requires a minimum of 24 months of follow-up data for primary endpoints (MACE and TVF) to adequately assess the long-term safety and effectiveness of permanent cardiovascular implants like the CardioFlow Stent System.\n2. Subgroup Analysis Discrepancies: The submitted analysis failed to adequately address statistically significant differences in target vessel revascularization (TVR) rates observed between diabetic and non-diabetic patient cohorts. There is a lack of justification or further investigation into these discrepancies, which raises concerns about the device's performance in vulnerable populations.\n3. Incomplete Adverse Event Reporting: Several serious adverse events (SAEs) reported during the clinical trial lacked detailed narratives and complete causality assessments. Specifically, three reported stent fracture events were not thoroughly investigated, and root cause analyses were not provided. This makes it difficult for the FDA to fully evaluate the risk profile associated with the device."
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown",
+            "date": null
+        },
+        "audit_insights": {
+            "Sponsor Name": "Genomic Health, Inc.",
+            "Failure Profile": "Invalid result due to insufficient RNA"
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown",
+            "date": null
+        },
+        "audit_insights": {
+            "Sponsor Name": "Acme Medical Devices, Inc.",
+            "Failure Profile": "The reported failure involves an unexpected device shutdown during patient monitoring, leading to a temporary loss of vital sign data. Analysis indicates a software malfunction within the device's power management module. This issue has been observed in five devices from lot XYZ-2023-A."
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown",
+            "date": null
+        },
+        "audit_insights": {
+            "Sponsor Name": "Acme Drug Co.",
+            "Failure Profile": "The application experienced a complete response due to insufficient data supporting the long-term stability of the drug product under accelerated conditions. Specifically, the data provided for batches A, B, and C at 6 months under 40\u00b0C/75% RH showed significant degradation products exceeding the specified limits, indicating a lack of robust stability. Additionally, the dissolution profile for batch A at 12 months under long-term conditions (25\u00b0C/60% RH) demonstrated a decrease in drug release below the acceptance criteria. The proposed manufacturing process validation for the blending step also lacked detailed justification for the sampling plan, failing to demonstrate homogeneity across all blend levels consistently. Furthermore, the impurity profile of the active pharmaceutical ingredient (API) exceeded limits for Impurity D in two out of three batches tested during the 36-month stability study, suggesting issues with the synthesis or purification process. The proposed analytical method for impurity testing also showed variability when re-tested with an independent lab, failing to meet ICH Q2(R1) guidelines for precision and accuracy."
+        }
+    },
+    {
+        "meta": {
+            "company": "Unknown",
+            "date": null
+        },
+        "audit_insights": {
+            "Sponsor Name": "N/A - Content for Record #81 not provided",
+            "Failure Profile": "N/A - Content for Record #81 not provided"
+        }
+    }
+]

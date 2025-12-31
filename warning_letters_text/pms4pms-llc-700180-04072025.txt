@@ -1,0 +1,105 @@
+4255 Research PkwyClarence,NY14031-2032United States
+
+The United States Food and Drug Administration (FDA) inspected your drug manufacturing facility, PMS4PMS, LLC, FEI 3016774658, at 4255 Research Pkwy, Clarence, from November 4 to 8, 2024.
+
+This warning letter summarizes significant violations of Current Good Manufacturing Practice (CGMP) regulations for finished pharmaceuticals. See Title 21 Code of Federal Regulations (CFR), parts 210 and 211 (21 CFR parts 210 and 211).
+
+Because your methods, facilities, or controls for manufacturing, processing, packing, or holding do not conform to CGMP, your drug product is adulterated within the meaning of section 501(a)(2)(B) of the Federal Food, Drug, and Cosmetic Act (FD&C Act), 21 U.S.C. 351(a)(2)(B).
+
+In addition, the drug product “Comforté® Menstrual Cramp RELIEF CREAM” is an unapproved new drug introduced or delivered for introduction into interstate commerce in violation of sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C. 355(a) and 331(d). Additionally, this product is misbranded under section 502(ee) of the FD&C Act, 21 U.S.C. 352(ee). Introduction or delivery for introduction of a misbranded product into interstate commerce is prohibited under section 301(a) of the FD&C Act, 21 U.S.C. 331(a). These violations are described in more detail below.
+
+We reviewed your November 22, 2024 response to our Form FDA 483 in detail and acknowledge receipt of your subsequent correspondence. Your response is inadequate because you failed to provide supportive documentation for evaluation or adequate evidence of corrective actions taken to bring your operations into compliance with CGMP.
+
+During our inspection, our investigators observed specific violations including, but not limited to, the following.
+
+1. Your firm failed to have, for each batch of drug product, appropriate laboratory determination of satisfactory conformance to final specifications for the drug product, including the identity and strength of each active ingredient, prior to release (21 CFR 211.165(a)).
+
+Your firm failed to adequately determine the appropriate laboratory testing necessary for your OTC drug product. For example, you did not perform testing for identity and strength of the active ingredient prior to release and distribution.
+
+We acknowledge that you do not intend to continue manufacturing the “Comforté® Menstrual Cramp RELIEF CREAM” drug product. However, you failed to address the lack of testing of your drug product on the market that is still within expiry.
+
+Full release testing, including strength and identity testing of the active ingredient, must be performed before drug product release and distribution. Without adequate testing, you do not have adequate scientific evidence to assure that your drug products conform to appropriate specifications before release.
+
+2. Your firm failed to assure that the drug product bore an expiration date that was supported by appropriate stability testing (21 CFR 211.137(a)).
+
+You failed to establish and maintain an adequate stability testing program to support the labeled expiry on your distributed drug products. There is no assurance that your drug products will remain acceptable throughout the assigned 5-year expiry period without an ongoing stability program.
+
+For products without appropriate stability studies, there is insufficient scientific evidence to support that the drug products will meet established specifications and retain their quality attributes through their assigned expiry.
+
+3. Your firm’s quality control unit failed to exercise its responsibility to ensure drug products manufactured are in compliance with CGMP, and meet established specifications for identity, strength, quality, and purity (21 CFR 211.22).
+
+You lacked a quality unit (QU) with appropriate oversight for the manufacture of your over-the-counter (OTC) topical analgesic drug product. For example, your QU failed to ensure:
+
+Adequate procedures were written and followed describing the roles and responsibilities of the QU, including raw material supplier qualification and incoming component testing (21 CFR 211.22(a) and 211.22(d)).
+
+Operators received adequate CGMP training for the production of OTC drug products (21 CFR 211.25(a)).
+
+Adequate written procedures for the preparation of master production and control records designed to assure uniformity from batch to batch (21 CFR 211.186(a)).
+
+Adequate written procedures to document and investigate any unexplained discrepancy or failure of a batch or any of its components to meet any specifications (21 CFR 211.192).
+
+Adequate written procedures to handle drug product complaints (21 CFR 211.198).
+
+Your firm’s quality systems are inadequate. See FDA’s guidance documentQuality Systems Approach to Pharmaceutical CGMP Regulationsfor help implementing quality systems and risk management approaches to meet the requirements of CGMP regulations 21 CFR, parts 210 and 211 at https://www.fda.gov/media/71023/download.
+
+Based upon the nature of the violations we identified at your firm, you should engage a consultant qualified as set forth in 21 CFR 211.34 to evaluate your operations and to assist your firm in meeting CGMP requirements if your firm intends to resume manufacturing drugs for the U.S. market. The qualified consultant should also perform a comprehensive six-system audit of your entire operation for CGMP compliance and evaluate the completion and efficacy of your CAPAs before you pursue resolution of your firm’s compliance status with FDA. Your use of a consultant does not relieve your firm’s obligation to comply with CGMP. Your firm’s executive management remains responsible for resolving all deficiencies and systemic flaws to ensure ongoing CGMP compliance.
+
+“Comforté® Menstrual Cramp RELIEF CREAM” is a drug as defined by section 201(g)(1)(B) of the FD&C Act, 21 U.S.C. 321(g)(1)(B) because it is intended for use in the diagnosis, cure, mitigation, treatment, or prevention of disease, and/or under section 201(g)(1)(C) of the FD&C Act, 21 U.S.C. 321(g)(1)(C) because it is intended to affect the structure or any function of the body.
+
+Examples from the product’s labeling that provide evidence of the intended uses (as defined by 21 CFR 201.128) of the product as a drug include, but may not be limited to, the following:
+
+“DRUG FACTS…Uses:Temporarily relieves minor pain associated with cramps” [from the product label]
+
+“Menstrual Cramp RELIEF CREAM” [from the product label]
+
+“…apply and massage Comforté® cream to the lower abdomen from hip to hip and to your lower back if you are experiencing discomfort there too.” [from the product label]
+
+“Temporary relief of monthly feminine discomfort” [from the product label]
+
+“We believe in the power of plants and their therapeutic properties to offer solutions for menstrual discomforts.” [from the product label]
+
+“The natural plant extracts in this cream help to temporarily relieve pain associated with menstrual cramps.” [from the product label]
+
+Based on the above labeling evidence, “Comforté® Menstrual Cramp RELIEF CREAM” is intended for use as an external analgesic drug product. As described below, this drug product is an unapproved new drug marketed in violation of sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C 355(a) and 331(d).
+
+A drug product is a “new drug” within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p), if it is not generally recognized as safe and effective (GRASE) for use under the conditions prescribed, recommended, or suggested in its labeling. With certain exceptions not applicable here, a new drug may not be introduced or delivered for introduction into interstate commerce without an approved application from FDA in effect, as described in section 505(a) of the FD&C Act, 21 U.S.C. 355(a). No FDA-approved applications pursuant to section 505 of the FD&C Act, 21 U.S.C. 355, are in effect for this drug product identified above.
+
+Under section 505G of the FD&C Act, certain nonprescription drugs marketed without an approved application —commonly referred to as "OTC monograph drugs"—may be legally marketed if they meet applicable requirements. With respect to external analgesic drug products, such as your “Comforté® Menstrual Cramp RELIEF CREAM,” in order to be GRASE and not a new drug, the product must, among other things, conform to the conditions in the applicable OTC monograph(s), here M017: External Analgesic Drug Products for Over-the-Counter Human Use.1However, “Comforté® Menstrual Cramp RELIEF CREAM” does not conform to the conditions specified in M017 for the reasons described below.
+
+Specifically, the labeling for “Comforté® Menstrual Cramp RELIEF CREAM” includes indications that are not consistent with the indications for external analgesic drug products. Claims from the product labeling described above related to relief of pain caused by menstrual cramps go beyond merely describing the general intended uses for an external analgesic drug product. Indications related to relief of pain caused by menstrual cramps are not included in M017 or any other final administrative order in accordance with section 505G.
+
+Thus, your “Comforté® Menstrual Cramp RELIEF CREAM” product does not comply with the applicable conditions specified in M017 and has not otherwise been found GRASE.2Accordingly, this product is a new drug within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p), and there is no basis under section 505G of the FD&C Act under which this product would be legally marketed without an approved application. Because there is no application in effect for this product, this product is an unapproved new drug.
+
+The introduction or delivery for introduction of this unapproved new drug product into interstate commerce violates sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C. 355(a) and 331(d).
+
+Additionally, “Comforté® Menstrual Cramp RELIEF CREAM” is misbranded under section 502(ee) of the FD&C Act, 21 U.S.C. 352(ee), because this product is a nonprescription drug subject to section 505G of the FD&C Act, 21 U.S.C. 355h, but does not comply with the requirements for marketing under that section and is not the subject of an application approved under section 505 of the FD&C Act, 21 U.S.C. 355.
+
+The introduction or delivery for introduction of a misbranded drug into interstate commerce violates section 301(a) of the FD&C Act, 21 U.S.C. 331(a).
+
+We acknowledge your commitment to cease production of “Comforté® Menstrual Cramp RELIEF CREAM” drugs at this facility. In response to this letter, clarify whether you intend to resume manufacturing any drugs at this facility in the future.
+
+If you plan to resume any manufacturing operations regulated under the FD&C Act, notify this office before resuming your drug manufacturing operations. You are responsible for resolving all deficiencies and systemic flaws to ensure your firm is capable of ongoing CGMP compliance. In your notification to the Agency, provide a summary of your remediations to demonstrate that you have appropriately completed all corrective action and preventive action (CAPA).
+
+Cosmetics Manufactured for Distribution in the United States
+
+In addition, we note that some of the products you manufacture may be regulated as cosmetics, as defined in section 201(i) of the FD&C Act [21 U.S.C. 321(i)]. Any cosmetics you manufacture must comply with applicable statutory and regulatory requirements, including the FD&C Act. A cosmetic is deemed adulterated under section 601(c) of the FD&C Act [21 U.S.C. 361(c)] if it has been prepared, packed, or held under insanitary conditions whereby it may have become contaminated with filth or whereby it may have been rendered injurious to health. Some conditions that cause the drug products you manufacture to be adulterated may also cause any cosmetics you manufacture to be adulterated. We note that under section 301(a) of the FD&C Act [21 U.S.C. 331(a)], it is a prohibited act to introduce or deliver for introduction into interstate commerce a cosmetic that is adulterated.
+
+Further, your facility may be subject to requirements of the Modernization of Cosmetics Regulation Act of 2022 (MoCRA). Information on MoCRA requirements may be found at https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra.
+
+The violations cited in this letter are not intended to be an all-inclusive list of violations that exist at your facility. You are responsible for investigating and determining the causes of any violations and for preventing their recurrence or the occurrence of other violations.
+
+Correct any violations promptly. Failure to promptly and adequately address this matter may result in regulatory or legal action without further notice including, without limitation, seizure and injunction. Unresolved violations may also prevent other Federal agencies from awarding contracts.
+
+Failure to address violations may also cause FDA to withhold issuance of Export Certificates. FDA may withhold approval of new applications or supplements listing your firm as a drug manufacturer until any violations are completely addressed and we confirm your compliance with CGMP. We may re-inspect to verify that you have completed corrective actions to address any violations.
+
+This letter notifies you of our findings and provides you an opportunity to address the above deficiencies. After you receive this letter, respond to this office in writing within 15 working days. Specify what you have done to address any violations and to prevent their recurrence. In response to this letter, you may provide additional information for our consideration as we continue to assess your activities and practices. If you cannot complete corrective actions within 15 working days, state your reasons for delay and your schedule for completion.
+
+Send your electronic reply to CDER-OC-OMQ-Communications@fda.hhs.gov. Identify your response with FEI 3016774658 and ATTN: Nancy Scheraga.
+
+Francis GodwinDirectorOffice of Manufacturing QualityOffice of ComplianceCenter for Drug Evaluation and Research
+
+Tina SmithCaptain, U.S. Public Health ServiceDirectorOffice of Unapproved Drugs & Labeling ComplianceOffice of Compliance
+
+1M017 reflects the conditions in the relevant final order established and in effect under Section 505G of the FD&C Act; see Order ID OTC000033, available at FDA’s website OTC Monographs@FDA, https://dps.fda.gov/omuf/ordersearch/order_otc000033.
+
+2FDA is not aware of any adequate and well-controlled clinical trials in the published literature that support a determination that “Comforté® Menstrual Cramp RELIEF CREAM” is GRASE for use under the conditions prescribed, recommended, or suggested in its labeling, nor has FDA determined this drug product to be GRASE pursuant to an order issued under section 505G(b).Center for Drug Evaluation and Research

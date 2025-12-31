@@ -1,0 +1,137 @@
+Your facility was registered with the United States Food and Drug Administration (FDA) as a manufacturer of over-the-counter (OTC) drug products. FDA has reviewed the records you submitted in response to our September 4, 2024 request and subsequent correspondence, for records and other information pursuant to section 704(a)(4) of the Federal Food, Drug, and Cosmetic Act (FD&C Act) for your facility, Everlaan Organics, Inc., dba Maple Organics, FEI 3025798567, 17220 Heather Dr, Unit 106, Surrey, British Columbia, Canada.
+
+This warning letter summarizes significant violations of Current Good Manufacturing Practice (CGMP) regulations for finished pharmaceuticals. See Title 21 Code of Federal Regulations, parts 210 and 211 (21 CFR, parts 210 and 211).
+
+Because your methods, facilities, or controls for manufacturing, processing, packing, or holding of drugs as described in your response to our 704(a)(4) request do not conform to CGMP, your drug products are adulterated within the meaning of section 501(a)(2)(B) of the FD&C Act (21 U.S.C. 351(a)(2)(B)).
+
+In addition, “maple organics Joint Pain Relief” and “maple organics Muscle Pain Relief” are unapproved new drugs introduced or delivered for introduction into interstate commerce in violation of section 505(a) of the Federal Food, Drug, and Cosmetic Act (FD&C Act), 21 U.S.C. 355(a). Furthermore, “maple organics Joint Pain Relief,” “maple organics Muscle Pain Relief,” “maple organics Cough & Cold Relief for Kids,” and “maple organics Cough & Cold Relief” are misbranded under 502(a) of the FD&C Act, 21 U.S.C. 352(a). Additionally, “maple organics Cough & Cold Relief” is further misbranded under 502(f)(1) of the FD&C Act, 21 U.S.C. 352(f)(1) and “maple organics Joint Pain Relief,” “maple organics Muscle Pain Relief,” and “maple organics Cough & Cold Relief” are misbranded under section 502(ee) of the FD&C Act, 21 U.S.C. 352(ee). Introduction or delivery for introduction of a misbranded product into interstate commerce is prohibited under section 301(a) of the FD&C Act, 21 U.S.C. 331(a). These violations are described in more detail below.
+
+Following review of records and other information provided pursuant to section 704(a)(4) of the FD&C Act, significant violations were observed including, but not limited to, the following:
+
+1. Your firm failed to have, for each batch of drug product, appropriate laboratory determination of satisfactory conformance to final specifications for the drug product, including the identity and strength of each active ingredient, prior to release (21 CFR 211.165(a)).
+
+You manufacture OTC drug products, including(b)(4)products for(b)(4). Based on the records and information you provided, you did not demonstrate that you adequately test your OTC finished drug products prior to release for distribution to the United States.
+
+In your initial response, you state that you test each batch of your finished drug products before release. However, when FDA requested you to provide the test data, you failed to provide any records demonstrating that you tested your finished products prior to release. You do not appear to be performing release testing on finished products.
+
+Full release testing, including for identity, strength, and impurities, must be performed prior to drug release and distribution. Without adequate testing, there is no scientific evidence to assure that your drug products conform to appropriate specifications before release.
+
+A list of chemical and microbial specifications, including adequate test methods, used to analyze each batch of your drug products before a batch disposition decision.o An action plan and timelines for conducting full chemical and microbiological testing of retain samples to determine the quality of all batches of drug product distributed to the United States that are within expiry as of the date of this letter.o A summary of all results obtained from testing retain samples from each batch. If such testing reveals substandard quality drug products, take rapid corrective actions, such as notifying customers and product recalls.
+
+A comprehensive, independent assessment of your laboratory practices, procedures, methods, equipment, documentation, and analyst competencies. Based on this review, provide a detailed plan to remediate and evaluate the effectiveness of your laboratory system.
+
+2. Your firm failed to conduct at least one test to verify the identity of each component of a drug product (21 CFR 211.84(d)(1)).
+
+Based on the records and information you provided about the manufacture of your OTC drug products, you did not demonstrate that you are adequately testing each shipment of each lot of incoming components.
+
+In response to our initial request, you state that you “identify all items via receiving practices” and provided a receiving procedure. However, the procedure did not specify chemical identity testing for incoming components. You also did not provide your incoming component testing data for the most recent batches shipped to the United States when asked by FDA subsequently.
+
+Without adequate testing, you do not have scientific evidence that incoming materials conform to appropriate specifications prior to use in the manufacture of your drugs. As a manufacturer, you have a responsibility to sample, test, and examine incoming materials before use in production to assure adequate quality.
+
+A comprehensive, independent review of your material system to determine whether all suppliers of incoming materials are each qualified and the materials are assigned appropriate expiration or retest dates. The review should also determine whether incoming material controls are adequate to prevent use of unsuitable materials.
+
+The chemical and microbiological quality control specifications you use to test and release each incoming lot of components for use in manufacturing.
+
+A description of how you will test each incoming material lot for conformity with all appropriate specifications for identity. If you intend to accept any results from your supplier’s certificate of analysis (COA) instead of testing each incoming material lot for other tests, specify how you will ensure that you have adequate evidence to establish that the supplier consistently provides material meeting specifications. In addition, include a commitment to always conduct at least one specific identity test for each incoming material lot.
+
+A summary of results obtained from testing all incoming materials to evaluate the reliability of the COA from each incoming materials manufacturer. Include your standard operating procedure that describes this COA validation program.
+
+A summary of your program for qualifying and overseeing contract facilities that test the drugs you manufacture.
+
+3. Your firm failed to establish and follow an adequate written testing program designed to assess the stability characteristics of drug products (21 CFR 211.166(a)).
+
+The records and information you provided did not demonstrate that you have an adequate stability program for the OTC drug products you manufacture. You provided a stability test procedure that only discussed accelerated stability testing but did not include long-term stability testing. In lieu of stability data, you provided a cost estimate from a contract testing laboratory outlining the various stability tests to be performed. We note that one of your microbiological test references USP <2021>, which is intended for evaluating nutritional supplements, and not drug products.
+
+Without appropriate stability studies, you do not have scientific evidence to support whether your drug products meet established specifications and retain their quality attributes through their labeled expiry.
+
+A comprehensive, independent assessment and CAPA plan to ensure the adequacy of your stability program. Your remediated program should include, but not be limited to:o Stability indicating methods.o Stability studies for each drug product in its marketed container-closure system before distribution is permitted.o An ongoing program in which representative batches of each product are added each year to the program to determine if the shelf-life claim remains valid.o Detailed definition of the specific attributes to be tested at each station (timepoint).
+
+All procedures that describe these and other elements of your remediated stability program.
+
+4. Your firm failed to prepare batch production and control records that include documentation of the accomplishment of each significant step in the manufacture, processing, packing, or holding of the batch, for each batch of drug product (21 CFR 211.188(b)).
+
+The batch records you provided in response to our request for records lacked adequate production details regarding significant manufacturing steps, including, but not limited to, identity of major equipment and lines, in-process controls, yield, and container closures. This documentation is necessary to establish that manufacturing processes were consistently followed and are reproducible. Having incomplete records deprives you of traceability of actions necessary for investigational purposes.
+
+• Your master production and control records for your drug products, to demonstrate that they fully document each significant and validated manufacturing step.
+
+• A complete assessment of documentation systems used throughout your manufacturing operations, to determine where documentation practices are insufficient. Include a detailed corrective action and preventive action (CAPA) plan that comprehensively remediates your firm’s documentation practices, to ensure you retain attributable, legible, complete, original, accurate, and contemporaneous records throughout your operation.
+
+5. Your firm failed to establish an adequate quality control unit with the responsibility and authority to approve or reject all components, drug product containers, closures, in-process materials, packaging materials, labeling, and drug products (21 CFR 211.22(a)).
+
+The records and information you provided demonstrate that your quality unit (QU) did not effectively exercise its responsibilities to oversee the quality of your drug manufacturing operations. Specifically, your QU did not adequately exercise its authority in the approval or rejection of components, approval or rejection of finished drug products, batch record review, establishment and implementation of an adequate stability study program, and performance of adequate process validation.
+
+Your procedures did not define your QU structure and delineation of QU roles and responsibilities. We acknowledge that you plan to cease production and seek a contract manufacturing organization (CMO),(b)(4), to manufacture your drug products.
+
+A comprehensive assessment and remediation plan to ensure your QU is given the authority and resources to effectively function. The assessment should also include, but not be limited to:o A determination of whether procedures used by your firm are robust and appropriate.o Provisions for QU oversight throughout your operations to evaluate adherence to appropriate practices.o A complete and final review of each batch and its related information before the QU disposition decision.o Oversight and approval of investigations and discharging of all other QU duties to ensure identity, strength, quality, and purity of all products.
+
+We note that your prospective contract manufacturing facility,(b)(4), was placed on Import Alert 66-40 on(b)(4)for failure to comply with CGMP requirements. Drugs manufactured at your prospective CMO are considered adulterated and thus should not be used for the manufacture of drugs for the United States market. It is your responsibility to perform adequate due diligence to ensure that your CMO is in full compliance with CGMPs, the applicable requirements in the FD&C Act, PHS Act, and all applicable regulations.
+
+Drugs must be manufactured in conformance with CGMP. FDA is aware that many drug manufacturers use independent contractors, such as production facilities, testing laboratories, packagers, and labelers. FDA regards contractors as extensions of the manufacturer.
+
+You are responsible for the quality of your drugs regardless of agreements in place with your contract facilities. You are required to ensure that drugs are made in accordance with section 501(a)(2)(B) of the FD&C Act to ensure safety, identity, strength, quality, and purity. See FDA’s guidance documentContract Manufacturing Arrangements for Drugs: Quality Agreementsat https://www.fda.gov/media/86193/download.
+
+Your firm’s quality systems are inadequate. See FDA’s guidance documentQuality Systems Approach to Pharmaceutical CGMP Regulationsfor help implementing quality systems and risk management approaches to meet the requirements of CGMP regulations 21 CFR, parts 210 and 211 at https://www.fda.gov/media/71023/download.
+
+Based upon the nature of the violations we identified at your firm, you should engage a consultant qualified as set forth in 21 CFR 211.34 to evaluate your operations and to assist your firm in meeting CGMP requirements if your firm intends to resume manufacturing drugs for the U.S. market. The qualified consultant should also perform a comprehensive six-system audit1of your entire operation for CGMP compliance and evaluate the completion and efficacy of your CAPA before you pursue resolution of your firm’s compliance status with FDA.
+
+Your use of a consultant does not relieve your firm’s obligation to comply with CGMP. Your firm’s executive management remains responsible for resolving all deficiencies and systemic flaws to ensure ongoing CGMP compliance.
+
+“maple organics Joint Pain Relief,” “maple organics Muscle Pain Relief,” “maple organics Cough & Cold Relief for Kids,” and “maple organics Cough & Cold Relief” are drugs as defined by section 201(g)(1)(B) of the FD&C Act, 21 U.S.C. 321(g)(1)(B) because they are intended for use in the diagnosis, cure, mitigation, treatment, or prevention of disease, and/or under section 201(g)(1)(C) of the FD&C Act, 21 U.S.C. 321(g)(1)(C) because they are intended to affect the structure or any function of the body.
+
+Examples of claims observed on the product labels and labeling from your website listed above that provide evidence of the intended uses (as defined in 21 CFR 201.128) of the products include, but may not be limited to, the following:
+
+“maple organics Joint Pain Relief”• “DRUG FACTS . . . Uses:Temporarily relieves joint pain.” [from the product label]• “Maple Organics Joint Therapy is an FDA-approved, all-natural formula designed to relieve pain, stiffness, and inflammation.” [from the product website www.mapleorganics.com]• “Made with organic Arnica Montana, known for its anti-inflammatory and analgesic properties, this balm provides fast-acting, long-lasting relief from discomfort caused by osteoarthritis, tendonitis, and rheumatoid arthritis.” [from the product website www.mapleorganics.com]
+
+• “Unlike conventional ointments, our steroid-free formula helps reduce muscle damage, so you can feel better without the harsh side effects.” [from the product website www.mapleorganics.com]• “A remedy for pain and inflammation due to osteoarthritis, tendonitis and rheumatoid arthritis.” [from the product website www.mapleorganics.com]
+
+“maple organics Muscle Pain Relief”• “DRUG FACTS . . . Uses:Temporarily relieves minor aches and pains of muscles and joints associated with simple backache, strains and bruises.” [from the product label]• “This is not an icy hot product but will increase circulation to remove lapsed blood while giving a numbness in your muscles to help reduce pain.” [from the product website www.mapleorganics.com]
+
+“maple organics Cough & Cold Relief for Kids”• “DRUG FACTS . . . Uses:Temporarily relieves cough associated with the common cold.” [from the product label]
+
+“maple organics Cough & Cold Relief”• “DRUG FACTS…Uses:Temporarily relieves cough associated with the common cold.” [from the product label]
+
+Based on the above labeling evidence, “maple organics Joint Pain Relief” and “maple organics Muscle Pain Relief” are intended for use as external analgesic drug products. As described below, these drug products are unapproved new drugs marketed in violation of sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C 355(a) and 331(d).
+
+A drug product is a “new drug” within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p), if it is not generally recognized as safe and effective (GRASE) for use under the conditions prescribed, recommended, or suggested in its labeling. With certain exceptions not applicable here, a new drug may not be introduced or delivered for introduction into interstate commerce without an approved application from FDA in effect, as described in section 505(a) of the FD&C Act, 21 U.S.C. 355(a). No FDA-approved applications pursuant to section 505 of the FD&C Act, 21 U.S.C. 355, are in effect for these drug products identified above.
+
+Under section 505G of the FD&C Act, certain nonprescription drugs marketed without an approved application —commonly referred to as "OTC monograph drugs"—may be legally marketed if they meet applicable requirements. With respect to external analgesic drug products, such as your “maple organics Joint Pain Relief” and “maple organics Muscle Pain Relief,” in order to be GRASE and not new drugs, the products must, among other things, conform to the conditions in the applicable OTC monograph, here the External Analgesic Drug Products for Over-the-Counter Human Use (M017).2However, “maple organics Joint Pain Relief” and “maple organics Muscle Pain Relief” do not conform to the conditions specified in M017 for the reasons described below
+
+Specifically, “maple organics Joint Pain Relief” contains the active ingredient arnica, which is not a permitted active ingredient under M017. 21 CFR 201.66(b)(2) defines “active ingredient” to mean “any component that is intended to furnish pharmacological activity or other direct effect in the diagnosis, cure, mitigation, treatment, or prevention of disease, or to affect the structure or any function of the body of humans.” Although your firm does not specifically list arnica as an active ingredient, your labeling of “maple organics Joint Pain Relief,” such as your website, includes statements that claim arnica is intended as an anti-inflammatory and analgesic, and “…provides fast-acting, long-lasting relief from discomfort caused by osteoarthritis, tendonitis, and rheumatoid arthritis.” Such statements demonstrate that arnica is an “active ingredient” in your “maple organics Joint Pain Relief” because it is intended to furnish pharmacological activity or other direct effect to affect the structure or any function of the body of humans. Because arnica is not an active ingredient permitted under M017, your “maple organics Joint Pain Relief” does not conform with the conditions set forth in M017.
+
+Furthermore, the labeling for “maple organics Joint Pain Relief” and “maple organics Muscle Pain Relief” include intended uses that are not permitted in M017. For example, you claim that “maple organic Joint Pain Relief” will “help reduce muscle damage” and it can be used as “a remedy for pain and inflammation due to osteoarthritis, tendonitis and rheumatoid arthritis.” In addition, you claim that “maple organic Muscle Pain Relief” “…will increase circulation to remove lapsed blood while giving a numbness in your muscles to help reduce pain.” Such intended uses do not conform with M017.50(b).
+
+Thus, as formulated and labeled, your “maple organics Joint Pain Relief” and “maple organics Muscle Pain Relief” products do not comply with the applicable final administrative order described above or any other final order.3Moreover, there is no evident basis under the FD&C Act under which these products would be legally marketed without an approved application. Thus, these products are new drugs within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p). Accordingly, these products are unapproved new drugs marketed in violation of section 505(a) of the FD&C Act, 21 U.S.C. 355(a).
+
+The introduction or delivery for introduction of these unapproved new drug products into interstate commerce violates sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C. 355(a) and 331(d).
+
+Your “maple organics Joint Pain Relief” product is misbranded under section 502(a) because the website labeling claims the product is “…an FDA-approved, all-natural formula….” This claim suggests that the drug is approved or legally marketable (see 21 CFR 207.77(b)). However, your product is not subject to an FDA-approved application. Therefore, your labeling representation suggesting that your product is FDA-approved is false or misleading.
+
+Further, “maple organics Joint Pain Relief,” “maple organics Muscle Pain Relief,” “maple organics Cough & Cold Relief for Kids,” and “maple organics Cough & Cold Relief” are misbranded under 502(a) because your products’ labels claim ”At Maple Organics, we scientifically validate natural remedies to FDA standards, ensuring their efficacy….” This claim misleadingly suggests that your products are validated to FDA-standards when such is not the case.
+
+We note that, based on the labeling evidence described above, “maple organics Cough & Cold Relief” is intended for use as topical antitussives under M012 (Cold, Cough Allergy, Bronchodilator, and Antiasthmatic Drug Products for Over-the-Counter Human Use). Your “maple organics Cough & Cold Relief” product is misbranded under section 502(f)(1) because the product label is missing adequate directions for use specified in M012.74(d)(2)(i) and M012.74(d)(2)(ii). Specifically, the directions on the product label are missing the following statement, “Children under 2 years of age: Ask a doctor.”
+
+Additionally, “maple organics Joint Pain Relief,” “maple organics Muscle Pain Relief,” and “maple organics Cough & Cold Relief” are misbranded under section 502(ee) of the FD&C Act, 21 U.S.C. 352(ee), because these products are nonprescription drugs subject to section 505G of the FD&C Act, 21 U.S.C. 355h, but do not comply with the requirements for marketing under that section and are not the subject of an application approved under section 505 of the FD&C Act, 21 U.S.C. 355.
+
+The introduction or delivery for introduction of a misbranded drug into interstate commerce violates section 301(a) of the FD&C Act, 21 U.S.C. 331(a).
+
+The violations cited in this letter are not intended to be an all-inclusive list of violations that exist at your facility. You are responsible for investigating and determining the causes of any violations and for preventing their recurrence or the occurrence of other violations.
+
+FDA placed all drugs and drug products offered for import into the United States from your firm on Import Alert 66-40 on May 23, 2025. Additionally, FDA placed your “maple organics Joint Pain Relief” and “maple organics Muscle Pain Relief” drug products on Import Alert 66-41 on June 30, 2025.
+
+Correct any violations promptly. FDA may withhold approval of new applications or supplements listing your firm as a drug manufacturer until any violations are completely addressed and we confirm your compliance with CGMP. We may re-inspect to verify that you have completed corrective actions to any violations.
+
+Failure to address any violations may also result in the FDA continuing to refuse admission of articles manufactured at Everlaan Organics, Inc., dba Maple Organics, 17220 Heather Dr, Unit 106 Surrey, British Columbia, Canada, into the United States under section 801(a)(3) of the FD&C Act, 21 U.S.C. 381(a)(3). Articles under this authority that appear to be adulterated or misbranded may be detained or refused admission, in that the methods and controls used in their manufacture do not appear to conform to CGMP within the meaning of section 501(a)(2)(B) of the FD&C Act, 21 U.S.C. 351(a)(2)(B) and are misbranded under section 502 of the FD&C Act, respectively.
+
+This letter notifies you of our findings and provides you an opportunity to address the above deficiencies. After you receive this letter, respond to this office in writing within 15 working days. Specify what you have done to address any violations and to prevent their recurrence. In response to this letter, you may provide additional information for our consideration as we continue to assess your activities and practices. If you cannot complete corrective actions within 15 working days, state your reasons for delay and your schedule for completion.
+
+Send your electronic reply to CDER-OC-OMQ-Communications@fda.hhs.gov. Identify your response with FEI 3025798567 and ATTN: William Yang.
+
+Francis GodwinDirectorOffice of Manufacturing QualityOffice of ComplianceCenter for Drug Evaluation and Research
+
+Tina SmithCaptain, U.S. Public Health ServiceDirectorOffice of Unapproved Drugs & Labeling ComplianceOffice of ComplianceCenter for Drug Evaluation and Research
+
+1i.e., Quality System, Facilities & Equipment System, Materials System, Production System, Packaging & Labeling System, and Laboratory Control System per FDA’s guidance document Quality Systems Approach to Pharmaceutical CGMP Regulations.
+
+2M017 reflects the conditions in the relevant final order established and in effect under Section 505G of the FD&C Act; see Order ID OTC000033, available at FDA’s website OTC Monographs@FDA, https://dps.fda.gov/omuf/ordersearch/order_otc000033.
+
+3FDA is not aware of any adequate and well-controlled clinical trials in the published literature that support a determination that “maple organics Joint Pain Relief” and “maple organics Muscle Pain Relief” are GRASE for use under the conditions prescribed, recommended, or suggested in their labeling, nor has FDA determined these drug products to be GRASE pursuant to an order issued under section 505G(b).

@@ -1,0 +1,113 @@
+2523 South McDonough RoadOrchard Hill,GA30266United States
+
+The United States Food and Drug Administration (FDA) inspected your drug manufacturing facility, Dixon Investments Inc. dba ARI, FEI 1037559, at 2523 South McDonough Road, Orchard Hill, from March 5 to 11, 2025.
+
+This warning letter summarizes significant violations of Current Good Manufacturing Practice (CGMP) regulations for finished pharmaceuticals. See Title 21 Code of Federal Regulations (CFR), parts 210 and 211 (21 CFR parts 210 and 211).
+
+Because your methods, facilities, or controls for manufacturing, processing, packing, or holding do not conform to CGMP, your drug products are adulterated within the meaning of section 501(a)(2)(B) of the Federal Food, Drug, and Cosmetic Act (FD&C Act), 21 U.S.C. 351(a)(2)(B).
+
+In addition,(b)(4), and(b)(4)are unapproved new drugs introduced or delivered for introduction into interstate commerce in violation of sections 505(a) and 301(d) of the Federal Food, Drug, and Cosmetic Act (FD&C Act), 21 U.S.C. 355(a) and 331(d). Additionally,(b)(4)and(b)(4)are misbranded under sections 502(f)(1) and 502(f)(2) of the FD&C Act, 21 U.S.C. 352(f)(1) and 352(f)(2). Furthermore,(b)(4), and(b)(4)are misbranded under section 502(ee) of the FD&C Act, 21 U.S.C. 352(ee). Introduction or delivery for introduction of misbranded products into interstate commerce is prohibited under section 301(a) of the FD&C Act, 21 U.S.C. 331(a). These violations are described in more detail below.
+
+We reviewed your March 27, 2025 response to our Form FDA-483 in detail.
+
+During our inspection, our investigator observed specific violations including, but not limited to, the following.
+
+1. Your firm failed to establish adequate written procedures for production and process control designed to assure that the drug products you manufacture have the identity, strength, quality, and purity they purport or are represented to possess (21 CFR 211.100(a)).
+
+Your firm had not performed process validation for your over-the-counter (OTC) aerosol drug products. This is a repeat violation noted in previous inspections.
+
+In your response, you state that you will outline the control procedures to ensure that manufacturing processes are properly validated. You also state that you will follow your current standard operating procedure (SOP) for data collection on the drug products you manufacture.
+
+Your response is inadequate because it lacks specific timelines, including details of your interim plans, while working toward full and complete process validation.
+
+Process validation evaluates the soundness of design and state of control of a process throughout its lifecycle. Each significant stage of a manufacturing process must be designed appropriately and assure the quality of raw material inputs, in-process materials, and finished drugs. Process qualification studies include intensive monitoring and testing throughout each significant process stage to characterize intra-batch variation and evaluates batches to determine whether an initial state of control has been established.
+
+Successful process qualification studies are necessary before commercial distribution. Thereafter, ongoing vigilant oversight of process performance and product quality is necessary to ensure you maintain a stable manufacturing operation throughout the product lifecycle.
+
+See FDA’s guidance document Process Validation: General Principles and Practices for general principles and approaches that FDA considers appropriate elements of process validation, at https://www.fda.gov/media/71023/download.
+
+A detailed summary of your validation program for ensuring a state of control throughout the product lifecycle, along with associated procedures. Describe your program for process performance qualification (PPQ), and ongoing monitoring of both intra-batch and inter-batch variation to ensure a continuing state of control.
+
+A timeline for performing appropriate PPQ for each of your marketed drug products.
+
+Process performance protocols, and written procedures for qualification of equipment and facilities.
+
+A detailed program for designing, validating, maintaining, controlling and monitoring each of your manufacturing processes that includes vigilant monitoring of intra-batch and inter-batch variation to ensure an ongoing state of control. Also, include your program for qualification of your equipment and facility.
+
+2. Your firm failed to follow an adequate written testing program designed to assess the stability characteristics of drug products and to use results of stability testing to determine appropriate storage conditions and expiration dates (21 CFR 211.166(a)).
+
+Your firm failed to test an adequate number of drug product batches as defined by your written stability procedure. This is a repeat violation noted in previous inspections.
+
+In your response, you state that you will continue placing batches of drug product on stability and commit to updating your stability procedure based on market demands.
+
+Your response is inadequate because you failed to address the lack of appropriate stability data to support the expiry dates of your drug products that are currently on the market. Further, you failed to provide sufficient details on the interim measures you will take to ensure product maintains its critical quality attributes throughout its shelf life.
+
+Without appropriate stability studies, you do not have scientific evidence to support whether your drug products meet established specifications and retain their quality attributes through their labeled expiry.
+
+A comprehensive, independent assessment and corrective action and preventive action (CAPA) plan to ensure the adequacy of your stability program. Your remediated program should include, but not be limited to:o Stability-indicating methods.o Stability studies for each drug product in its marketed container-closure system before distribution is permitted.o An ongoing program in which representative batches of each product are added each year to the program to determine if the shelf-life claim remains valid.o Detailed definition of the specific attributes to be tested at each station (timepoint).o All procedures that describe these and other elements of your remediated stability program.
+
+3. Your firm’s quality control unit failed to exercise its responsibility to ensure drug products manufactured are in compliance with CGMP, and meet established specifications for identity, strength, quality, and purity (21 CFR 211.22).
+
+Your quality unit (QU) did not adequately exercise its authority and responsibilities, including but not limited to, implementing effective procedures and conducting adequate oversight of the drug products you manufacture. For example, your QU failed to ensure:
+
+Adequate procedures for change controls, batch record release and CAPA.
+
+Adequate review of control records (i.e., finished product testing) prior to release and distribution.
+
+Appropriate procedures are established and followed for the cleaning and maintenance of your drug manufacturing equipment.
+
+Your firm’s quality systems are inadequate. See FDA’s guidance documentQuality Systems Approach to Pharmaceutical CGMP Regulationsfor help implementing quality systems and risk management approaches to meet the requirements of CGMP regulations 21 CFR, parts 210 and 211 at https://www.fda.gov/media/71023/download.
+
+A comprehensive assessment and remediation plan to ensure your QU is given the authority and resources to effectively function. The assessment should also include, but not be limited to:o A determination of whether procedures used by your firm are robust and appropriate.o Provisions for QU oversight throughout your operations to evaluate adherence to appropriate practices.o A complete and final review of each batch and its related information before the QU disposition decision. Oversight and approval of investigations and discharging of all other QU duties to ensure identity, strength, quality, and purity of all products.
+
+Unapproved New Drug and Misbranding Drug Violations
+
+(b)(4)and(b)(4)are “drugs” as defined by section 201(g)(1)(B), because they are intended for use in the diagnosis, cure, mitigation, treatment, or prevention of disease, and/or under section 201(g)(1)(C) of the FD&C Act, 21 U.S.C. 321(g)(1)(C), because they are intended to affect the structure or any function of the body.
+
+Examples from the(b)(4)and(b)(4)product labeling that provide evidence of the intended uses (as defined in 21 CFR 201.128) of the products as drugs include, but may not be limited to, the following:
+
+Based on the above labeling evidence,(b)(4)are intended for use as combination topical first aid antiseptic and external analgesic drug products, among other intended uses. As described below, these drug products are unapproved new drugs marketed in violation of sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C. 355(a) and 331(d).
+
+A drug product is a “new drug” within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p), if it is not generally recognized as safe and effective (GRASE) for use under the conditions prescribed, recommended, or suggested in its labeling. With certain exceptions not applicable here, a new drug may not be introduced or delivered for introduction into interstate commerce without an approved application from FDA in effect, as described in section 505(a) of the FD&C Act, 21 U.S.C. 355(a). No FDA-approved applications pursuant to section 505 of the FD&C Act, 21 U.S.C. 355, are in effect for the drug products identified above.
+
+Under section 505G of the FD&C Act, certain nonprescription drugs marketed without an approved application —commonly referred to as "over-the-counter (OTC) monograph drugs"—may be legally marketed if they meet applicable requirements. With respect to nonprescription combination first aid antiseptic and external analgesic drug products, such as your(b)(4), in order to be GRASE and not new drugs, the products must, among other things, conform to the conditions in the applicable OTC monographs, here M003: First Aid Antiseptic Drug Products for Over-the-Counter Human Use (henceforth “M003”) and M017: External Analgesic Drug Products for Over-the-Counter Human Use (henceforth “M017”).1However,(b)(4)do not conform to the conditions specified in M003 and M017 for the reasons described below.
+
+The name of(b)(4)includes “(b)(4)” and the label contains statements such as, “(b)(4),” and the “Uses” section of the drug facts panel includes the statement, “for help in control of(b)(4).” Likewise, the name of(b)(4)includes “(b)(4)” and the label contains statements such as, “Aids in control of(b)(4),” and the “Uses” section of the drug facts panel includes the statement, “for help in control of(b)(4).” These intended use claims are not permitted under either M003 or M017 and go beyond describing the general intended uses for a first aid antiseptic or an external analgesic drug product.
+
+(b)(4)is labeled to contain the active ingredients(b)(4), and(b)(4)in its formulation. However, this product does not conform to the conditions in M003 or M017, whether as a first aid antiseptic or as an external analgesic drug product. Specifically, this combination of active ingredients is not permitted under either M003.20 nor M017.20. Furthermore,(b)(4), which you label as topical anesthetic in your Drug Facts, is not a permitted external analgesic active ingredient under M017.10(a). In addition, the concentration of the active ingredient of(b)(4), which is labeled at(b)(4), is more than the allowed concentration of(b)(4)for a first aid antiseptic drug product under M003.10(d).
+
+Thus, your(b)(4), and(b)(4)products do not comply with the applicable conditions specified in M003 and M017 and have not otherwise been found GRASE.2 Accordingly, these products are new drugs within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p), and there is no basis under section 505G of the FD&C Act under which these products would be legally marketed without an approved application. Because there is no application in effect for these products, they are unapproved new drugs.
+
+The introduction or delivery for introduction of such unapproved new drug products into interstate commerce violates sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C. 355(a) and 331(d).
+
+(b)(4)and(b)(4)are misbranded under section 502(f)(1) of the FD&C Act, 21U.S.C. 352(f)(1) because the product labels fail to include all applicable directions for use required under M003.50(d). For example, the directions section for(b)(4)and(b)(4)do not include, “(b)(4)a small amount of this product on the area 1 to 3 times daily,” “May be covered with a sterile(b)(4),” and “If(b)(4), let dry first,” as required by M003.50(d)(4),(5), and (6).
+
+(b)(4)and(b)(4)are further misbranded under section 502(f)(2) of the FD&C Act, 21U.S.C. 352(f)(2), because their labeling do not “[bear]…such adequate warnings against use in those pathological conditions or by children where its use may be dangerous to health, or against unsafe dosage or methods or duration of administration or application, in such manner and form, as are necessary for the protection of users….” Here, the warning described in M003.50(c)(1)(ii), “Stop use and ask a doctor if the condition persists or gets worse. Do not use longer than 1 week unless directed by a doctor,” is required for first aid antiseptic drug products, such as your(b)(4)products, to be legally marketed under section 505G of the FD&C Act. This monograph warning also falls within the scope of the warnings described in section 502(f)(2) of the FD&C Act. Thus, omission of this monograph warning from the products’ labeling renders the products misbranded under section 502(f)(2).
+
+Additionally,(b)(4), and(b)(4)are misbranded under section 502(ee) of the FD&C Act, 21 U.S.C. 352(ee), because these products are nonprescription drugs subject to section 505G of the FD&C Act, 21 U.S.C. 355h, but do not comply with the requirements for marketing under that section and are not the subject of an application approved under section 505 of the FD&C Act, 21 U.S.C. 355.
+
+The introduction or delivery for introduction of a misbranded drug into interstate commerce violates section 301(a) of the FD&C Act, 21 U.S.C. 331(a).
+
+In previous inspections, FDA cited similar CGMP violations. You proposed specific remediation for these violations in your response. Repeated failures demonstrate that executive management oversight and control over the manufacture of drugs is inadequate.
+
+Based upon the nature of the violations we identified at your firm, you should engage a consultant qualified as set forth in 21 CFR 211.34 to evaluate your operations and to assist your firm in meeting CGMP requirements. The qualified consultant should also perform a comprehensive six-system audit of your entire operation for CGMP compliance and evaluate the completion and efficacy of your CAPAs before you pursue resolution of your firm’s compliance status with FDA.
+
+Your use of a consultant does not relieve your firm’s obligation to comply with CGMP. Your firm’s executive management remains responsible for resolving all deficiencies and systemic flaws to ensure ongoing CGMP compliance.
+
+The violations cited in this letter are not intended to be an all-inclusive list of violations that exist at your facility. You are responsible for investigating and determining the causes of any violations and for preventing their recurrence or the occurrence of other violations.
+
+Correct any violations promptly. Failure to promptly and adequately address this matter may result in regulatory or legal action without further notice including, without limitation, seizure and injunction. Unresolved violations may also prevent other Federal agencies from awarding contracts.
+
+Failure to address violations may also cause FDA to withhold issuance of Export Certificates. FDA may withhold approval of new applications or supplements listing your firm as a drug manufacturer until any violations are completely addressed and we confirm your compliance with CGMP. We may re-inspect to verify that you have completed corrective actions to address any violations.
+
+This letter notifies you of our findings and provides you an opportunity to address the above deficiencies. After you receive this letter, respond to this office in writing within 15 working days. Specify what you have done to address any violations and to prevent their recurrence. In response to this letter, you may provide additional information for our consideration as we continue to assess your activities and practices. If you cannot complete corrective actions within 15 working days, state your reasons for delay and your schedule for completion.
+
+Send your electronic reply to CDER-OC-OMQ-Communications@fda.hhs.gov. Identify your response with FEI 1037559 and ATTN: Yvette Johnson.
+
+Francis GodwinDirectorOffice of Manufacturing QualityOffice of ComplianceCenter for Drug Evaluation and Research
+
+Tina SmithCaptain, U.S. Public Health ServiceDirectorOffice of Unapproved Drugs & Labeling ComplianceOffice of ComplianceCenter for Drug Evaluation and Research
+
+1M003 reflects the conditions set forth in the relevant final order(s) established and in effect under section 505G; see Order ID OTC000030, available at FDA’s website OTC Monographs@FDA [https://dps.fda.gov/omuf/ordersearch] M017 reflects the conditions set forth in the relevant final order(s) established and in effect under section 505G; see Order ID OTC000033, available at FDA’s website OTC Monographs@FDA [https://dps.fda.gov/omuf/ordersearch]
+
+2FDA is not aware of any adequate and well-controlled clinical trials in the published literature that support a determination that(b)(4), and(b)(4)are GRASE for use under the conditions prescribed, recommended, or suggested in their labeling, nor has FDA determined these drug products to be GRASE pursuant to an order issued under section 505G(b).

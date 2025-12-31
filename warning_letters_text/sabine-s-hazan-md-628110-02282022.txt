@@ -1,0 +1,53 @@
+This Warning Letter informs you of objectionable conditions observed during the U.S. Food and Drug Administration (FDA) inspection conducted at your clinical site between September 13 and September 21, 2021. Investigators Andrace Deyampert and Linda Galindo, representing FDA, reviewed your conduct of the following clinical investigations:
+
+This inspection was conducted as a part of FDA’s Bioresearch Monitoring Program, which includes inspections designed to evaluate the conduct of research and to help ensure that the rights, safety, and welfare of human subjects have been protected.
+
+At the conclusion of the inspection, Investigators Deyampert and Galindo presented and discussed with you the Form FDA 483, Inspectional Observations. We acknowledge receipt of your October 7, 2021, written response to the Form FDA 483.
+
+From our review of the FDA Establishment Inspection Report, the documents submitted with that report, and your written response dated October 7, 2021, it appears that you did not adhere to the applicable statutory requirements in the Federal Food, Drug, and Cosmetic Act (FD&C Act) and applicable regulations contained in Title 21 of the Code of Federal Regulations, part 312 (21 CFR 312) governing the conduct of clinical investigations. We wish to emphasize the following:
+
+You failed to assure that an Institutional Review Board (IRB) that complies with the requirements set forth in part 56 was responsible for the initial and continuing review and approval of the proposed clinical study [21 CFR 312.66].
+
+As a clinical investigator, you are required to ensure that an IRB that complies with the requirements set forth in 21 CFR part 56 is responsible for the initial and continuing review of a proposed clinical investigation. You failed to ensure that an IRB that complies with 21 CFR part 56 reviewed and approved your conduct of Protocol(b)(4).”
+
+Specifically, IRB approval for Protocol(b)(4)lapsed from(b)(4), to(b)(4). Over the course of this lapsed period, you enrolled and randomized subjects into the protocol, and you administered investigational drugs ((b)(4)) to the following ten subjects:
+
+a. Subject(b)(6)was enrolled and first administered investigational drugs on(b)(6).
+
+b. Subject(b)(6)was enrolled and first administered investigational drugs on(b)(6).
+
+c. Subject(b)(6)was enrolled and first administered investigational drugs on(b)(6).
+
+d. Subject(b)(6)was enrolled and first administered investigational drugs on(b)(6).
+
+e. Subject(b)(6)was enrolled and first administered investigational drugs on(b)(6)and(b)(6), respectively.
+
+f. Subject(b)(6)was enrolled and first administered investigational drugs on(b)(6).
+
+g. Subject(b)(6)was enrolled and first administered investigational drugs on(b)(6).
+
+h. Subject(b)(6)was enrolled and first administered investigational drugs on(b)(6)and(b)(6), respectively.
+
+i. Subject(b)(6)was enrolled and first administered investigational drugs on(b)(6).
+
+j. Subject(b)(6)was enrolled and first administered investigational drugs on(b)(6)and(b)(6), respectively.
+
+In your written response to the Form FDA 483, you acknowledged that IRB approval for the above-reference study lapsed on(b)(4). You noted that the lapse in IRB approval occurred during a period of unusually dense activity requiring heightened attention and expedited response related to the COVID-19 pandemic. You stated that the lapse also occurred in part because there were no other reportable events to the IRB for this protocol during that period.
+
+As a clinical investigator, it is your responsibility to ensure that an IRB that complies with 21 CFR part 56 is responsible for the initial and continuing review and approval of clinical investigations, regardless of whether there are events to report to the IRB. Furthermore, while we recognize that the COVID-19 public health emergency may impact the conduct of clinical trials, ensuring the safety of trial participants remains paramount.
+
+As a corrective action, you stated that your site would notify subjects of the lapse in IRB approval, would document this correspondence with subjects, and would report these subject notifications to the IRB. As a preventive action, you stated that additional quality control resources were implemented, including the hiring of a quality control officer and advisor. You stated that additional preventive actions include creating regulatory calendars, implementing monthly staff meetings, and creating a standard operating procedure (SOP) to establish workflow for IRB reports. This SOP states, “(b)(4).” We reiterate that as a clinical investigator, it is your responsibility to ensure IRB continuing review and approval of Protocol(b)(4), and not the IRB’s responsibility.
+
+We are unable to perform an informed evaluation of your written response because you did not provide a corrective action plan that, if properly carried out, would prevent the recurrence of this type of violation in the future. Specifically, you did not provide sufficient details concerning how you, as the clinical investigator, will (1) prevent a lapse in IRB continuing review in the future, and (2) prevent the enrollment of subjects and the administration of investigational drug during a period in which the IRB approval has lapsed.
+
+IRB review serves an important role in the protection of the rights and welfare of human research subjects. The purpose of IRB review is to ensure, both in advance and by periodic review, that appropriate steps are taken to protect the rights and welfare of humans participating as subjects in the research. Your failure to ensure continuing IRB review and approval of Protocol(b)(4)impeded the IRB’s ability to determine the adequacy of your application to conduct Protocol(b)(4), which raises significant concerns about the extent to which subjects’ rights and welfare were protected at your site during the lapse in approval.
+
+This letter is not intended to be an all-inclusive list of deficiencies with your clinical study of an investigational drug. It is your responsibility to ensure adherence to each requirement of the law and relevant FDA regulations. You should address any deficiencies and establish procedures to ensure that any ongoing or future studies comply with FDA regulations.
+
+This letter notifies you of our findings and provides you with an opportunity to address the above deficiencies. Within 15 business days of your receipt of this letter, you should notify this office in writing of the actions you have taken to prevent similar violations in the future. Failure to adequately address this matter may lead to regulatory action. If you believe that you have complied with the FD&C Act and relevant regulations, please include your reasoning and any supporting information for our consideration.
+
+If you have any questions, please call Miah Jung, Pharm.D., M.S., at 240-402-3728. Alternatively, you may e-mail FDA at CDER-OSI-Communications@fda.hhs.gov. Your written response and any pertinent documentation should be addressed to:
+
+Miah Jung, Pharm.D., M.S.Branch ChiefCompliance Enforcement BranchDivision of Enforcement and Postmarketing SafetyOffice of Scientific InvestigationsOffice of ComplianceCenter for Drug Evaluation and ResearchU.S. Food and Drug AdministrationBuilding 51, Room 521910903 New Hampshire AvenueSilver Spring, MD 20993
+
+1Coronavirus Disease 2019 (COVID-19) is the respiratory disease caused by the novel coronavirus calledSevere Acute Respiratory Syndrome Coronavirus 2(SARS-CoV-2).

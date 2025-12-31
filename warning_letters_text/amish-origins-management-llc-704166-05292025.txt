@@ -1,0 +1,143 @@
+1214 South Flat RoadWorland,WY82401-9539United States
+
+The United States Food and Drug Administration (FDA) inspected your drug manufacturing facility, Amish Origins Management, LLC, FEI 3013538760, at 1214 South Flat Road, Worland, from January 7 to 10, 2025.
+
+This warning letter summarizes significant violations of Current Good Manufacturing Practice (CGMP) regulations for finished pharmaceuticals. See Title 21 Code of Federal Regulations (CFR), parts 210 and 211 (21 CFR parts 210 and 211).
+
+Because your methods, facilities, or controls for manufacturing, processing, packing, or holding do not conform to CGMP, your drug products are adulterated within the meaning of section 501(a)(2)(B) of the Federal Food, Drug, and Cosmetic Act (FD&C Act), 21 U.S.C. 351(a)(2)(B).
+
+Your AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream, and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe are unapproved new drugs introduced or delivered for introduction into interstate commerce in violation of sections 505(a) and 301(d) of the Federal Food, Drug, and Cosmetic Act (FD&C Act), 21 U.S.C. 355(a) and 331(d). In addition, your AMISH ORIGINS AUTHENTIC LIP DOC SPF 15 MEDICATED is misbranded under 502(f)(2) of the FD&C Act, 21 U.S.C. 352(f)(2), and is further misbranded along with your AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream, and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe under section 502(ee) of the FD&C Act, 21 U.S.C. 352(ee). Introduction or delivery for introduction of such products into interstate commerce is prohibited under sections 301(d) and (a) of the FD&C Act, 21 U.S.C. 331(d) and (a). These violations are described in more detail below.
+
+We reviewed your February 1, 2025 response to our Form FDA 483 in detail.
+
+During our inspection, our investigator observed specific violations including, but not limited to, the following.
+
+1. Your firm failed to have, for each batch of drug product, appropriate laboratory determination of satisfactory conformance to final specifications for the drug product, including the identity and strength of each active ingredient, prior to release, and for each batch of drug product required to be free of objectionable microorganisms, appropriate laboratory testing, as necessary (21 CFR 211.165(a) and 211.165(b)).
+
+Your firm failed to conduct adequate release testing of all your drug products prior to distribution. Specifically, you did not test your drug products for identity, assay, impurities, or microbiological attributes.
+
+In your response, you state that you are now performing release testing. Your response is inadequate because you failed to adequately detail the tests, methods, and specifications for your over-the-counter (OTC) drug products to ensure your finished products meets appropriate standards prior to release and distribution.
+
+Full release testing, including strength and identity testing of the active ingredient, must be performed before drug product release and distribution. Without adequate testing, you do not have adequate scientific evidence to assure that your drug products conform to appropriate specifications before release.
+
+In response to this letter, provide:• A list of chemical and microbial specifications, including test methods, used to analyze each batch of your drug products before a batch disposition decision.o An action plan and timelines for conducting full chemical and microbiological testing of retain samples to determine the quality of all batches of drug product distributed to the United States that are within expiry as of the date of this letter.o A summary of all results obtained from testing retain samples from each batch. If such testing reveals substandard quality drug products, take rapid corrective actions, such as notifying customers and product recalls.
+
+2. Your firm failed to conduct at least one test to verify the identity of each component of a drug product. Your firm also failed to validate and establish the reliability of your component supplier’s test analyses at appropriate intervals (21 CFR 211.84(d)(1) and 211.84(d)(2)).
+
+You failed to perform adequate identity testing of each component lot used in the manufacture of your OTC drug products, including for your active ingredient menthol and glycerin. Additionally, you relied on your suppliers’ certificates of analyses (COAs) without establishing the reliability of each of your suppliers’ test analyses at appropriate intervals.
+
+You failed to adequately test each shipment of each lot of glycerin for identity, a component at higher risk for diethylene glycol (DEG) and ethylene glycol (EG) contamination. Identity testing for glycerin and certain other high-risk drug components1includes a limit test in the United States Pharmacopeia (USP) to ensure that the component meets the relevant safety limits for levels of DEG or EG. Because you did not perform adequate identity testing on each shipment of each lot using the USP identification test that detects these hazardous impurities, you failed to assure the acceptability of this component for use in manufacture of your drug products.
+
+The use of ingredients contaminated with DEG or EG has resulted in various lethal poisoning incidents in humans worldwide. See FDA’s guidance documentTesting of Glycerin, Propylene Glycol, Maltitol Solution, Hydrogenated Starch Hydrolysate, Sorbitol Solution, and Other High-Risk Drug Components for Diethylene Glycol and Ethylene Glycolto help you meet the CGMP requirements when manufacturing drugs containing ingredients at high-risk for DEG or EG contamination at https://www.fda.gov/media/167974/download.
+
+In your response, you commit to inspecting and testing materials upon arrival and to creating a procedure for supplier qualification. Your response is inadequate. You did not provide a detailed plan for how your components will be tested, including test methods and review of compendial requirements, or a timeline for implementing the proposed corrective actions. Further, you did not consider a retrospective review of previously distributed OTC drug products, or details on how suppliers will be qualified.
+
+Without adequate testing, you do not have appropriate assurance that components conform to appropriate specifications prior to use in the drug products you manufacture.
+
+A description of how you will test each component lot for conformity with all appropriate specifications for identity, strength, quality, and purity. If you intend to accept any results from your supplier’s COA instead of testing each component lot for strength, quality, and purity, specify how you will robustly establish the reliability of your supplier’s results through initial validation as well as periodic revalidation. In addition, include a commitment to always conduct at least one specific identity test for each incoming component lot. In the case of glycerin, propylene glycol, and certain additional high-risk components we note that this includes the performance of parts A, B, and C of the USP monograph.
+
+A commitment to provide DEG and EG test results, no later than 30 calendar days from the date of this letter, from testing retains for all lots of high-risk drug components used in the manufacture of drug products. Alternatively, if a retain of a component lot is unavailable, perform retain sample testing of all implicated finished drug product lots for the presence of DEG and EG.
+
+A full risk assessment for drug products that are within expiry which contain any ingredient at risk for DEG or EG contamination (including, but not limited to, propylene glycol). Take prompt and appropriate actions to determine the safety of all lots of the component(s) and any related drug product that could contain DEG or EG, including customer notifications and product recalls for any contaminated lots. Identify additional appropriate CAPAs that secure supply chains in the future, including, but not limited to, ensuring that all incoming raw material lots are from fully qualified manufacturers and free from unsafe impurities. Detail these actions in your response to this letter.
+
+The chemical and microbiology quality control specifications you use to test each incoming lot of high-risk drug components to determine acceptability for use in manufacturing.
+
+A comprehensive, independent review of your material system to determine whether all suppliers of components, containers, and closures, are each qualified and the materials are assigned appropriate expiration or retest dates. The review should also determine whether incoming material controls are adequate to prevent use of unsuitable components, containers, and closures.
+
+A summary of results obtained from testing all components to evaluate the reliability of the COA from each component manufacturer. Include your standard operating procedure that describes this COA validation program.
+
+A summary of your program for qualifying and overseeing contract facilities that test the drug products you manufacture.
+
+3. Your firm failed to prepare batch production and control records with complete information relating to the production and control of each batch of drug product produced (21 CFR 211.188).
+
+You failed to document the manufacturing instructions for your OTC drug products and did not have any executed batch records for distributed drug products.
+
+In your response, you state that, “recipes and procedures have been followed for decades. Though not in writing, they have been committed to memory.” You also state that you hired an employee responsible for observing and documenting every step of production. Your response is inadequate because you did not provide adequate details or supportive documentation and did not consider a retrospective evaluation of your products currently on the market.
+
+Complete and accurate batch production and control records are necessary to ensure that manufacturing processes are consistently followed and reproducible. Incomplete manufacturing records deprive you of the ability to ensure the batches are formulated to provide not less than 100% of the labeled amount of active ingredient.
+
+In response to this letter, provide examples of batch production and control records your firm will use moving forward that include all elements required per 21 CFR 211.188. These should include, but not limited to, an accurate reproduction of the appropriate master batch record, which is checked for accuracy, dated, and signed; and documentation that each significant step in the manufacture, processing, packing, or holding of the batch was accomplished.
+
+4. Your firm’s quality control unit failed to exercise its responsibility to ensure drug products manufactured are in compliance with CGMP, and meet established specifications for identity, strength, quality, and purity (21 CFR 211.22).
+
+Your firm manufactures OTC topical analgesic drug products. Your quality unit (QU) did not effectively exercise its responsibilities to oversee the quality of your drug manufacturing operations. Specifically, you failed to have written procedures in place governing manufacturing and quality oversight.
+
+In your response, while you acknowledge that your responsibilities and procedures were not in writing, you do not provide specific procedures or timelines for implementing your proposed CAPAs.
+
+Your firm’s quality systems are inadequate. See FDA’s guidance document Quality Systems Approach to Pharmaceutical CGMP Regulations for help implementing quality systems and risk management approaches to meet the requirements of CGMP regulations 21 CFR, parts 210 and 211 at https://www.fda.gov/media/71023/download.
+
+In response to this letter, provide:• A comprehensive assessment and remediation plan to ensure your QU is given the authority and resources to effectively function. The assessment should also include, but not be limited to:o A determination of whether procedures used by your firm are robust and appropriate.o Provisions for QU oversight throughout your operations to evaluate adherence to appropriate practices.o A complete and final review of each batch and its related information before the QU disposition decision.o Oversight and approval of investigations and discharging of all other QU duties to ensure identity, strength, quality, and purity of all products.• A comprehensive, independent assessment of your overall system for investigating deviations, discrepancies, complaints, out-of-specification results, and failures. Provide a detailed action plan to remediate this system. Your action plan should include, but not be limited to, significant improvements in investigation competencies, scope determination, root cause evaluation, CAPA effectiveness, QU oversight, and written procedures. Address how your firm will ensure all phases of investigations are appropriately conducted.
+
+External Analgesics Unapproved New Drug Violations
+
+AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream, and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe are drugs as defined by section 201(g)(1)(B) of the FD&C Act, 21 U.S.C. 321(g)(1)(B), because they are intended for use in the diagnosis, cure, mitigation, treatment, or prevention of disease, and/or under section 201(g)(1)(C) of the FD&C Act, 21 U.S.C. 321(g)(1)(C), because they are intended to affect the structure or any function of the body.
+
+Examples of claims observed on the AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream, and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe product labels that provide evidence of the intended uses (as defined in 21 CFR 201.128) of the products include, but may not be limited to, the following:
+
+“AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray”“Drug Facts…Purpose…Topical Analgesic…Uses…temporarily relieves minor aches and pains associated with ▪ Arthritis Pain ▪ Sore Joints and Muscles ▪ Coughs ▪ Sore Throat ▪ Sinus Trouble ▪ Bruises ▪ Minor Burns ▪ Insect Bites ▪ Dry or Chapped Hands and feet” [from your product label]
+
+“AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment”“Drug Facts…Purpose…Topical Analgesic…Uses…temporarily relieves minor aches and pains associated with ▪Arthritis Pain ▪ Sore Joints and Muscles ▪ Coughs ▪ Sore Throat ▪ Sinus Trouble ▪ Bruises ▪ Minor Burns ▪ Insect Bites ▪ Dry or Chapped Hands and feet” [from your product label]
+
+“AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream”“Drug Facts…Purpose…Topical Analgesic…Uses…temporarily relieves minor aches and pains associated with ▪Arthritis Pain ▪ Sore Joints and Muscles ▪ Sore Throat ▪ Sinus Trouble ▪ Restless Leg Syndrome” [from your product label]
+
+“AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe”“Drug Facts…Purpose…Topical Analgesic…Uses…temporarily relieves minor aches and pains associated with ▪Arthritis Pain ▪ Sore Joints and Muscles ▪ Coughs ▪ Sore Throat ▪ Sinus Trouble ▪ Bruises ▪ Minor Burns ▪ Insect Bites ▪ Dry or Chapped Hands and Feet” [from your product label]
+
+Based on the above labeling claims AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream, and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe are intended for use as over-the-counter (OTC) external analgesic drug products. As described below, the drug products AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream, and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe are unapproved new drugs marketed in violation of sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C 355(a) and 331(d).
+
+A drug product is a “new drug” within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p), if it is not generally recognized as safe and effective (GRASE) for use under the conditions prescribed, recommended, or suggested in its labeling; and in general, a new drug may not be introduced or delivered for introduction into interstate commerce without an approved application from FDA in effect, as described in section 505(a) of the FD&C Act, 21 U.S.C. 355(a), unless it is lawfully marketed under section 505G of the FD&C Act. No FDA approved application pursuant to section 505 of the FD&C Act, 21 U.S.C. 355, is in effect for these drug products identified above.
+
+Your AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream, and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe are external analgesic drug products subject to section 505G of the FD&C Act, 21 U.S.C. 355h, which governs nonprescription drugs marketed without an approved application. Under section 505G of the FD&C Act, certain nonprescription drugs marketed without an approved application —commonly referred to as "OTC monograph drugs"—may be legally marketed if they meet applicable requirements. With respect to OTC external analgesic drug products, such drug products are addressed in “Over-the-Counter Monograph M017: External Analgesic Drug Products for Over-the-Counter Human Use” (hereafter M017).2However AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream, and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe do not conform to the conditions specified in the final administrative order for the reasons described below.
+
+Your AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream, and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe drug products include indications that do not comply with the indications permitted for over-the-counter external analgesic drug products. For example, the labels include claims to relieves minor aches and pains associated with colds, coughs, restless legs, sore throat, sinus trouble, and dry or chapped hands and feet for AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment. In addition, the label for AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream includes claims to relieves minor aches and pains associated sore throat, sinus trouble, and restless leg syndrome. Furthermore, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe includes claims to relieves minor aches and pains associated with coughs, sore throat, sinus trouble, and dry or chapped hands and feet. These indications described above go beyond the general intended uses for an external analgesic drug product as stated in M017.
+
+Thus, as labeled, your AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream, and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe products do not comply with the applicable final administrative order described above or any other final order.3Moreover, there is no evident basis under the FD&C Act under which these products would be legally marketed without an approved application. Thus, these products are new drugs within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p). There are no FDA-approved applications in effect for your drug products, accordingly, these products are unapproved new drugs marketed in violation of section 505(a) of the FD&C Act, 21 U.S.C 355(a).
+
+Introduction or delivery for introduction of such a product into interstate commerce is prohibited under section 301(d) of the FD&C Act, 21 U.S.C. 331(d).
+
+Additionally, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream, and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe are misbranded under section 502(ee) of the FD&C Act, 21 U.S.C. 352(ee), because these products are nonprescription drugs subject to section 505G of the FD&C Act, 21 U.S.C. 355h, but do not comply with the requirements for marketing under that section and are not the subject of an application approved under section 505 of the FD&C Act, 21 U.S.C. 355.
+
+The introduction or delivery for introduction of a misbranded drug into interstate commerce violates section 301(a) of the FD&C Act, 21 U.S.C. 331(a).
+
+AMISH ORIGINS AUTHENTIC LIP DOC SPF 15 MEDICATED is a “drug” as defined by section 201(g)(1)(B) of the FD&C Act, 21 U.S.C. 321(g)(1)(B), because it is intended for use in the diagnosis, cure, mitigation, treatment, or prevention of disease, and/or under section 201(g)(1)(C) of the FD&C Act, 21 U.S.C. 321(g)(1)(C), because it is intended to affect the structure or any function of the body. Specifically, this product is intended for use as an OTC sunscreen drug product addressed in “Over-the-Counter Monograph M020: Sunscreen Drug Products for Over-the-Counter Human Use.”
+
+Examples of claims observed on the AMISH ORIGINS AUTHENTIC LIP DOC SPF 15 MEDICATED product label and labeling from your website and social media sites listed above provide evidence of the intended use (as defined in 21 CFR 201.128) of the product include, but may not be limited to, the following:
+
+“AMISH ORIGINS AUTHENTIC LIP DOC SPF 15 MEDICATED”“Uses: Helps prevent sunburn …Drug Facts…Purpose…Sunscreen” [from your product labels]
+
+Your AMISH ORIGINS AUTHENTIC LIP DOC SPF 15 MEDICATED product misbranded under section 502(f)(2) of the FD&C Act because its labeling does not “[bear]…such adequate warnings against use in those pathological conditions or by children where its use may be dangerous to health, or against unsafe dosage or methods or duration of administration or application, in such manner and form, as are necessary for the protection of users…”. Here, the warning described in the product labeling fails to bear all of the required warnings for sunscreen drug products described in M020.50(d)(1)(i) and (ii) “Over-the-Counter Monograph M020: Sunscreen Drug Products for Over-the-Counter Human Use”. Specifically, your product fails to disclose the required warnings, “Do not use on damaged or broken skin,” and “keep out of eyes.”
+
+Additionally, your AMISH ORIGINS AUTHENTIC LIP DOC SPF 15 MEDICATED product is misbranded under section 502(ee) of the FD&C Act, 21 U.S.C. 352(ee), because this product is a nonprescription drugs subject to section 505G of the FD&C Act, 21 U.S.C. 355h, but does not comply with the requirements for marketing under that section (as described above) and is not the subject of an application approved under section 505 of the FD&C Act, 21 U.S.C. 355.
+
+The introduction or delivery for introduction of a misbranded drug into interstate commerce violates section 301(a) of the FD&C Act, 21 U.S.C. 331(a).
+
+Based upon the nature of the violations we identified at your firm, you should engage a consultant qualified as set forth in 21 CFR 211.34 to assist your firm in meeting CGMP requirements.
+
+Your use of a consultant does not relieve your firm’s obligation to comply with CGMP. Your firm’s executive management remains responsible for resolving all deficiencies and systemic flaws to ensure ongoing CGMP compliance.
+
+Cosmetics Manufactured for Distribution in the United States
+
+In addition, some of the products you manufacture may be regulated as cosmetics, as defined in section 201(i) of the FD&C Act [21 U.S.C. 321(i)]. Any cosmetics you manufacture must comply with applicable statutory and regulatory requirements, including the FD&C Act. We note that under section 301(a) of the FD&C Act [21 U.S.C. 331(a)], it is a prohibited act to introduce or deliver for introduction into interstate commerce a cosmetic that is adulterated or misbranded.
+
+We also note that the Modernization of Cosmetics Regulation Act of 2022 (MoCRA) provides new requirements with which facilities that manufacture cosmetic products must comply. You may find the FD&C Act, MoCRA, and FDA’s regulations through links on FDA’s website at www.fda.gov.
+
+The violations cited in this letter are not intended to be an all-inclusive list of violations that exist at your facility. You are responsible for investigating and determining the causes of any violations and for preventing their recurrence or the occurrence of other violations.
+
+Correct any violations promptly. Failure to promptly and adequately address this matter may result in regulatory or legal action without further notice including, without limitation, seizure and injunction. Unresolved violations may also prevent other Federal agencies from awarding contracts.
+
+Failure to address violations may also cause FDA to withhold issuance of Export Certificates. FDA may withhold approval of new applications or supplements listing your firm as a drug manufacturer until any violations are completely addressed and we confirm your compliance with CGMP. We may re-inspect to verify that you have completed corrective actions to address any violations.
+
+This letter notifies you of our findings and provides you an opportunity to address the above deficiencies. After you receive this letter, respond to this office in writing within 15 working days. Specify what you have done to address any violations and to prevent their recurrence. In response to this letter, you may provide additional information for our consideration as we continue to assess your activities and practices. If you cannot complete corrective actions within 15 working days, state your reasons for delay and your schedule for completion.
+
+After you receive this letter, respond to this office in writing within 15 working days. In response to this letter, you may provide additional information for our consideration as we continue to assess your activities and practices, and/or submit a request to schedule an FDA inspection.
+
+Send your electronic reply to CDER-OC-OMQ-Communications@fda.hhs.gov. Identify your response with FEI 3013538760 and ATTN: Christina Capacci-Daniel.
+
+Francis GodwinDirectorOffice of Manufacturing QualityOffice of ComplianceCenter for Drug Evaluation and Research
+
+Tina SmithCaptain, U.S. Public Health ServiceDirectorOffice of Unapproved Drugs & Labeling ComplianceOffice of ComplianceCenter for Drug Evaluation and Research
+
+1Components with higher risk of DEG or EG contamination compared to other drug components.
+
+2Section 505G(a)(1) of the FD&C Act specifies criteria under which certain nonprescription drugs without an approved application are deemed GRASE and not "new drugs;" notably, conformance with conditions detailed in applicable OTC monograph documents issued by FDA under 21 CFR 330 prior to enactment of the CARES Act. In the case of external analgesic drug products, relevant documents were deemed under section 505G to be a final administrative order, Over-the-Counter Monograph M017: External Analgesic Drug Products for Over-the-Counter Human Use. See Order ID OTC000033, available at FDA’s website OTC Monographs@FDA, https://www.accessdata.fda.gov/scripts/cder/omuf/.
+
+3FDA is not aware of any adequate and well-controlled clinical trials in the published literature that support a determination that AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Spray, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Ointment, AMISH ORIGINS AUTHENTIC DEEP PENETRATING Greaseless Pain Relief Cream, and AMISH ORIGINS AUTHENTIC DEEP PENETRATING Pain Relief Aloe products are GRASE for use under the conditions prescribed, recommended, or suggested in its labeling.

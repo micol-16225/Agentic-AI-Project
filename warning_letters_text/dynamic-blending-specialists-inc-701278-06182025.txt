@@ -1,0 +1,137 @@
+523 East 1750 N., Suite 100Vineyard,UT84059-8109United States
+
+The U.S. Food and Drug Administration (FDA) inspected your drug manufacturing facility, Dynamic Blending Specialists, Inc., FEI 3013719300, at 523 East 1750 N. Suite 100, Vineyard, Utah 84059-8109, from December 3 to 6, 2024.
+
+This warning letter summarizes significant violations of Current Good Manufacturing Practice (CGMP) regulations for finished pharmaceuticals. See Title 21 Code of Federal Regulations (CFR), parts 210 and 211 (21 CFR parts 210 and 211).
+
+Because your methods, facilities, or controls for manufacturing, processing, packing, or holding do not conform to CGMP, your drug products are adulterated within the meaning of section 501(a)(2)(B) of the Federal Food, Drug, and Cosmetic Act (FD&C Act), 21 U.S.C. 351(a)(2)(B).
+
+In addition, “(b)(4)” is an unapproved new drug introduced or delivered for introduction into interstate commerce in violation of sections 505(a) and 301(d) of the Federal Food, Drug, and Cosmetic Act (FD&C Act), 21 U.S.C. 355(a) and 331(d). Additionally, this product is misbranded under section 502(ee) of the FD&C Act, 21 U.S.C. 352(ee). Introduction or delivery for introduction of a misbranded product into interstate commerce is prohibited under section 301(a) of the FD&C Act, 21 U.S.C. 331(a). These violations are described in more detail below.
+
+We reviewed your December 24, 2024 response to our Form FDA 483 in detail.
+
+During our inspection, our investigators observed specific violations including, but not limited to, the following.
+
+1. Your firm failed to conduct at least one test to verify the identity of each component of a drug product. Your firm also failed to validate and establish the reliability of your component supplier’s test analyses at appropriate intervals (21 CFR 211.84(d)(1) and 211.84(d)(2)).
+
+Your firm manufactures over-the-counter (OTC) topical analgesic and oral care drug products. You failed to perform adequate identity testing of each component lot used in the manufacture of your OTC drug products, including for glycerin and active ingredients such as stannous fluoride, menthol, and camphor. Additionally, you relied on your suppliers’ certificates of analyses (COAs) without establishing the reliability of each of your suppliers’ test analyses at appropriate intervals.
+
+You failed to adequately test each shipment of each lot of glycerin for identity, a component at higher risk for diethylene glycol (DEG) and ethylene glycol (EG) contamination. Identity testing for glycerin and certain other high-risk drug components1includes a limit test in the United States Pharmacopeia (USP) to ensure that the component meets the relevant safety limits for levels of DEG or EG. Because you did not perform adequate identity testing on each shipment of each lot using the USP identification test that detects these hazardous impurities, you failed to assure the acceptability of this component for use in manufacture of your drug products.
+
+The use of ingredients contaminated with DEG or EG has resulted in various lethal poisoning incidents in humans worldwide. See FDA’s guidance documentTesting of Glycerin, Propylene Glycol, Maltitol Solution, Hydrogenated Starch Hydrolysate, Sorbitol Solution, and Other High-Risk Drug Components for Diethylene Glycol and Ethylene Glycolto help you meet the CGMP requirements when manufacturing drugs containing ingredients at high-risk for DEG or EG contamination at https://www.fda.gov/media/167974/download.
+
+In your response, you commit to updating your standard operating procedure (SOP) to require testing of incoming materials for identification, microbiology, and other required tests. You state that you will send your component retains for testing before use in new drug product batches. Additionally, you commit to sampling the first lot received from a supplier and periodically sampling subsequent lots for comparison testing against the COA. Your response is inadequate. You failed to provide a detailed plan for how your components will be tested, including test methods and review of compendial requirements, or a timeline for implementing the corrective actions proposed. Further, you did not consider a retrospective review of previously distributed OTC drug products.
+
+Without adequate testing, you do not have appropriate assurance that components conform to appropriate specifications prior to use in the drug products you manufacture.
+
+A description of how you will test each component lot for conformity with all appropriate specifications for identity, strength, quality, and purity. If you intend to accept any results from your supplier’s COA instead of testing each component lot for strength, quality, and purity, specify how you will robustly establish the reliability of your supplier’s results through initial validation as well as periodic revalidation. In addition, include a commitment to always conduct at least one specific identity test for each incoming component lot. In the case of glycerin, propylene glycol, and certain additional high-risk components we note that this includes the performance of parts A, B, and C of the USP monograph.
+
+A commitment to provide DEG and EG test results, no later than 30 calendar days from the date of this letter, from testing retains for all lots of high-risk drug components used in the manufacture of drug products. Alternatively, if a retain of a component lot is unavailable, perform retain sample testing of all implicated finished drug product lots for the presence of DEG and EG.
+
+A full risk assessment for drug products that are within expiry which contain any ingredient at risk for DEG or EG contamination (including, but not limited to, propylene glycol). Take prompt and appropriate actions to determine the safety of all lots of the component(s) and any related drug product that could contain DEG or EG, including customer notifications and product recalls for any contaminated lots. Identify additional appropriate corrective actions and preventive actions (CAPAs) that secure supply chains in the future, including, but not limited to, ensuring that all incoming raw material lots are from fully qualified manufacturers and free from unsafe impurities. Detail these actions in your response to this letter.
+
+The chemical and microbiology quality control specifications you use to test each incoming lot of high-risk drug components to determine acceptability for use in manufacturing.
+
+A comprehensive, independent review of your material system to determine whether all suppliers of components, containers, and closures, are each qualified and the materials are assigned appropriate expiration or retest dates. The review should also determine whether incoming material controls are adequate to prevent use of unsuitable components, containers, and closures.
+
+A summary of results obtained from testing all components to evaluate the reliability of the COA from each component manufacturer. Include your SOP that describes this COA validation program.
+
+A summary of your program for qualifying and overseeing contract facilities that test the drug products you manufacture.
+
+2. Your firm failed to establish laboratory controls that include scientifically sound and appropriate specifications, standards, sampling plans, and test procedures designed to assure that components, drug product containers, closures, in-process materials, labeling, and drug products conform to appropriate standards of identity, strength, quality, and purity (21 CFR 211.160(b)).
+
+Your sampling plans prior to the release of your drug products are not sufficient to assure their quality. Specifically, your sampling and testing plan for SmileSense Fluoride Toothpaste and KT Tape Pain Relief Gel is not adequately justified to represent the quality attributes of the entire drug product batch. For example, for a(b)(4)batch of your SmileSense Flouride Toothpaste, a suspension drug product, single(b)(4)samples were collected from the(b)(4)and from the(b)(4)of the bulk tank.(b)(4)was used to evaluate microbiological attributes and the other for assay, without adequate justification, such as development uniformity studies or supportive process qualification data, that the collected samples are representative of the entire batch.
+
+In addition, you were unable to provide documentation to demonstrate that your(b)(4)water system is adequately monitored and tested for conductivity or microbiology.(b)(4)water from this system was used as a component in the drug products you manufacture and distribute. In your response, you state that the justification for product sampling is being evaluated. You also state that the SOP governing the frequency, methods, and responsibility for performing water sampling would be reviewed. Your response is inadequate. You did not provide or commit to provide any justification for your drug product sampling plans. Additionally, you did not provide or describe a specific plan or timeline for monitoring to ensure the suitability of your(b)(4)water. Further you did not consider testing retains or a retrospective review of distributed batches where there was incomplete or inadequate water testing.
+
+Without appropriate sampling plans, you do not have scientific evidence to support whether your drug products meet their established finished product chemical and microbiological specifications. Product released without adequate determination of homogeneity or microbiological evaluation poses a risk to patients.
+
+A comprehensive, independent assessment of your in-process monitoring and sampling operations, focusing on each upstream process step that can introduce variability. Provide your remediation plan to improve: (1) in-process detection of variation; (2) upstream controls; and (3) sampling plans.
+
+A list of chemical and microbial specifications, including test methods, used to analyze each batch of your drug products before a batch disposition decision.o An action plan and timelines for conducting full chemical and microbiological testing of retain samples to determine the quality of all batches of drug product distributed to the United States that are within expiry as of the date of this letter.o A summary of all results obtained from testing retain samples from each batch. If such testing reveals substandard quality drug products, take rapid corrective actions, such as notifying customers and product recalls.
+
+A procedure for your water system monitoring that specifies routine microbial testing of water to ensure its acceptability for use in each batch of drug products produced by your firm.
+
+The current action/alert limits for total counts and objectionable organisms used for your(b)(4)Water system. Ensure that the total count limits for your(b)(4)water are appropriately stringent in view of the intended use of each of the products produced by your firm.
+
+A procedure governing your program for ongoing control, maintenance, and monitoring that ensures the system consistently produces water that meets(b)(4)Water,(b)(4)monograph specifications and appropriate microbial limits.
+
+3. Your firm’s quality control unit failed to exercise its responsibility to ensure drug products manufactured are in compliance with CGMP, and meet established specifications for identity, strength, quality, and purity (21 CFR 211.22).
+
+Your quality unit (QU) did not provide adequate oversight and control over your drug manufacturing operations. Specifically, your QU did not implement adequate controls to ensure the complete documentation of the accomplishment of each significant step in the manufacture of your drug products. For example:
+
+Your scale calibration logs consisted of loose pages printed without unique identifiers.
+
+You could not provide a non-conformance (NC) report referenced in(b)(4)executed batch records because your previous NC data system was no longer maintained.
+
+Shred bins containing what appeared to be CGMP records were located in your manufacturing and warehouse areas.
+
+Water monitoring records stored on an employee’s personal computer could not be provided.
+
+You could not provide data to support the labeled expiration date of drug products manufactured by your facility.
+
+In your response, you commit to updating your SOPs to ensure adequate control of your original CGMP documents, evaluating other options to track non-conformances, and removing the shred bins. Your response is inadequate as it did not provide sufficient detail or evidence of corrective actions to bring your operations into compliance with CGMP.
+
+An adequate QU overseeing all manufacturing operations is necessary to consistently ensure drug quality. See FDA’s guidance documentQuality Systems Approach to Pharmaceutical CGMP Regulationsfor help implementing quality systems and risk management approaches to meet the requirements of CGMP regulations 21 CFR, parts 210 and 211 at https://www.fda.gov/media/71023/download.
+
+A comprehensive assessment and remediation plan to ensure your QU is given the authority and resources to effectively function. The assessment should also include, but not be limited to:o A determination of whether procedures used by your firm are robust and appropriate.o Provisions for QU oversight throughout your operations to evaluate adherence to appropriate practices.o A complete and final review of each batch and its related information before the QU disposition decision.o Oversight and approval of investigations and discharging of all other QU duties to ensure identity, strength, quality, and purity of all products. Also describe how top management supports quality assurance and reliable operations, including but not limited to, timely provision of resources to proactively address emerging manufacturing/quality issues and to assure a continuing state of control.
+
+A complete assessment of documentation systems used throughout your manufacturing and laboratory operations to determine where documentation practices are insufficient. Include a detailed CAPA plan that comprehensively remediates your firm’s documentation practices to ensure you retain attributable, legible, complete, original, accurate, contemporaneous records throughout your operation.
+
+Unapproved New Drug and Misbranded Drug Violations
+
+“(b)(4)” is a “drug” as defined by section 201(g)(1)(B) of the FD&C Act, 21 U.S.C. 321(g)(1)(B), because it is intended for use in the diagnosis, cure, mitigation, treatment, or prevention of disease, and/or under section 201(g)(1)(C) of the FD&C Act, 21 U.S.C. 321(g)(1)(C), because it is intended to affect the structure or any function of the body.
+
+Examples of claims from the “(b)(4)” product labeling, including the product website,(b)(4), that provide evidence of the intended use (as defined in 21 CFR 201.128) of the product as a drug include, but may not be limited to, the following:
+
+“(b)(4)”“(b)(4).” [from the product label]“(b)(4)” [from the product label]“(b)(4).” [from the product label]“(b)(4)…” [from the product website]
+
+Based on the above labeling evidence, “(b)(4)” is intended for use as an oral antiseptic drug product. As described below, this product is an unapproved new drug marketed in violation of sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C 355(a) and 331(d).
+
+A drug product is a “new drug” within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p), if it is not generally recognized as safe and effective (GRASE) for use under the conditions prescribed, recommended, or suggested in its labeling. With certain exceptions not applicable here, a new drug may not be introduced or delivered for introduction into interstate commerce without an approved application from FDA in effect, as described in section 505(a) of the FD&C Act, 21 U.S.C. 355(a). No FDA-approved application pursuant to section 505 of the FD&C Act, 21 U.S.C. 355, is in effect for this drug product identified above.
+
+OTC oral antiseptic products have been the subject of rulemakings under the Agency’s OTC Drug Review. In particular, oral antiseptics were addressed in a TFM entitled “Oral Health Care Drug Products for Over-the-Counter Human Use; Tentative Final Monograph for Oral Antiseptic Drug Products; Proposed Rule,” 59 FR 6084 (February 9, 1994) (hereinafter “Oral Antiseptics Proposed Rule”). The Oral Antiseptics Proposed Rule classified a number of active ingredients as Category III for use by consumers in antiseptic-containing drug products applied topically to the oral cavity to help prevent infection in minor cuts, scrapes or oral irritation caused by dental procedures, dentures, orthodontic appliances, or accidental injury, because additional effectiveness data are needed to support a determination that a drug product containing one of these active ingredients would be GRASE for use as an OTC oral antiseptic.
+
+Section 505G of the FD&C Act, 21 U.S.C. 355h governs nonprescription drugs marketed without an approved application. Under section 505G(a)(3) of the FD&C Act, drugs that were classified as Category III for safety or effectiveness in a tentative final monograph (TFM) that is the most recently applicable proposal or determination for such drugs issued under 21 CFR Part 330 – and that were not classified as Category II for safety or effectiveness – are not required to have an approved application under section 505 in order to be marketed, as long as they are in conformity with the relevant conditions of use outlined in the applicable TFM and comply with all other applicable requirements.
+
+However, “(b)(4)” does not conform to the Oral Antiseptics Proposed Rule, nor any other TFM, proposed rule, or final rule, and does not meet the conditions under sections 505G(a)(1) or 505G(a)(3) of the FD&C Act for marketing without an approved application under section 505. Specifically, the product label lists the following ingredients: “(b)(4)” None of these ingredients are permitted in combination or as sole active ingredients in the Oral Antiseptics Proposed Rule or any other TFM, proposed rule, or final rule.
+
+In addition, the product label includes claims, such as to “(b)(4),” that go beyond merely describing the general intended uses for an oral antiseptic drug product as set forth in the Oral Antiseptics Proposed Rule.
+
+Thus, as formulated and labeled, “(b)(4)” does not comply with the applicable conditions set forth in the Oral Antiseptics Proposed Rule.2Moreover, there is no evident basis under the FD&C Act under which this product would be legally marketed without an approved application. Thus, this product is a new drug within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p). Accordingly, this product is an unapproved new drug marketed in violation of section 505(a) of the FD&C Act, 21 U.S.C 355(a).
+
+Introduction or delivery for introduction of such a product into interstate commerce is prohibited under section 301(d) of the FD&C Act, 21 U.S.C 331(d).
+
+Additionally, “(b)(4)” is misbranded under section 502(ee) of the FD&C Act, 21 U.S.C. 352(ee), because this product is a nonprescription drug subject to section 505G of the FD&C Act, 21 U.S.C. 355h, but does not comply with the requirements for marketing under that section and is not the subject of an application approved under section 505 of the FD&C Act, 21 U.S.C. 355. The introduction or delivery for introduction of a misbranded drug into interstate commerce violates section 301(a) of the FD&C Act, 21 U.S.C. 331(a).
+
+Drugs must be manufactured in conformance with CGMP. FDA is aware that many drug manufacturers use independent contractors such as production facilities, testing laboratories, packagers, and labelers. FDA regards contractors as extensions of the manufacturer.
+
+You are responsible for the quality of drugs you produce as a contract facility regardless of agreements in place with product owners. You are required to ensure that drugs are made in accordance with section 501(a)(2)(B) of the FD&C Act for safety, identity, strength, quality, and purity. See FDA’s guidance documentContract Manufacturing Arrangements for Drugs: Quality Agreementsat https://www.fda.gov/media/86193/download.
+
+Based upon the nature of the violations we identified at your firm, you should engage a consultant qualified as set forth in 21 CFR 211.34 to assist your firm in meeting CGMP requirements. The qualified consultant should also perform a comprehensive six-system audit of your entire operation for CGMP compliance and evaluate the completion and efficacy of your CAPAs before you pursue resolution of your firm’s compliance status with FDA.
+
+Your use of a consultant does not relieve your firm’s obligation to comply with CGMP. Your firm’s executive management remains responsible for resolving all deficiencies and systemic flaws to ensure ongoing CGMP compliance.
+
+Cosmetics Manufactured for Distribution in the United States
+
+In addition, some of the products you manufacture may be regulated as cosmetics, as defined in section 201(i) of the FD&C Act [21 U.S.C. 321(i)]. Any cosmetics you manufacture must comply with applicable statutory and regulatory requirements, including the FD&C Act. We note that under section 301(a) of the FD&C Act [21 U.S.C. 331(a)], it is a prohibited act to introduce or deliver for introduction into interstate commerce a cosmetic that is adulterated or misbranded.
+
+We also note that the Modernization of Cosmetics Regulation Act of 2022 (MoCRA) provides new requirements with which facilities that manufacture cosmetic products must comply. You may find the FD&C Act, MoCRA, and FDA’s regulations through links on FDA’s website at www.fda.gov.
+
+The violations cited in this letter are not intended to be an all-inclusive list of violations that exist at your facility. You are responsible for investigating and determining the causes of any violations and for preventing their recurrence or the occurrence of other violations.
+
+Correct any violations promptly. Failure to promptly and adequately address this matter may result in regulatory or legal action without further notice including, without limitation, seizure and injunction. Unresolved violations may also prevent other Federal agencies from awarding contracts.
+
+Failure to address violations may also cause FDA to withhold issuance of Export Certificates. FDA may withhold approval of new applications or supplements listing your firm as a drug manufacturer until any violations are completely addressed and we confirm your compliance with CGMP. We may re-inspect to verify that you have completed corrective actions to address any violations.
+
+This letter notifies you of our findings and provides you an opportunity to address the above deficiencies. After you receive this letter, respond to this office in writing within 15 working days. Specify what you have done to address any violations and to prevent their recurrence. In response to this letter, you may provide additional information for our consideration as we continue to assess your activities and practices. If you cannot complete corrective actions within 15 working days, state your reasons for delay and your schedule for completion.
+
+Send your electronic reply to CDER-OC-OMQ-Communications@fda.hhs.gov. Identify your response with FEI 3013719300 and ATTN: Christina Capacci-Daniel.
+
+Francis GodwinDirectorOffice of Manufacturing QualityOffice of ComplianceCenter for Drug Evaluation and Research
+
+Tina SmithCaptain, U.S. Public Health ServiceDirectorOffice of Unapproved Drugs & Labeling ComplianceCenter for Drug Evaluation and Research
+
+1Components with higher risk of DEG or EG contamination compared to other drug components.
+
+2FDA is not aware of any adequate and well-controlled clinical trials in the published literature that support a determination that “(b)(4)” product is GRASE for use under the conditions prescribed, recommended, or suggested in its labeling, nor has FDA determined these drug products to be GRASE pursuant to an order issued under section 505G(b).

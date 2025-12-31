@@ -1,0 +1,39 @@
+19875 Nordhoff StreetNorthridge,CA91324United States
+
+This Warning Letter informs you of objectionable conditions observed during the U.S. Food and Drug Administration (FDA) inspection conducted at your clinical site between February 12 and February 16, 2024. Investigators Jasmine Y. Wang and Cheron M. Portee, representing FDA, reviewed your conduct of the following clinical investigations:
+
+Protocol(b)(4), “(b)(4),” of the investigational drug(b)(4), performed for(b)(4).
+
+Protocol(b)(4), “(b)(4),” of the investigational drug(b)(4), performed for(b)(4).
+
+Protocol(b)(4), “(b)(4),” of the investigational drug(b)(4), performed for(b)(4).
+
+This inspection was conducted as a part of FDA’s Bioresearch Monitoring Program, which includes inspections designed to evaluate the conduct of research and to help ensure that the rights, safety, and welfare of human subjects have been protected.
+
+At the conclusion of the inspection, Investigators Wang and Portee presented and discussed with you the Form FDA 483, Inspectional Observations. We acknowledge receipt of your February 26, 2024, written response to the Form FDA 483.
+
+From our review of the FDA Establishment Inspection Report, the documents submitted with that report, and your written response dated February 26, 2024, it appears that you did not adhere to the applicable statutory requirements in the Federal Food, Drug, and Cosmetic Act (FD&C Act) and applicable regulations contained in Title 21 of the Code of Federal Regulations, part 312 (21 CFR 312) governing the conduct of clinical investigations. We wish to emphasize the following:
+
+You failed to ensure that the investigation was conducted according to the investigational plan [21 CFR 312.60].
+
+As a clinical investigator, you are required to ensure that your clinical studies are conducted in accordance with the investigational plan. The investigational plan for Protocol(b)(4)required you to ensure that subjects met all eligibility criteria before enrollment in the study. Specifically, Protocol(b)(4)required you to exclude subjects with any risk factors for progression to severe disease, such as obesity, defined as a body mass index (BMI) ≥ 30 kg/m2 for subjects ≥ 18 years of age. You failed to adhere to these requirements.
+
+Specifically, the following enrolled subjects had a BMI ≥ 30 kg/m2and received investigational drug:
+
+a. Subject(b)(6), a 64-year-old female, had a BMI of 36.7 kg/m2on August 4, 2023. However, on the same day, this subject was enrolled in Protocol(b)(4)and received investigational drug.
+
+b. Subject(b)(6), a 19-year-old female, had a BMI of 46.6 kg/m2on August 22, 2023. However, on the same day, this subject was enrolled in Protocol(b)(4)and received investigational drug.
+
+In your February 26, 2024, written response, you acknowledged that you were made aware of these findings before this inspection on a routine monitoring visit, and that corrective and preventive actions (CAPAs) were composed that allowed your site to correct the deficiencies and prevent future occurrences in future studies. You stated that, moving forward, you and your clinical research team will work much more closely with the sponsor/contract research organization (CRO) to have a better understanding of all inclusion and exclusion criteria, and your clinical research team will be competent and confident with all inclusion and exclusion criteria before screening patients. You stated that moving forward, the principal investigator will train or retrain all active and new members on the protocol, specifically inclusion and exclusion criteria, before the conduct of a clinical trial. You also stated that all trained and delegated staff will be properly trained on the formula used to calculate BMI criteria. In addition, you stated that you and the study team informed the subjects of this finding and determined that they are doing well.
+
+While we acknowledge the corrective and preventive actions your site has taken, your response is inadequate because you did not include sufficient details about your corrective action plan. For example, you did not provide details about the implementation of any proposed procedures and practices being instituted at your site to ensure compliance with the protocol, particularly to ensure subjects’ eligibility before enrollment. In addition, your written response does not provide sufficient details about how you, as a clinical investigator, will ensure adequate oversight of study procedures (for example, adherence to eligibility requirements). Without these details, we are unable to determine whether your corrective action plan is adequate to prevent similar violations in the future.
+
+We emphasize that as the clinical investigator, you were ultimately responsible to ensure that these studies were conducted in accordance with the investigational plan and in compliance with FDA regulations, both to protect the rights, safety, and welfare of study subjects and to ensure the integrity of study data. Your failure to ensure that subjects met all protocol required eligibility criteria raises significant concerns about the safety of the study subjects enrolled at your site and raises concerns about the reliability of the data collected at your site.
+
+This letter is not intended to be an all-inclusive list of deficiencies with your clinical study of an investigational drug. It is your responsibility to ensure adherence to each requirement of the law and relevant FDA regulations. You should address any deficiencies and establish procedures to ensure that any ongoing or future studies comply with FDA regulations.
+
+This letter notifies you of our findings and provides you with an opportunity to address the deficiencies noted above. Within 15 business days of your receipt of this letter, you should notify this office in writing of the actions you have taken to prevent similar violations in the future. Failure to address this matter adequately may lead to regulatory action. If you believe that you have complied with the FD&C Act and relevant regulations, please include your reasoning and any supporting information for our consideration.
+
+Should you have any questions or concerns regarding this letter or the inspection, please email FDA at CDER-OSI-Communications@fda.hhs.gov. Your written response and any pertinent documentation should be addressed to:
+
+Brittany L. Garr-Colón, MPHBranch ChiefCompliance Enforcement BranchDivision of Enforcement and Postmarketing SafetyOffice of Scientific InvestigationsOffice of ComplianceCenter for Drug Evaluation and ResearchU.S. Food and Drug AdministrationBuilding 51, Room 535210903 New Hampshire AvenueSilver Spring, MD 20993

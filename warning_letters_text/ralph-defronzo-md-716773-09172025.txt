@@ -1,0 +1,67 @@
+7703 Floyd Curl Drive Mail Code 7886San Antonio,TX78229-3901United States
+
+This Warning Letter informs you of objectionable conditions observed during the U.S. Food and Drug Administration (FDA) inspection conducted at your clinical site between December 3 and December 6, 2024. Investigator Ruth E. Medcalf, representing FDA, reviewed your conduct of the following clinical investigations:
+
+Protocol(b)(4), “(b)(4),” of the investigational drugs(b)(4), performed for(b)(4).1
+
+Protocol(b)(4), “(b)(4),” of the investigational drug(b)(4), performed for(b)(4).
+
+This inspection was conducted as a part of FDA’s Bioresearch Monitoring Program, which includes inspections designed to evaluate the conduct of research and to help ensure that the rights, safety, and welfare of human subjects have been protected.
+
+At the conclusion of the inspection, Investigator Medcalf presented and discussed with you the Form FDA 483, Inspectional Observations. We acknowledge receipt of your December 30, 2024, written response to the Form FDA 483.
+
+From our review of the FDA Establishment Inspection Report, the documents submitted with that report, and your written response dated December 30, 2024, it appears that you did not adhere to the applicable statutory requirements in the Federal Food, Drug, and Cosmetic Act (FD&C Act) and applicable regulations contained in Title 21 of the Code of Federal Regulations, part 312 (21 CFR 312) governing the conduct of clinical investigations and the protection of human subjects. We wish to emphasize the following:
+
+1. You failed to ensure that the investigation was conducted according to the investigational plan [21 CFR 312.60].
+
+As a clinical investigator, you are required to ensure that your clinical studies are conducted in accordance with the investigational plan. The investigational plan for Protocol(b)(4)required you to ensure that subjects met all eligibility criteria before enrollment in the study. For example, all versions of the protocol that was in effect at the time all seven subjects enrolled, required the following inclusion criteria to be eligible for enrollment in the study:
+
+estimated glomerular filtration rate (eGFR) > 45 ml/min/1.73m²
+
+Furthermore, the eligibility criteria for Protocol(b)(4)required subjects who were treated with glucagon-like peptide-1 (GLP-1) receptor agonists or thiazolidinediones, and with sodium-glucose transport protein 2 (SGLT2) inhibitors, to be excluded from participation in the study. You failed to adhere to these requirements. Specifically:
+
+a. Subject(b)(6)’s screening visit blood pressure was 103 / 72 mmHg, which was outside the protocol-specified range for eligibility. However, this subject was enrolled on July 12, 2023, and received study drug.
+
+b. Subject(b)(6)’s screening visit blood pressure was 163 / 92 mmHg, and the subject’s eGFR was 41 ml/min/1.73m², both of which fell outside the protocol-specified ranges for eligibility. Additionally, this subject’s medication list included FARXIGA® (dapagliflozin), an SGLT2 inhibitor, which was an exclusionary medication for study enrollment. However, this subject was enrolled on July 25, 2023, and received study drug.
+
+c. Subject(b)(6)’s medication list included JARDIANCE® (empagliflozin), an SGLT2 inhibitor, which was an exclusionary medication for study enrollment. However, this subject was enrolled on July 26, 2023, and received study drug.
+
+d. Subject(b)(6)’s screening visit blood pressure was 120 / 78 mmHg, which was outside the protocol-specified range for eligibility. However, this subject was enrolled on August 7, 2023, and received study drug.
+
+e. Subject(b)(6)’s screening visit blood pressure was 132 / 67 mmHg, which was outside the protocol-specified range for eligibility. This subject’s medication list included JARDIANCE® (empagliflozin), an SGLT2 inhibitor, and SOLIQUA®, which is a combination of insulin glargine and lixisenatide, a GLP-1 receptor agonist, both of which were exclusionary medications for study enrollment. However, this subject was enrolled on August 9, 2023, and received study drug.
+
+f. Subject(b)(6)’s screening visit blood pressure was 112 / 74 mmHg, which was outside the protocol-specified range for eligibility. Also, this subject’s medication list included JARDIANCE® (empagliflozin), an SGLT2 inhibitor, which was an exclusionarymedication for study enrollment. However, this subject was enrolled on June 18, 2024, and received study drug.
+
+In your December 30, 2024, written response, you stated that the blood pressure requirement defined in the eligibility criteria was a typographical error, and that you modified the protocol accordingly in the protocol version approved by the IRB in September 2024. In this version of the protocol, you also modified the eligibility criteria to allow for eGFR variability, and to allow for inclusion of subjects taking SLGT2 inhibitors and GLP-1 receptor agonists. You noted that the guidelines for(b)(4)therapy have changed significantly since the protocol was first written, noting the benefit of SLGT2 inhibitors and GLP-1 receptor agonists.
+
+Your written response further stated that all staff and physicians involved in ongoing clinical studies have been retrained, and all new staff will be thoroughly trained. You also indicated that, for all ongoing studies, a second person involved in the study has been identified, and this second person will check that the eligibility criteria in the protocol and source documents are internally consistent and do not contain any typos. You stated that this person will also check that participants fulfill inclusion/exclusion criteria, and that you will review and sign the inclusion/exclusion page.
+
+While we acknowledge your response that you made the necessary changes to the protocol and obtained IRB approval, your response is inadequate because this approval of the protocol with the above-noted modified inclusion criteria occurred more than a year after all seven subjects were enrolled. Further, your corrective actions are inadequate because your written response does not provide sufficient details about how you, as a clinical investigator, will ensure adequate oversight of the study procedures and will prevent similar violations in the future.
+
+We emphasize that as the clinical investigator, it is your responsibility to ensure that studies are conducted in accordance with the investigational plan, both to protect the rights, safety, and welfare of subjects and to ensure the integrity of study data. Your failure to ensure that subjects met eligibility criteria before their enrollment in the study raises significant concerns about the safety of subjects enrolled in this study and the reliability of data at your site.
+
+2. You failed to promptly report all changes in research activity to the Institutional Review Board (IRB) [21 CFR 312.66].
+
+As a clinical investigator, you are required to promptly report all changes in research activity to the IRB. You failed to adhere to this requirement.
+
+Specifically, for Protocol(b)(4), you did not promptly report to the IRB that the study design of the clinical investigation was modified from a double-blind, placebo-controlled, randomized clinical trial to a two-part clinical trial that included an initial pilot feasibility study of 10 to 12 participants, followed by a double-blind, placebo-controlled, randomized clinical trial.
+
+As a result, all seven enrolled subjects received the investigational drug, because the change in study design eliminated the placebo control group; further, this occurred before you received IRB approval for the modification on September 23, 2024. We note that the approval of the protocol with the above-noted modified study design occurred more than one year after all seven subjects were enrolled and treated with the investigational drug.
+
+Additionally, we are particularly concerned that all seven enrolled subjects were consented using an informed consent document that detailed the study procedures, risks, benefits, and rights of study participants for the original double-blind, placebo-controlled, randomized clinical trial, not for the clinical trial with the modified study design that included the initial pilot feasibility study.
+
+In your December 30, 2024, written response, you acknowledged that the protocol needed to reflect exactly how the subjects are enrolled into the study. You stated that you had addressed this issue with the IRB, including that you have since updated the informed consent form for this study. You also explained that all study participants were verbally informed at the time of consent that they would receive study drug ((b)(4)) and not a placebo. You noted that all staff and physicians involved in ongoing clinical studies have been retrained, and that all new staff will be thoroughly trained, which will include their attending IRB training courses.
+
+While we acknowledge the corrective actions that your site has taken and plans to take, your response is inadequate because you have not provided sufficient details about your corrective action plan. For example, you did not provide sufficient details about the policies, procedures, and training plan being implemented at your site to prevent similar violations in the future.
+
+We emphasize that, as the clinical investigator, you are responsible for promptly reporting to the IRB all changes in research activity. Your failure to promptly report all changes in research activity to the IRB prevented the IRB from making an informed determination regarding the continued protection of the rights, safety, and welfare of human subjects enrolled in your clinical investigation. This failure potentially compromised the ethical conduct of the study and the validity of the informed consent process for all seven enrolled subjects.
+
+This letter is not intended to be an all-inclusive list of deficiencies with your clinical study of an investigational drug. It is your responsibility to ensure adherence to each requirement of the law and relevant FDA regulations. You should address any deficiencies and establish procedures to ensure that any ongoing or future studies comply with FDA regulations.
+
+This letter notifies you of our findings and provides you with an opportunity to address the deficiencies noted above. Within 15 business days of your receipt of this letter, you should notify this office in writing of the actions you have taken to prevent similar violations in the future. Failure to adequately address this matter may lead to regulatory action. If you believe that you have complied with the FD&C Act and relevant regulations, please include your reasoning and any supporting information for our consideration.
+
+Should you have any questions or concerns about this letter or the inspection, please email FDA at CDER-OSI-Communications@fda.hhs.gov. Your written response and any pertinent documentation should be addressed to:
+
+Brittany L. Garr-Colón, MPHBranch ChiefCompliance Enforcement BranchDivision of Enforcement and Postmarketing SafetyOffice of Scientific InvestigationsOffice of ComplianceCenter for Drug Evaluation and ResearchU.S. Food and Drug AdministrationBuilding 51, Room 535210903 New Hampshire AvenueSilver Spring, MD 20993
+
+1Protocol(b)(4)was performed under an investigational new drug application, sponsored by(b)(4), M.D., for the use of investigational drug(b)(4)in this clinical investigation.

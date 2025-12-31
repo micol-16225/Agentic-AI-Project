@@ -1,0 +1,193 @@
+140 Ethel Rd West, Ste WPiscataway,NJ08854-5951United States
+
+The United States Food and Drug Administration (FDA) inspected your drug manufacturing facility, Health and Natural Beauty USA Corp., FEI 3011061274, at 140 Ethel Rd West, Ste W, Piscataway, New Jersey, from October 9 to 15, 2024.
+
+This warning letter summarizes significant violations of Current Good Manufacturing Practice (CGMP) regulations for finished pharmaceuticals. See Title 21 Code of Federal Regulations (CFR), parts 210 and 211 (21 CFR parts 210 and 211).
+
+Because your methods, facilities, or controls for manufacturing, processing, packing, or holding do not conform to CGMP, your drug products are adulterated within the meaning of section 501(a)(2)(B) of the Federal Food, Drug, and Cosmetic Act (FD&C Act), 21 U.S.C. 351(a)(2)(B).
+
+Your SprinJene+Sensitivity Cavity Protection Toothpaste, SprinJene Fluoride Toothpaste White Boost, SprinJene Fluoride Toothpaste Fresh Boost, SprinJene Fluoride Toothpaste Health Boost, SprinJene Children’s Toothpaste Bubblegum, and SprinJene Children’s Toothpaste Watermelon drug products (i.e.: SprinJene oral healthcare products) are unapproved new drugs introduced or delivered for introduction into interstate commerce in violation of sections 505(a) and 301(d) of the Federal Food, Drug, and Cosmetic Act (FD&C Act), 21 U.S.C. 355(a) and 331(d). These products are also misbranded under sections 502(a) and (ee) of the FD&C Act, 21 U.S.C. 352(a) and (ee). Introduction or delivery for introduction of such products into interstate commerce is prohibited under sections 301(d) and (a) of the FD&C Act, 21 U.S.C. 331(d) and (a). These violations are described in more detail below.
+
+We reviewed your November 1, 2024 response to our Form FDA 483 in detail and acknowledge receipt of your subsequent correspondence. Your response is inadequate because you failed to provide supportive documentation for evaluation or adequate evidence of corrective actions taken to bring your operations into compliance with CGMP.
+
+During our inspection, our investigator observed specific violations including, but not limited to, the following.
+
+1. Your firm failed to conduct at least one test to verify the identity of each component of a drug product (21 CFR 211.84(d)(1)).
+
+You manufacture several over-the-counter (OTC) drug products, including some intended for pediatric use. Based on our inspection, you failed to test a representative sample of your incoming high-risk components for diethylene glycol (DEG) or ethylene glycol (EG) contamination. These components include, but are not limited to, glycerin and sorbitol solution used in manufacturing your drug products. Identity testing for these and certain other high-risk drug components1include a limit test in the United States Pharmacopeia (USP) to ensure that the component meets the relevant safety limits for levels of DEG or EG. Because you did not perform adequate identity testing for representative samples using the USP identification test that detects these hazardous impurities, you failed to assure the acceptability of these components for use in manufacture of your drug products. Notably, more than(b)(4)the formulation for drug products intended for pediatric use are composed of high-risk components.
+
+The use of ingredients contaminated with DEG or EG has resulted in various lethal poisoning incidents in humans worldwide. See FDA’s guidance documentTesting of Glycerin, Propylene Glycol, Maltitol Solution, Hydrogenated Starch Hydrolysate, Sorbitol Solution, and Other High-Risk Drug Components for Diethylene Glycol and Ethylene Glycolto help you meet the CGMP requirements when manufacturing drugs containing ingredients at high-risk for DEG or EG contamination at https://www.fda.gov/media/167974/download.
+
+Additionally, you failed to perform identity testing for the active ingredients in your drug products, including sodium fluoride, sodium mono-fluorophosphate, and potassium nitrate.
+
+During the inspection, you committed to sending samples of materials received for identification, assay, and chemical impurities testing before release and use in manufacturing. However, in your subsequent correspondence, no additional information was provided.
+
+A commitment to provide DEG and EG test results, no later than 30 calendar days from the date of this letter, from testing retains for all lots of high-risk drug components used in the manufacture of drug products. Alternatively, if a retain of a component lot is unavailable, perform retain sample testing of all implicated finished drug product batches for the presence of DEG and EG. A full risk assessment for drug products that are within expiry which contain any ingredient at risk for DEG or EG contamination (including, but not limited to, glycerin). Take prompt and appropriate actions to determine the safety of all lots of the component(s) and any related drug product that could contain DEG or EG, including customer notifications and product recalls for any contaminated lots. Identify additional appropriate corrective action and preventive action (CAPA) that secure supply chains in the future, including, but not limited to, ensuring that all incoming raw material lots are from fully qualified manufacturers and free from unsafe impurities. Detail these actions in your response to this letter. • A description of how you will test each component lot for conformity with all appropriate specifications for identity, strength, quality, and purity. If you intend to accept any results from your supplier’s certificate of analysis (COA) instead of testing each component lot for strength, quality, and purity, specify how you will robustly establish the reliability of your supplier’s results through initial validation as well as periodic revalidation. In addition, include a commitment to always conduct at least one specific identity test for each incoming component lot. In the case of glycerin, propylene glycol, and certain additional high-risk components we note that this includes the performance of parts A, B, and C of the United States Pharmacopeia (USP) monograph.
+
+The chemical quality control specifications you use to test each incoming lot of high-risk drug components to determine acceptability for use in manufacturing.
+
+A comprehensive, independent review of your material system to determine whether all suppliers of components, containers, and closures, are each qualified and the materials are assigned appropriate expiration or retest dates. The review should also determine whether incoming material controls are adequate to prevent use of unsuitable components, containers, and closures.
+
+A summary of your program for qualifying and overseeing contract facilities that test the drug products you manufacture.
+
+A summary of results obtained from testing all components to evaluate the reliability of the COA from each component manufacturer. Include your standard operating procedure (SOP) that describes this COA validation program.
+
+2. Your firm failed to establish adequate written procedures for production and process control designed to assure that the drug products you manufacture have the identity, strength, quality, and purity they purport or are represented to possess. (21 CFR 211.100(a)).
+
+You have not adequately validated your production and process controls used to manufacture your drug products, including Sprinjene Natural Toothpaste. Without adequate validation, you have insufficient assurance that you are capable of consistently manufacturing OTC drug products with defined quality attributes. During the inspection, you failed to provide process validation studies and records for your products.
+
+In your response, you provided an unexecuted master validation plan and an executed installation qualification (IQ) and operational qualification (OQ) for your manufacturing equipment.
+
+Your response is inadequate. Your master validation plan does not appear to include active ingredient testing. Your IQ and OQ data do not appear to evaluate critical control parameters. You also did not provide a detailed process performance protocol that adequately validates your different manufacturing processes and includes all sources of variability.
+
+Process validation evaluates the soundness of design and state of control of a process throughout its lifecycle. Each significant stage of a manufacturing process must be designed appropriately and ensure the quality of raw material inputs, in-process materials, and finished drugs. Process qualification studies determine whether an initial state of control has been established.
+
+Successful process qualification studies are necessary before commercial distribution. Thereafter, ongoing vigilant oversight of process performance and product quality is necessary to ensure that you maintain a stable manufacturing operation throughout the product lifecycle.
+
+See FDA’s guidance documentProcess Validation: General Principles and Practicesfor general principles and approaches that FDA considers appropriate elements of process validation, at https://www.fda.gov/media/71021/download.
+
+In response to this letter, provide the following:
+
+A detailed summary of your validation program for ensuring a state of control throughout the product lifecycle, along with associated procedures. Describe your program for process performance qualification, and ongoing monitoring of both intra-batch and inter-batch variation to ensure a continuing state of control.
+
+A timeline for performing appropriate process performance qualification for each of your marketed drug products.
+
+Process performance protocol(s), and written procedures for qualification of equipment and facilities.
+
+A detailed program for designing, validating, maintaining, controlling and monitoring each of your manufacturing processes that includes vigilant monitoring of intra-batch and inter-batch variation to ensure an ongoing state of control. Also, include your program for qualification of your equipment and facility.
+
+3. Your firm failed to establish an adequate quality unit and the responsibilities and procedures applicable to the quality control unit are not in writing and fully followed (21 CFR 211.22(a) and (d)).
+
+Your quality unit (QU) lacked control over your drug manufacturing operations and failed to ensure that you had adequate procedures. For example, your QU failed to ensure the following:
+
+Establishment of a written testing program designed to assess the stability characteristics of drug products and to use results of stability testing to determine appropriate storage conditions and expiration dates (21 CFR 211.166(a)).
+
+Establishment of adequate batch production and control records that contain the accomplishment of each significant step in the manufacture, processing, packing, or holding of the batch, for each batch of drug product (21 CFR 211.188(b)).
+
+Laboratory records that included complete data derived from all tests necessary to ensure compliance with established specifications and standards (21 CFR 211.194).
+
+In your response, you provide data for the retain testing of(b)(4)adult toothpaste drug products, batch standard work instructions, and laboratory testing records. You state that retain samples for children’s toothpaste drug products would be tested.
+
+Your response is inadequate. You did not demonstrate that you have established an adequate stability program. You did not provide revised batch production records that include information required by CGMP. Your laboratory records did not include appropriate descriptions of samples, methods, solution references, or requirements for contemporaneous documentation practices. You also did not provide a timeline for testing your retain samples or consider a retrospective review of your distributed drug products within expiry.
+
+Significant findings in this letter demonstrate that your firm does not operate an effective quality system in accordance with CGMP. In addition to the lack of effective management oversight of your production and laboratory operations, we found that your QU was not enabled to exercise proper authority and insufficiently implemented its responsibilities. Executive management should immediately and comprehensively assess your company’s manufacturing operations to ensure that your systems, processes, and products meet CGMP. See FDA’s guidance documentQuality Systems Approach to Pharmaceutical CGMP Regulationsfor help in implementing quality systems and risk management approaches to meet the requirements of CGMP regulations 21 CFR parts 210 and 211, at https://www.fda.gov/media/71023/download.
+
+In response to this letter, provide the following:
+
+A comprehensive assessment and remediation plan to ensure your QU is given the authority and resources to effectively function. The assessment should also include, but not be limited to:o A determination of whether procedures used by your firm are robust and appropriate.o Provisions for QU oversight throughout your operations to evaluate adherence to appropriate practices.o A complete and final review of each batch and its related information before the QU disposition decision.o Oversight and approval of investigations and discharging of all other QU duties to ensure identity, strength, quality, and purity of all products.
+
+A comprehensive, independent assessment and CAPA plan to ensure the adequacy of your stability program. Your remediated program should include, but not be limited to:o Stability indicating methods.o Stability studies for each drug product in its marketed container-closure system before distribution is permitted.o An ongoing program in which representative batches of each product are added each year to the program to determine if the shelf-life claim remains valid.o Detailed definition of the specific attributes to be tested at each station (timepoint).o All procedures that describe these and other elements of your remediated stability program.
+
+Unapproved New Drugs and Misbranded Drug Violations
+
+SprinJene oral healthcare products are “drugs” as defined by section 201(g)(1)(B) of the FD&C Act, 21 U.S.C. 321(g)(1)(B), because they are intended for use in the diagnosis, cure, mitigation, treatment, or prevention of disease, and/or under section 201(g)(1)(C) of the FD&C Act, 21 U.S.C. 321(g)(1)(C), because they are intended to affect the structure or any function of the body.
+
+Examples from product labeling, including product labels and labeling from your website, https://sprinjene.com, that provide evidence of intended uses (as defined in 21 CFR 201.128) of these products include, but may not be limited to, the following:
+
+SprinJene+Sensitivity Cavity Protection Toothpaste“Drug Facts. . .UseHelps remove surface stains with regular brushing and helps prevent plaque buildup. . .. with BLACK SEED OIL (Nigella sativa) & ZINC . . . Helps relieve teeth sensitivity . . . Remineralizes Enamel . . . Helps Dry Mouth” [from your product’s outer carton]
+
+“SprinJene Natural’s Adult Sensitivity Relief with Cavity Protection is formulated to prevent cavities and help alleviate discomfort due to tooth sensitivity. Our patented formula of blackseed oil and zinc helps to protect enamel and fight inflammation while safely cleaning your teeth without harsh abrasives. . . . Key Benefits: . . . ●Cavity Prevention:Helps to effectively prevent cavities. . . . ●Sensitivity Relief:Helps to alleviate tooth sensitivity. . . . ●Enamel Protection:Helps to strengthen and protect enamel. ●Anti-Inflammatory:Helps to fight gum inflammation . . . MADE IN A FDA REGISTERED FACILITY”. [from your website https://sprinjene.com/collections/oral-care/products/natural-sensitivity-relief-toothpaste-with-cavity-protection]
+
+SprinJene Fluoride Toothpaste White Boost“Bursting with the unique benefits of Black Seed Oil . . . Drug Facts . . . Use . . . Helps in the prevention of cavities” [from your product’s outer carton]
+
+“Our premiumteeth whitening toothpastehas been accepted by theAmerican Dental Association(ADA) for its proven ability to help safely and effectively prevent tooth decay when used as directed. . . . This whitening toothpaste features a patented formula with Black Seed Oil & Zinc. . . . MADE IN A FDA REGISTERED FACILITY” [from your website at [https://sprinjene.com/collections/oral-care/products/white-boost]
+
+SprinJene Fluoride Toothpaste Fresh Boost“Bursting with the unique benefits of Black Seed Oil . . .Drug Facts . . . Use. . . Helps in the prevention of cavities” [from your product’s outer carton]
+
+“Discover SprinJene Natural's Fresh Boost toothpaste, featuring a patented, breakthrough formula of black seed oil and zinc. . . .Enamel Protection:Black seed oil and zinc helps to strengthen and protect enamel. . . .About Our Patented Formula of Black Seed Oil and Zinc:. . . SprinJene's Original Fresh Boost toothpaste features a patented formula with zinc and black seed oil, along with “good for you” ingredients like coconut oil, birch tree xylitol, and acacia gum. . . . • Provide relief from dry mouth . . . • May help to control the growth of tartar . . . • Fight gingivitis (gum disease) . . . • May reduce gum inflammation . . . MADE IN A FDA REGISTERED FACILITY” [from your website at https://sprinjene.com/collections/oral-care/products/fresh-boost]
+
+SprinJene Fluoride Toothpaste Health Boost“Bursting with the unique benefits of Black Seed Oil . . .Drug Facts . . . Use. . . Helps in the prevention of cavities” [from your product’s outer carton]
+
+“SprinJene Health Booth Toothpastetastes great and was developed especially for those with sensitive teeth and gums. . . . This toothpaste features a patented formula with zinc and black seed oil. . . . MADE IN A FDA REGISTERED FACILITY” [from your website at https://sprinjene.com/collections/oral-care/products/original-health-boost]“ Learn about the benefits of using SprinJene Original® Health Boost. . . . Zinc naturally inhibits the growth of bacteria that cause gum disease.” [from your website at https://sprinjene.com/pages/benefits-natural-toothpaste]
+
+SprinJene Children’s Toothpaste Bubble Gum“CAVITY PROTECTION . . . ● HELPS DRY MOUTH . . . with Black Seed Oil & Zinc . . .Drug Facts . . . Use. . . Helps in the prevention of cavities” [from your product’s outer carton]
+
+“Reinforce healthy habits with our children's natural bubblegum toothpaste, specially formulated for cavity protection. This toothpaste blends natural ingredients and plant based extracts, including our patented blend of black seed oil and zinc formula, to protect enamel, fight cavities, and support gum health. . . . Children’s SprinJene Natural® Bubble Gum Toothpaste with Cavity Protection features a patented formula with zinc and black seed oil, along with ’good for you’ ingredients like coconut oil, birch tree xylitol, and acacia gum. This patented Bubble Gum toothpaste formula can help to: Provide relief from dry mouth. . . . Control the growth of tartar. . . . Fight gingivitis (gum disease). . . . Reduce gum inflammation. . . . MADE IN A FDA REGISTERED FACILITY” [from your website at https://sprinjene.com/collections/oral-care/products/childrens-bubble-gum-toothpaste-with-cavity-protection-by-sprinjene-natural]
+
+SprinJene Children’s Toothpaste Watermelon“CAVITY PROTECTION . . . ● HELPS DRY MOUTH . . . with Black Seed Oil & Zinc . . .Drug Facts . . . Use. . . Helps in the prevention of cavities” [from your product’s outer carton]
+
+“Formulated with a blend of natural ingredients and plant-based extracts, including our patented formula of black seed oil and zinc, it helps protect enamel, fight cavities, and support gum health. . . Children’s SprinJene Natural Watermelon Toothpaste with Cavity Protection features a patented formula with zinc and black seed oil, along with ‘good for you’ ingredients like coconut oil, birch tree xylitol, and acacia gum. This patented watermelon toothpaste formula can help to: Provide relief from dry mouth. . . . Control the growth of tartar. . . . Fight gingivitis (gum disease). . . . Reduce gum inflammation. . . . MADE IN A FDA REGISTERED FACILITY” (from your website at https://sprinjene.com/collections/oral-care/products/children-natural-watermelon-toothpaste-with-cavity-protection]
+
+Website claims for all SprinJene Toothpastes“Here you will find the complete list of natural ingredients used for the SprinJene Natural Toothpaste line of products. . . .Premium Black Seed Oil. . . Has been documented in numerous scientific papers for its anti-inflammation and anti-bacterial benefits from the molecule Thymoquinone to help maintain healthy gums. Helps lubricate the oral surfaces, bringing relief to dry mouth sufferers. . . .Zinc. . . Helps control the growth of bacteria, plaque and tartar thereby promoting healthy gums . . .Natural Xylitol. . . Helps protect teeth against decay. . . .Natural Coconut Oil. . . Helps to lubricate oral surfaces to bring comfort to dry mouth sufferers and may help to prevent tooth decay after some enzyme digestion.” [from your website under the heading “Our Ingredients” which is found under the “About Us” tab at https://sprinjene.com/pages/ingredients]
+
+Based on the above labeling evidence, your SprinJene oral healthcare products are drug products intended for use as over-the-counter (OTC) anticaries drug products. Furthermore, your SprinJene+Sensitivity Cavity Protection Toothpaste product is additionally intended for use as an antiplaque/antigingivitis and a tooth desensitizer oral healthcare product; your SprinJene Fluoride Toothpaste Health Boost product is additionally intended for use as a tooth desensitizer oral healthcare product; your SprinJene Fluoride Toothpaste Fresh Boost, SprinJene Children’s Toothpaste Bubblegum, and SprinJene Children’s Toothpaste Watermelon are additionally intended for use as OTC antigingivitis/antiplaque drug products. As described below, these OTC drug products are unapproved new drugs marketed in violation of sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C. 355(a) and 331(d).
+
+In general, a drug product is a “new drug” within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p), if it is not generally recognized as safe and effective (GRASE) for use under the conditions prescribed, recommended, or suggested in its labeling. With certain exceptions not applicable here, a new drug may not be introduced or delivered for introduction into interstate commerce without an approved application from FDA in effect, as described in section 505(a) of the FD&C Act, 21 U.S.C. 355(a), unless it is lawfully marketed under section 505G of the FD&C Act, 21 U.S.C 355h. No FDA-approved applications pursuant to section 505 of the FD&C Act, 21 U.S.C. 355, are in effect for any of the drug products identified above.
+
+SprinJene Anticaries Oral Healthcare Drug Products
+
+Your SprinJene oral healthcare products are drug products marketed as anticaries drug products that are subject to section 505G of the FD&C Act, 21 U.S.C. 355h, which governs nonprescription drugs marketed without an approved application.
+
+Under section 505G of the FD&C Act, certain nonprescription drugs marketed without an approved application —commonly referred to as "OTC monograph drugs"—may be legally marketed if they meet applicable requirements. With respect to nonprescription (OTC) anticaries drug products, in order to be GRASE and not new drugs, the product must, among other things, conform to the conditions of use set forth in the applicable OTC monograph(s). Nonprescription (OTC) anticaries drug products are addressed in the “Anticaries Drug Products for Over-the-Counter Human Use” (M021).2
+
+However, the SprinJene oral healthcare products described above do not comply with conditions specified in M021. Specifically, according to your website labeling, www.sprinjene.com, these products contain the active ingredients black seed oil and zinc in a “patented formula” that also includes birch tree xylitol, natural coconut oil, and acacia gum. Your website labeling for these products makes claims that include but are not limited to “Black Seed Oil: prevents gingivitis”, “Zinc: controls plaque”, “Birch Tree Xylitol: reduces decay”, “Coconut Oil: removes bacteria”, and “Acacia Gum: cleans teeth”. For purposes of OTC drug product labeling, CFR 201.66(b)(2) defines “active ingredient” to mean “any component that is intended to furnish pharmacological activity or other direct effect in the diagnosis, cure, mitigation, treatment, or prevention of disease, or to affect the structure or any function of the body of humans.”3Although your firm does not specifically list your “patented black seed oil and zinc formula” or the other ingredients of birch tree xylitol, natural coconut oil, and acacia gum as active ingredients, the claims on your website labeling, described above these specific ingredients, demonstrate that these are active ingredients because these ingredients are intended to furnish pharmacological activity.
+
+Moreover, the ingredients consisting of your “patented black seed oil and zinc formula” are prominently featured on the principal display panel (PDP) of your SprinJene oral healthcare products’ labels, which, combined with the website claims described above, further suggests that these ingredients consisting of black seed oil and zinc in a “patented formula” as well as birch tree xylitol, natural coconut oil, and acacia gum are intended as an active ingredients. None of the ingredients listed above are permitted as active ingredients in combination or alone under M021 for anticaries drug products. Thus, your SprinJene oral healthcare drug products identified above do not comply with the conditions set forth in M021 and have not otherwise been found GRASE. Accordingly, these products are new drugs within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p), and there is no basis under section 505G of the FD&C Act in which this product would be legally marketed without an approved application.
+
+Because there are no applications in effect for these products, the SprinJene oral healthcare products are unapproved new drugs.
+
+The introduction or delivery for introduction of these unapproved new drug products into interstate commerce violates sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C. 355(a) and 331(d).
+
+Anticaries, Antiplaque/Antigingivitis, and Tooth Desensitizer Oral Healthcare Drug Product
+
+Furthermore, your SprinJene+Sensitivity Cavity Protection Toothpaste is marketed as a combination OTC anticaries, antiplaque/antigingivitis, and tooth desensitizer oral healthcare drug product that is subject to three distinct rulemakings under section 505G.
+
+As discussed above, anticaries drug products are addressed in M021. Tooth desensitizer oral healthcare products are addressed in the “Oral Healthcare Drug Products for Over-the-Counter Human Use” (M022).4In addition, under section 505G(a)(3) of the FD&C Act,5antigingivitis/antiplaque oral healthcare drug products for OTC use are not required to have an approved application in order to be legally marketed as long as they conform to the conditions set forth in the 2003 advance notice of proposed rulemaking (ANPR) entitled “Oral Health Care Drug Products for Over-the-Counter Human Use; Antigingivitis/Antiplaque Drug Products; Establishment of a Monograph,” 68 FR 32232 (May 29, 2003) (hereinafter “2003 ANPR”),6and comply with all other applicable requirements.
+
+However, your SprinJene+Sensitivity Cavity Protection Toothpaste drug product as labeled and formulated does not comply with the applicable conditions specified in either M021, M022, or the 2003 ANPR. Specifically, this product is not in compliance with the deemed final orders nor the 2003 ANPR that allow for a three-way combination OTC drug product of an anticaries, antigingivitis/antiplaque, and tooth desensitizer.
+
+Thus, your SprinJene+Sensitivity Cavity Protection Toothpaste drug product does not comply with the applicable conditions specified in M021, M022, or in the 2003 ANPR and has not otherwise been found GRASE.7Accordingly, this product is a new drug within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p), and there is no basis under section 505G of the FD&C Act under which this product would be legally marketed without an approved application. Because there are no applications in effect for this product, your SprinJene+Sensitivity Cavity Protection Toothpaste is an unapproved new drug.
+
+The introduction or delivery for introduction of these unapproved new drug products into interstate commerce violates sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C. 355(a) and 331(d).
+
+Anticaries & Antigingivitis/Antiplaque Oral Healthcare Drug Products
+
+In addition, you also market your SprinJene Fluoride Toothpaste Fresh Boost, SprinJene Children’s Toothpaste Bubble Gum, and SprinJene Children’s Toothpaste Watermelon drug products as combination OTC anticaries drug products and antigingivitis/antiplaque oral healthcare drug products, which are each subject to two distinct rulemakings under section 505G.
+
+As previously mentioned, under section 505G, anticaries drug products are addressed in M021 and antigingivitis/antiplaque oral healthcare drug products must conform to the conditions set forth in the 2003 ANPR and comply with all other applicable requirements.
+
+However, as labeled and formulated, SprinJene Fluoride Toothpaste Fresh Boost, SprinJene Children’s Toothpaste Bubble Gum, and SprinJene Children’s Toothpaste Watermelon drug products do not comply with the conditions set forth in M021 nor do they conform with the conditions described in the 2003 ANPR for antigingivitis/antiplaque drug products. Specifically, this product is not in compliance with the deemed final orders nor the 2003 ANPR that allow for a two-way combination of intended uses as an anticaries drug product and an antigingivitis/antiplaque oral healthcare drug product.
+
+Thus, SprinJene Fluoride Toothpaste Fresh Boost, SprinJene Children’s Toothpaste Bubble Gum, and SprinJene Children’s Toothpaste Watermelon drug products do not comply with the applicable conditions specified in M021 and have not otherwise been found GRASE. Such products also do not meet the conditions described in the 2003 ANPR nor any other final order or proposed rulemaking. Therefore, these products are new drugs within the meaning of section 201(p) of the FD&C Act, 21 U.S.C. 321(p), and there is no basis under section 505G of the FD&C Act under which these products would be legally marketed without an approved application. Because there are no approved applications in effect for these products, these products are unapproved new drugs.
+
+The introduction or delivery for introduction of unapproved new drug products into interstate commerce violates sections 505(a) and 301(d) of the FD&C Act, 21 U.S.C. 355(a) and 331(d).
+
+Additionally, your SprinJene oral healthcare products misbranded drug products under section 502(a) of the FD&C Act, 21 U.S.C. 352(a), because the product labels and/or websites include statements that misleadingly suggest that the drug products are approved or endorsed by FDA in some way. For example, your website includes the claim, “MADE IN A FDA REGISTERED FACILITY” on its homepage as well as each product page. FDA’s regulations provide that “[r]egistration of an establishment or listing of a drug does not denote approval of the establishment, the drug, or other drugs of the establishment, nor does it mean that a product may be legally marketed” (21 CFR 207.77(a)). However, the general public is not likely to be familiar with the details of FDA’s regulations. The above assertions misleadingly suggest that the above-mentioned drug products are approved or endorsed by FDA in some way. Your SprinJene oral healthcare products are drug products that are not the subject of an FDA-approved application. Therefore, these products are misbranded under section 502(a) of the FD&C Act, 21 U.S.C. 352(a), because their labeling is false or misleading.
+
+In addition, your SprinJene oral healthcare products are drug products that are further misbranded under section 502(ee) of the FD&C Act, 21 U.S.C. 352(ee), because these products are nonprescription drugs subject to section 505G of the FD&C Act, 21 U.S.C. 355h, but do not comply with the requirements for marketing under that section and are not the subject of an application approved under section 505 of the FD&C Act, 21 U.S.C. 355.
+
+The introduction or delivery for introduction of a misbranded drug into interstate commerce violates section 301(a) of the FD&C Act, 21 U.S.C. 331(a).
+
+Based upon the nature of the violations we identified at your firm, you should engage a consultant qualified as set forth in 21 CFR 211.34 to evaluate your operations and to assist your firm in meeting CGMP requirement. The qualified consultant should also perform a comprehensive six-system audit of your entire operation for CGMP compliance and evaluate the completion and efficacy of your CAPAs before you pursue resolution of your firm’s compliance status with FDA. Your use of a consultant does not relieve your firm’s obligation to comply with CGMP. Your firm’s executive management remains responsible for resolving all deficiencies and systemic flaws to ensure ongoing CGMP compliance.
+
+Cosmetics Manufactured for Distribution in the United States
+
+In addition, we note that some of the products you manufacture may be regulated as cosmetics, as defined in section 201(i) of the FD&C Act [21 U.S.C. 321(i)]. Any cosmetics you manufacture must comply with applicable statutory and regulatory requirements, including the FD&C Act. Under section 301(a) of the FD&C Act [21 U.S.C. 331(a)], it is a prohibited act to introduce or deliver for introduction into interstate commerce a cosmetic that is adulterated or misbranded.
+
+Further, your facility may be subject to requirements of the Modernization of Cosmetics Regulation Act of 2022 (MoCRA). Information on MoCRA requirements may be found at https://www.fda.gov/cosmetics/cosmetics-laws-regulations/modernization-cosmetics-regulation-act-2022-mocra.
+
+The violations cited in this letter are not intended to be an all-inclusive list of violations that exist at your facility. You are responsible for investigating and determining the causes of any violations and for preventing their recurrence or the occurrence of other violations.
+
+Correct any violations promptly. Failure to promptly and adequately address this matter may result in regulatory or legal action without further notice including, without limitation, seizure and injunction. Unresolved violations may also prevent other Federal agencies from awarding contracts.
+
+Failure to address violations may also cause FDA to withhold issuance of Export Certificates. FDA may withhold approval of new applications or supplements listing your firm as a drug manufacturer until any violations are completely addressed and we confirm your compliance with CGMP. We may re-inspect to verify that you have completed corrective actions to address any violations.
+
+This letter notifies you of our findings and provides you an opportunity to address the above deficiencies. After you receive this letter, respond to this office in writing within 15 working days. Specify what you have done to address any violations and to prevent their recurrence. In response to this letter, you may provide additional information for our consideration as we continue to assess your activities and practices. If you cannot complete corrective actions within 15 working days, state your reasons for delay and your schedule for completion.
+
+Send your electronic reply to CDER-OC-OMQ-Communications@fda.hhs.gov. Identify your response with FEI 3011061274 and ATTN: Nancy Espinal.
+
+Francis GodwinDirectorOffice of Manufacturing QualityOffice of ComplianceCenter for Drug Evaluation and Research
+
+Tina SmithCaptain, U.S. Public Health ServiceDirectorOffice of Unapproved Drugs & Labeling ComplianceOffice of ComplianceCenter for Drug Evaluation and Research
+
+1Components with higher risk of DEG or EG contamination compared to other drug components.
+
+2M021, in the final administrative order, Over-the-Counter Monograph M021: Anticaries Drug Products for OTC Human Use, reflects the conditions in the relevant final order established and in effect under section 505G. See Order ID OTC000034, available at FDA’s website OTC Monographs@FDA, https://www.accessdata.fda.gov/scripts/cder/omuf/.)
+
+4M022, the final administrative order, Over-the-Counter Monograph M022: Oral Healthcare Drug Products for OTC Human Use, reflects the conditions in the relevant final order established and in effect under section 505G. See Order ID OTC000028, available at FDA’s website OTC Monographs@FDA, https://www.accessdata.fda.gov/scripts/cder/omuf/.)
+
+5Under section 505G(a)(3) of the FD&C Act, drugs that were classified as Category I for safety and effectiveness in an advance notice of proposed rulemaking (ANPR) that is the most recently applicable proposal or determination issued under 21 CFR Part 330 are not required to have an approved application under section 505 in order to be marketed, as long as they are in conformity with the relevant conditions of use outlined in the applicable ANPR, including labeling conditions, and comply with all other applicable requirements.
+
+6We note that OTC antigingivitis/antiplaque oral healthcare drug products were addressed in an ANPR entitled “Oral Health Care Drug Products for Over-the-Counter Human Use; Antigingivitis/Antiplaque Drug Products; Establishment of a Monograph,” (68 FR 32232, May 29, 2003) (hereinafter “2003 ANPR”).
+
+7FDA is not aware of any adequate and well-controlled clinical trials in the published literature that support a determination that SprinJene+Sensitivity Cavity Protection Toothpaste, SprinJene Fluoride Toothpaste White Boost, SprinJene Fluoride Toothpaste Fresh Boost, SprinJene Fluoride Toothpaste Health Boost, SprinJene Children’s Toothpaste Bubblegum, and SprinJene Children’s Toothpaste Watermelon drug products are GRASE for use under the conditions prescribed, recommended, or suggested in their labeling, nor has FDA determined these drug products to be GRASE pursuant to an order issued under section 505G(b)
