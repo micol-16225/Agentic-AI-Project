@@ -1,20 +1,55 @@
-title,source_type,content
-ICH E9 (R1),Statutory,"The Estimand Framework: Requires precise definition of 'what' is being estimated. Must specify strategies for Intercurrent Events: Treatment-policy, Hypothetical, Composite, While-on-treatment, and Stratum-plus-variable."
-ICH E9,Statutory,"Statistical Principles for Clinical Trials: MANDATES pre-specification of primary/secondary endpoints, ITT population usage, and Type I Error (Alpha) control."
-21 CFR Part 314.126,Statutory,Defines 'adequate and well-controlled' studies. Failure to provide valid statistical evidence is grounds for a Refusal to File (RTF).
-21 CFR Part 312.62,Statutory,"Investigator Recordkeeping: Requires accurate, complete, and verifiable case histories. Statistical validity is void if source docs don't match database."
-FDA Multiplicity Guidance,Statutory,Requires Family-Wise Error Rate (FWER) control. Failure to adjust for multiplicity in secondary endpoints is considered data-dredging.
-BIMO Compliance,Statutory,"Bioresearch Monitoring: Focuses on data integrity, operational bias, and ensuring a 'Firewall' between unblinded personnel and trial leads."
-Rubin (1976) Biometrika,Academic,"Inference and Missing Data: Defines MAR, MCAR, and MNAR. If drop-outs are treatment-related, MAR assumptions are invalid."
-Benjamini & Hochberg (1995),Academic,Controlling the False Discovery Rate (FDR): Critical for trials with multiple secondary endpoints or subgroups.
-Mehta & Pocock (2011) Stat Med,Academic,Adaptive Designs: The 'Promising Zone' logic for Sample Size Re-estimation (SSR) without statistical penalty.
-O'Brien & Fleming (1979),Academic,Group Sequential Designs: Alpha-spending functions to allow interim looks without inflating Type I Error.
-Akacha et al. (2017),Academic,Estimands in practice: Standardizes the handling of rescue medication and treatment discontinuation in longitudinal models.
-Rothwell (2005) Lancet,Academic,External Validity: Warning against 'Sanitized' trial populations that don't represent real-world clinical practice.
-Rosenbaum & Rubin (1983),Academic,Propensity Scoring: Required for causal inference when analyzing non-randomized treatment switches.
-Rule of Parsimony,Architect,Minimize exclusion criteria to maximize generalizability. Prioritize clinical endpoints over surrogates.
-HITL Verification Protocol,Architect,"Mandatory Gates: G-01 Feasibility, G-02 Risk Appetite, G-03 Ethics, G-04 MCID Assumptions."
-FDA CRL: nan,FDA_Letter,"Date: 06/11/2018 | Issue: ser,
+title,type,content,source,date
+ICH E9 (R1) Section 3.3.1,Statutory,An estimand is a precise description of the treatment effect reflecting the clinical question posed by a given clinical trial objective. It summarises at a population level what the outcomes would be in the same patients under different treatment conditions being compared.,,
+ICH E9 (R1) Section 5.2,Statutory,The use of the last observation carried forward (LOCF) approach is generally not acceptable because it can result in biased estimates of the treatment effect and can lead to misleading conclusions.,,
+ICH E9 (R1) Section 5.1,Statutory,"Strategies for handling intercurrent events include: Treatment-policy, Hypothetical, Composite, While-on-treatment, and Stratum-plus-variable.",,
+21 CFR 314.126(a),Statutory,Reports of adequate and well-controlled investigations provide the primary basis for determining whether there is 'substantial evidence' to support the claims of effectiveness for new drugs and antibiotics.,,
+21 CFR 314.126(b)(6),Statutory,"The protocol and report of the study should describe the procedures used to accomplish minimization of bias on the part of the subjects, observers, and analysts of the data.",,
+FDA Multiplicity Guidance (2022) Section III,Statutory,Procedures to control the Type I error rate should be pre-specified to ensure that the probability of making at least one Type I error does not exceed the desired level of significance.,,
+ICH E9 Section 5.2.1,Statutory,The Full Analysis Set (FAS) should be used in the primary analysis. The FAS is as close as possible to the intention-to-treat ideal and includes all randomized subjects who received at least one dose of study medication.,,
+ICH E9 Section 5.7,Statutory,The study protocol should identify those subgroups that are expected to be of primary interest and the statistical methods for examining them. Interactions between treatment and subgroups should be explored.,,
+FDA Multiplicity Guidance Section V,Statutory,A common method to control the FWER is a hierarchical (or fixed-sequence) testing procedure where the primary and secondary endpoints are tested in a pre-specified order.,,
+ICH E3 Section 11.4.2.7,Statutory,"The SAP should describe the statistical methods for handling dropouts and missing data. If any 'ad hoc' analyses were performed, they must be clearly identified and justified.",,
+ICH E6 (R2) Section 5.5.3,Statutory,"When using electronic trial data handling systems, the sponsor should ensure and document that the systems are designed to permit data changes in such a way that the data changes are documented and that there is no deletion of entered data (i.e., maintain an audit trail).",,
+Common BIMO Pitfalls,Pitfall,"- Source Verification: 100% of data in the final report must match the ""Source Docs"" (hospital notes). ",BIMO_Pitfalls,
+Statistical Formulas,Technical,"- MMRM (Mixed Model for Repeated Measures): $Y_i = X_i\beta + Z_i b_i + \epsilon_i$ where $\epsilon_i \sim N(0, R_i)$.
+- Cox Proportional Hazards: $h(t|x) = h_0(t) \exp(\beta^T x)$.
+- Alpha Spending (O'Brien-Fleming): $lpha(t) = 2 - 2\Phi(Z_{lpha/2} / \sqrt{t})$.",Big_Pharma_Models,
+The Architect: Design Principles,Architecture,"--- SECTION 11: DESIGN PRINCIPLES (THE ARCHITECT) ---
+- Rule of Parsimony: Minimize exclusion criteria to maximize real-world application.
+- Endpoint Hierarchy: Prioritize ""Hard"" clinical endpoints over ""Surrogate"" markers.
+- Blinding Firewall: Protocols must define the ""Firewall"" between unblinded statisticians and trial leads.",Design_Principles,
+Reasoning & Human-In-The-Loop,Process_Standard,"--- SECTION 12: REASONING & HUMAN-IN-THE-LOOP (HITL) PROTOCOLS ---
+GOAL: Transform ""Black Box"" AI into ""White Box"" Augmented Intelligence. 
+
+REASONING STANDARDS:
+1. TRACEABILITY: Every recommendation must be traced back to ICH guidelines or Elite 100 Index.
+2. MATHEMATICAL EXPLICITNESS: Provide distribution assumptions (e.g., ""Normal likelihood with Unstructured Covariance Matrix"") and LaTeX notation.
+3. CLINICAL CONTEXT: Connect math to the patient (e.g., MAR violations due to toxicity).
+
+HUMAN-IN-THE-LOOP (HITL) MANDATORY GATES:
+- G-01 (Feasibility): Verify recruitment potential for suggested N.
+- G-02 (Risk Appetite): Approve ""Promising Zone"" boundaries for Adaptive Designs.
+- G-03 (Ethics/Safety): Verify clinical importance of composite endpoint components.
+- G-04 (Assumptions): Verify if Effect Size (delta) is Minimally Clinically Important (MCID).
+
+VERIFICATION LOGIC:
+If the human ""Rejects"" a step, the Agent must provide a ""Sensitivity Analysis"" showing how the design changes under the human's preferred assumptions.",HITL_Protocol,
+Multiplicity & P-Hacking,Academic_Rigor,"DOMAIN: MULTIPLICITY & P-HACKING (Logic: Controlling False Positives)
+- Key Citations: Benjamini & Hochberg (1995) JRSSB; Westfall & Young (1993) JASA; Adda et al. (PNAS 2020).
+- Expert Rule: Flag ""Spikes"" in p-values near 0.05. If multiple secondary endpoints are claimed as ""Successes"" without FDR control, cite Benjamini & Hochberg.",academic_Index,
+Missing Data & Estimands,Academic_Rigor,"DOMAIN: MISSING DATA & ESTIMANDS (Logic: Handling Drop-outs)
+- Key Citations: Rubin (1976) Biometrika; Hernán & Robins (2024) Causal Inference; ICH E9(R1).
+- Expert Rule: Distinguish between MAR/MNAR. If drop-outs are treatment-related (e.g., side effects), ""Missing at Random"" assumptions fail. Demand sensitivity analyses per Rubin (1976).",academic_Index,
+Adaptive Designs,Academic_Rigor,"DOMAIN: ADAPTIVE DESIGNS (Logic: The ""Promising Zone"")
+- Key Citations: Mehta & Pocock (2011) Stat. Med.; O'Brien & Fleming (1979) Biometrics.
+- Expert Rule: Sample size re-estimation (SSR) is only valid without penalty if the interim result is in the ""Promising Zone."" Ad-hoc doubling of N is a ""Statistical Penalty"" event.",academic_Index,
+External Validity,Academic_Rigor,"DOMAIN: EXTERNAL VALIDITY (Logic: Generalizability)
+- Key Citations: Rothwell (2005) Lancet; Pearl (2011) JASA.
+- Expert Rule: Flag ""Sanitized"" populations. If exclusion criteria make the study group unrepresentative of real-world patients, cite Rothwell (2005).",academic_Index,
+Causal Inference,Academic_Rigor,"DOMAIN: CAUSAL INFERENCE (Logic: Fairness)
+- Key Citations: Rosenbaum & Rubin (1983) Biometrika; Robins et al. (2000) Epidemiology.
+- Expert Rule: Ensure ""Fair Comparison."" Check for Propensity Score usage or G-estimation if treatment switching occurred.",academic_Index,
+,TYPE B: Statistical/Regulatory Consequence (CRL),"ser,
 GO ” y
 
 >
@@ -736,8 +771,8 @@ NORMAN L STOCKBRIDGE
 06/11/2018
 
 Reference ID: 4275803
-"
-FDA CRL: nan,FDA_Letter,"Date: 03/29/2022 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,06/11/2018
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -1080,8 +1115,8 @@ HYLTON V JOFFE
 03/29/2022 10:11:23 PM
 
 Reference ID: 4960457
-"
-FDA CRL: nan,FDA_Letter,"Date: 10/10/2024 | Issue: i Lk YN U.S. FOOD & DRUG
+",FDA_Historical,03/29/2022
+,TYPE B: Statistical/Regulatory Consequence (CRL),"i Lk YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -1280,8 +1315,8 @@ electronic signatures for this electronic record.
 10/10/2024 12:34:29 PM
 
 Reference ID: 5460872
-"
-FDA CRL: nan,FDA_Letter,"Date: 09/24/2021 | Issue: ¢ YN U.S. FOOD & DRUG
+",FDA_Historical,10/10/2024
+,TYPE B: Statistical/Regulatory Consequence (CRL),"¢ YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -1683,8 +1718,8 @@ TIFFANY R FARCHIONE
 09/24/2021 01:21:11 PM
 
 Reference ID: 4861793
-"
-FDA CRL: nan,FDA_Letter,"Date: 10/29/2024 | Issue: i Lk YN U.S. FOOD & DRUG
+",FDA_Historical,09/24/2021
+,TYPE B: Statistical/Regulatory Consequence (CRL),"i Lk YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -1883,8 +1918,8 @@ electronic signatures for this electronic record.
 10/29/2024 03:47:13 PM
 
 Reference ID: 5470677
-"
-FDA CRL: nan,FDA_Letter,"Date: 03/29/2024 | Issue: i Lk YN U.S. FOOD & DRUG
+",FDA_Historical,10/29/2024
+,TYPE B: Statistical/Regulatory Consequence (CRL),"i Lk YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -2123,8 +2158,8 @@ LAURA A JAWIDZIK
 03/29/2024 12:50:44 PM
 
 Reference ID: 5352299
-"
-FDA CRL: nan,FDA_Letter,"Date: 10/05/2021 | Issue: ¢ YN U.S. FOOD & DRUG
+",FDA_Historical,03/29/2024
+,TYPE B: Statistical/Regulatory Consequence (CRL),"¢ YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -2401,8 +2436,8 @@ CHARLES J GANLEY
 10/05/2021 03:19:17 PM
 
 Reference ID: 4867910
-"
-FDA CRL: nan,FDA_Letter,"Date: 03/11/2025 | Issue: ¢ IN U.S. FOOD & DRUG
+",FDA_Historical,10/05/2021
+,TYPE B: Statistical/Regulatory Consequence (CRL),"¢ IN U.S. FOOD & DRUG
 
 ADMINISTRATION
 Net
@@ -2650,8 +2685,8 @@ electronic signatures for this electronic record.
 03/11/2025 10:29:02 AM
 
 Reference ID: 5546729
-"
-FDA CRL: nan,FDA_Letter,"Date: 06/25/2021 | Issue: ¢ Py U.S. FOOD & DRUG
+",FDA_Historical,03/11/2025
+,TYPE B: Statistical/Regulatory Consequence (CRL),"¢ Py U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -3402,8 +3437,8 @@ JULIE G BEITZ
 06/25/2021 10:19:12 AM
 
 Reference ID: 4817053
-"
-FDA CRL: nan,FDA_Letter,"Date: 12/19/2019 | Issue: iPyN U.S. FOOD & DRUG
+",FDA_Historical,06/25/2021
+,TYPE B: Statistical/Regulatory Consequence (CRL),"iPyN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -3634,8 +3669,8 @@ JOHN J FARLEY
 12/19/2019 05:17:22 PM
 
 Reference ID: 4537145
-"
-FDA CRL: nan,FDA_Letter,"Date: 05/20/2021 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,12/19/2019
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -3959,8 +3994,8 @@ ALBERT B DEISSEROTH
 05/20/2021 07:26:23 PM
 
 Reference ID: 4798988
-"
-FDA CRL: nan,FDA_Letter,"Date: 01/31/2014 | Issue: ey
+",FDA_Historical,05/20/2021
+,TYPE B: Statistical/Regulatory Consequence (CRL),"ey
 
 i DEPARTMENT OF HEALTH AND HUMAN SERVICES
 om Food and Drug Administration
@@ -4166,8 +4201,8 @@ ERIC P BASTINGS
 01/31/2014
 
 Reference ID: 3446071
-"
-FDA CRL: nan,FDA_Letter,"Date: 05/05/2023 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,01/31/2014
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -4436,8 +4471,8 @@ FRANK A ANANIA
 05/05/2023 09:30:34 AM
 
 Reference ID: 5169156
-"
-FDA CRL: nan,FDA_Letter,"Date: 02/25/2008 | Issue: Pomenrs
+",FDA_Historical,05/05/2023
+,TYPE C: Other BIMO Correspondence,"Pomenrs
 s ty
 
 € DEPARTMENT OF HEALTH & HUMAN SERVICES Public Health Service
@@ -4674,8 +4709,8 @@ this page is the manifestation of the electronic signature.
 
 Robert Temple
 2/25/2008 05:15:46 PM
-"
-FDA CRL: nan,FDA_Letter,"Date: 02/28/2011 | Issue: seca,
+",FDA_Historical,02/25/2008
+,TYPE B: Statistical/Regulatory Consequence (CRL),"seca,
 ; eng
 
 RS
@@ -5751,8 +5786,8 @@ RUSSELL G KATZ
 Reference ID: 2910781
 
 Reference ID: 4413345
-"
-FDA CRL: nan,FDA_Letter,"Date: 05/18/2020 | Issue: U.S. FOOD & DRUG
+",FDA_Historical,02/28/2011
+,TYPE B: Statistical/Regulatory Consequence (CRL),"U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -6078,8 +6113,8 @@ SUMATHI NAMBIAR
 05/18/2020 06:09:03 PM
 
 Reference ID: 4610585
-"
-FDA CRL: nan,FDA_Letter,"Date: 10/08/2024 | Issue: ADMINISTRATION
+",FDA_Historical,05/18/2020
+,TYPE B: Statistical/Regulatory Consequence (CRL),"ADMINISTRATION
 
 o FN U.S. FOOD & DRUG
 &
@@ -6398,8 +6433,8 @@ electronic signatures for this electronic record.
 10/08/2024 04:31:33 PM
 
 Reference ID: 5459701
-"
-FDA CRL: nan,FDA_Letter,"Date: 09/30/2024 | Issue: PrN U.S. FOOD & DRUG
+",FDA_Historical,10/08/2024
+,TYPE B: Statistical/Regulatory Consequence (CRL),"PrN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -6767,8 +6802,8 @@ TATIANA OUSSOVA
 09/30/2024 08:04:01 PM
 
 Reference ID: 5499666
-"
-FDA CRL: nan,FDA_Letter,"Date: 03/22/2017 | Issue: ws
+",FDA_Historical,09/30/2024
+,TYPE B: Statistical/Regulatory Consequence (CRL),"ws
 
 i St DEPARTMENT OF HEALTH AND HUMAN SERVICES
 
@@ -6874,8 +6909,8 @@ WILLIAM H Dunn
 03/22/2017
 
 Reference ID: 4073337
-"
-FDA CRL: nan,FDA_Letter,"Date: 11/24/2015 | Issue: pute
+",FDA_Historical,03/22/2017
+,TYPE B: Statistical/Regulatory Consequence (CRL),"pute
 
 Gas OF HEALTH AND HUMAN SERVICES
 
@@ -7106,8 +7141,8 @@ JOSEPH E GOOTENBERG
 11/24/2015
 
 Reference ID: 3851154
-"
-FDA CRL: nan,FDA_Letter,"Date: 07/02/2021 | Issue: ¢ Py U.S. FOOD & DRUG
+",FDA_Historical,11/24/2015
+,TYPE B: Statistical/Regulatory Consequence (CRL),"¢ Py U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -7481,8 +7516,8 @@ ELLIS F UNGER
 07/02/2021 05:56:17 PM
 
 Reference ID: 4821208
-"
-FDA CRL: nan,FDA_Letter,"Date: 05/29/2015 | Issue: ,
+",FDA_Historical,07/02/2021
+,TYPE B: Statistical/Regulatory Consequence (CRL),",
 
 ty
 : SA DEPARTMENT OF HEALTH AND HUMAN SERVICES
@@ -7718,8 +7753,8 @@ GEOFFREY S KIM
 05/29/2015
 
 Reference ID: 3769331
-"
-FDA CRL: nan,FDA_Letter,"Date: 12/20/2022 | Issue: (¢ YN U.S. FOOD & DRUG
+",FDA_Historical,05/29/2015
+,TYPE B: Statistical/Regulatory Consequence (CRL),"(¢ YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -7921,8 +7956,8 @@ NIKOLAY P NIKOLOV
 12/20/2022 08:30:45 PM
 
 Reference ID: 5098083
-"
-FDA CRL: nan,FDA_Letter,"Date: 06/02/2017 | Issue: pute,
+",FDA_Historical,12/20/2022
+,TYPE B: Statistical/Regulatory Consequence (CRL),"pute,
 
 Mie
 
@@ -8088,8 +8123,8 @@ EDVARDAS KAMINSKAS
 
 Reference ID: 4106424
 Reference ID: 4576702
-"
-FDA CRL: nan,FDA_Letter,"Date: 07/13/2020 | Issue: ADMINISTRATION
+",FDA_Historical,06/02/2017
+,TYPE B: Statistical/Regulatory Consequence (CRL),"ADMINISTRATION
 
 g YN U.S. FOOD & DRUG
 
@@ -8433,8 +8468,8 @@ KENDALL A MARCUS
 07/13/2020 03:54:44 PM
 
 Reference ID: 4639627
-"
-FDA CRL: nan,FDA_Letter,"Date: 02/28/2022 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,07/13/2020
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -8717,8 +8752,8 @@ ADAM | SHERWAT
 02/28/2022 10:39:50 AM
 
 Reference ID: 4944227
-"
-FDA CRL: nan,FDA_Letter,"Date: 09/15/2016 | Issue: mg,
+",FDA_Historical,02/28/2022
+,TYPE B: Statistical/Regulatory Consequence (CRL),"mg,
 
 St DEPARTMENT OF HEALTH AND HUMAN SERVICES
 
@@ -8945,8 +8980,8 @@ CHARLES J GANLEY
 09/15/2016
 
 Reference ID: 3986392
-"
-FDA CRL: nan,FDA_Letter,"Date: 12/23/2022 | Issue: iPyN U.S. FOOD & DRUG
+",FDA_Historical,09/15/2016
+,TYPE B: Statistical/Regulatory Consequence (CRL),"iPyN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -9488,8 +9523,8 @@ LISA B YANOFF
 12/23/2022 08:34:41 AM
 
 Reference ID: 5100155
-"
-FDA CRL: nan,FDA_Letter,"Date: 03/23/2018 | Issue: Poin
+",FDA_Historical,12/23/2022
+,TYPE B: Statistical/Regulatory Consequence (CRL),"Poin
 
 >
 i Gans OF HEALTH AND HUMAN SERVICES
@@ -9920,8 +9955,8 @@ LYDIA | GILBERT MCCLAIN
 Acting Division Director
 
 Reference ID: 4238872
-"
-FDA CRL: nan,FDA_Letter,"Date: 01/19/2018 | Issue: Qn
+",FDA_Historical,03/23/2018
+,TYPE B: Statistical/Regulatory Consequence (CRL),"Qn
 
 S
 g
@@ -10692,8 +10727,8 @@ SHARON H HERTZ
 01/19/2018
 
 Reference ID: 4209438
-"
-FDA CRL: nan,FDA_Letter,"Date: 05/21/2020 | Issue: m4 YN U.S. FOOD & DRUG
+",FDA_Historical,01/19/2018
+,TYPE B: Statistical/Regulatory Consequence (CRL),"m4 YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -10891,8 +10926,8 @@ AMNA IBRAHIM
 05/21/2020 01:12:16 PM
 
 Reference ID: 4612447
-"
-FDA CRL: nan,FDA_Letter,"Date: 09/28/2023 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,05/21/2020
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -11123,8 +11158,8 @@ KATHLEEN M DONOHUE
 Signing on behalf of Dr. Nikolov.
 
 Reference ID: 5252987
-"
-FDA CRL: nan,FDA_Letter,"Date: 11/27/2020 | Issue: U.S. FOOD & DRUG
+",FDA_Historical,09/28/2023
+,TYPE B: Statistical/Regulatory Consequence (CRL),"U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -11363,8 +11398,8 @@ SUMATHI NAMBIAR
 11/27/2020 09:44:15 AM
 
 Reference ID: 4707904
-"
-FDA CRL: nan,FDA_Letter,"Date: 03/08/2024 | Issue: ¢ IN U.S. FOOD & DRUG
+",FDA_Historical,11/27/2020
+,TYPE B: Statistical/Regulatory Consequence (CRL),"¢ IN U.S. FOOD & DRUG
 
 ADMINISTRATION
 Net
@@ -12156,8 +12191,8 @@ electronic signatures for this electronic record.
 03/08/2024 12:31:13 PM
 
 Reference ID: 5343048
-"
-FDA CRL: nan,FDA_Letter,"Date: 02/13/2013 | Issue: presi,
+",FDA_Historical,03/08/2024
+,TYPE B: Statistical/Regulatory Consequence (CRL),"presi,
 
 s ty
 i Ga OF HEALTH AND HUMAN SERVICES
@@ -12553,8 +12588,8 @@ HYLTON V JOFFE
 02/13/2013
 
 Reference ID: 3261324
-"
-FDA CRL: nan,FDA_Letter,"Date: 07/04/2024 | Issue: ADMINISTRATION
+",FDA_Historical,02/13/2013
+,TYPE B: Statistical/Regulatory Consequence (CRL),"ADMINISTRATION
 
 g¢ Ey U.S. FOOD & DRUG
 
@@ -12823,8 +12858,8 @@ TATIANA OUSSOVA
 07/04/2024 11:57:54 AM
 
 Reference ID: 5408171
-"
-FDA CRL: nan,FDA_Letter,"Date: 04/30/2019 | Issue: ent,
+",FDA_Historical,07/04/2024
+,TYPE B: Statistical/Regulatory Consequence (CRL),"ent,
 
 *y
 4 DEPARTMENT OF HEALTH AND HUMAN SERVICES
@@ -13319,8 +13354,8 @@ SHARON H HERTZ on behalf of RIGOBERTO A ROCA
 04/30/2019 05:37:37 PM
 
 Reference ID: 4426880
-"
-FDA CRL: nan,FDA_Letter,"Date: 01/29/2019 | Issue: sce,
+",FDA_Historical,04/30/2019
+,TYPE B: Statistical/Regulatory Consequence (CRL),"sce,
 ” %y
 
 i € DEPARTMENT OF HEALTH AND HUMAN SERVICES
@@ -13638,8 +13673,8 @@ ERIC P BASTINGS
 01/29/2019 09:33:29 PM
 
 Reference ID: 4383056
-"
-FDA CRL: nan,FDA_Letter,"Date: 06/25/2021 | Issue: iPyN U.S. FOOD & DRUG
+",FDA_Historical,01/29/2019
+,TYPE B: Statistical/Regulatory Consequence (CRL),"iPyN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -14104,8 +14139,8 @@ CHARLES J GANLEY
 06/25/2021 01:14:34 PM
 
 Reference ID: 4817078
-"
-FDA CRL: nan,FDA_Letter,"Date: 08/27/2015 | Issue: poten,
+",FDA_Historical,06/25/2021
+,TYPE B: Statistical/Regulatory Consequence (CRL),"poten,
 
 4 DEPARTMENT OF HEALTH AND HUMAN SERVICES
 
@@ -14300,8 +14335,8 @@ CURTIS J ROSEBRAUGH
 
 Reference ID: 3812463
 Reference ID: 4772571
-"
-FDA CRL: nan,FDA_Letter,"Date: 04/29/2022 | Issue: ADMINISTRATION
+",FDA_Historical,08/27/2015
+,TYPE B: Statistical/Regulatory Consequence (CRL),"ADMINISTRATION
 
 ¢ Py U.S. FOOD & DRUG
 
@@ -14709,8 +14744,8 @@ JULIA A BEAVER
 04/29/2022 12:27:37 PM
 
 Reference ID: 4976394
-"
-FDA CRL: nan,FDA_Letter,"Date: 04/23/2021 | Issue: ¢ RYN U.S. FOOD & DRUG
+",FDA_Historical,04/29/2022
+,TYPE B: Statistical/Regulatory Consequence (CRL),"¢ RYN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -14957,8 +14992,8 @@ JULIE G BEITZ
 04/23/2021 04:43:56 PM
 
 Reference ID: 4784685
-"
-FDA CRL: nan,FDA_Letter,"Date: 11/04/2009 | Issue: prensa,
+",FDA_Historical,04/23/2021
+,TYPE B: Statistical/Regulatory Consequence (CRL),"prensa,
 
 s
 i 4 DEPARTMENT OF HEALTH AND HUMAN SERVICES
@@ -15176,8 +15211,8 @@ signature.
 
 ELLIS F UNGER
 11/04/2009
-"
-FDA CRL: nan,FDA_Letter,"Date: 11/13/2020 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,11/04/2009
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -15712,8 +15747,8 @@ RIGOBERTO A ROCA
 11/13/2020 05:08:53 PM
 
 Reference ID: 4701652
-"
-FDA CRL: nan,FDA_Letter,"Date: 03/29/2019 | Issue: Poin
+",FDA_Historical,11/13/2020
+,TYPE B: Statistical/Regulatory Consequence (CRL),"Poin
 
 >
 i Gans OF HEALTH AND HUMAN SERVICES
@@ -15925,8 +15960,8 @@ ERIC P BASTINGS
 03/29/2019 05:57:13 PM
 
 Reference ID: 4438994
-"
-FDA CRL: nan,FDA_Letter,"Date: 03/24/2020 | Issue: -?_
+",FDA_Historical,03/29/2019
+,TYPE B: Statistical/Regulatory Consequence (CRL),"-?_
 \
 &
 
@@ -16197,8 +16232,8 @@ NICHOLAS A KOZAUER
 03/24/2020 10:24:20 PM
 
 Reference ID: 4580538
-"
-FDA CRL: nan,FDA_Letter,"Date: 11/04/2019 | Issue: g fy U.S. FOOD & DRUG
+",FDA_Historical,03/24/2020
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g fy U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -16397,8 +16432,8 @@ ALBERT B DEISSEROTH
 11/04/2019 04:31:36 PM
 
 Reference ID: 4576302
-"
-FDA CRL: nan,FDA_Letter,"Date: 10/07/2024 | Issue: ¢ IN U.S. FOOD & DRUG
+",FDA_Historical,11/04/2019
+,TYPE B: Statistical/Regulatory Consequence (CRL),"¢ IN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -16770,8 +16805,8 @@ KATHLEEN M DONOHUE
 10/07/2024 12:53:27 PM
 
 Reference ID: 5458549
-"
-FDA CRL: nan,FDA_Letter,"Date: 09/24/2019 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,10/07/2024
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -17556,8 +17591,8 @@ ALBERT B DEISSEROTH
 09/24/2019 02:29:11 PM
 
 Reference ID: 4496557
-"
-FDA CRL: nan,FDA_Letter,"Date: 02/26/2024 | Issue: ADMINISTRATION
+",FDA_Historical,09/24/2019
+,TYPE B: Statistical/Regulatory Consequence (CRL),"ADMINISTRATION
 
 i Lk YN U.S. FOOD & DRUG
 
@@ -18112,8 +18147,8 @@ electronic signatures for this electronic record.
 02/26/2024 04:33:33 PM
 
 Reference ID: 5335697
-"
-FDA CRL: nan,FDA_Letter,"Date: 06/28/2023 | Issue: ¢ YN U.S. FOOD & DRUG
+",FDA_Historical,02/26/2024
+,TYPE B: Statistical/Regulatory Consequence (CRL),"¢ YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -18315,8 +18350,8 @@ NIKOLAY P NIKOLOV
 06/28/2023 08:49:29 AM
 
 Reference ID: 5198588
-"
-FDA CRL: nan,FDA_Letter,"Date: 05/06/2016 | Issue: seat,
+",FDA_Historical,06/28/2023
+,TYPE B: Statistical/Regulatory Consequence (CRL),"seat,
 
 %
 
@@ -18739,8 +18774,8 @@ THERESA M MICHELE
 05/06/2016
 
 Reference ID: 3927975
-"
-FDA CRL: nan,FDA_Letter,"Date: 03/30/2018 | Issue: pute,
+",FDA_Historical,05/06/2016
+,TYPE B: Statistical/Regulatory Consequence (CRL),"pute,
 
 Mie
 
@@ -19017,8 +19052,8 @@ JULIA A BEAVER
 03/30/2018
 
 Reference ID: 4241941
-"
-FDA CRL: nan,FDA_Letter,"Date: 12/19/2019 | Issue: g fy U.S. FOOD & DRUG
+",FDA_Historical,03/30/2018
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g fy U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -19211,8 +19246,8 @@ JOHN J FARLEY
 12/19/2019 05:19:04 PM
 
 Reference ID: 4537201
-"
-FDA CRL: nan,FDA_Letter,"Date: 03/18/2013 | Issue: seca,
+",FDA_Historical,12/19/2019
+,TYPE B: Statistical/Regulatory Consequence (CRL),"seca,
 ; eng
 
 RS
@@ -19465,8 +19500,8 @@ BADRUL A CHOWDHURY
 03/18/2013
 
 Reference ID: 3277790
-"
-FDA CRL: nan,FDA_Letter,"Date: 06/23/2004 | Issue: nets |
+",FDA_Historical,03/18/2013
+,TYPE B: Statistical/Regulatory Consequence (CRL),"nets |
 
 4 DEPARTMENT OF HEALTH & HUMAN SERVICES Public Health Service
 
@@ -19768,8 +19803,8 @@ this page is the manifestation of the electronic signature.
 
 Robert Temple
 6/23/04 03:36:42 PM
-"
-FDA CRL: nan,FDA_Letter,"Date: 04/28/2022 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,06/23/2004
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -19960,8 +19995,8 @@ NORMAN L STOCKBRIDGE
 04/28/2022 12:11:15 PM
 
 Reference ID: 4975388
-"
-FDA CRL: nan,FDA_Letter,"Date: 05/26/2020 | Issue: ADMINISTRATION
+",FDA_Historical,04/28/2022
+,TYPE B: Statistical/Regulatory Consequence (CRL),"ADMINISTRATION
 
 é g fy U.S. FOOD & DRUG
 
@@ -20245,8 +20280,8 @@ JOHN M SHARRETTS
 05/26/2020 05:47:35 PM
 
 Reference ID: 4868963
-"
-FDA CRL: nan,FDA_Letter,"Date: 03/29/2013 | Issue: presi,
+",FDA_Historical,05/26/2020
+,TYPE B: Statistical/Regulatory Consequence (CRL),"presi,
 
 s ty
 i Ga OF HEALTH AND HUMAN SERVICES
@@ -20447,8 +20482,8 @@ RUSSELL G KATZ
 03/29/2013
 
 Reference ID: 3284892
-"
-FDA CRL: nan,FDA_Letter,"Date: 06/28/2013 | Issue: |
+",FDA_Historical,03/29/2013
+,TYPE B: Statistical/Regulatory Consequence (CRL),"|
 
 SE DEPARTMENT OF HEALTH AND HUMAN SERVICES
 
@@ -20744,8 +20779,8 @@ NORMAN L STOCKBRIDGE
 
 Reference ID: 3333534
 Reference ID: 4538636
-"
-FDA CRL: nan,FDA_Letter,"Date: 05/28/2021 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,06/28/2013
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -20969,8 +21004,8 @@ NICHOLAS A KOZAUER
 05/28/2021 11:50:54 AM
 
 Reference ID: 4803198
-"
-FDA CRL: nan,FDA_Letter,"Date: 11/13/2020 | Issue: m4 YN U.S. FOOD & DRUG
+",FDA_Historical,05/28/2021
+,TYPE B: Statistical/Regulatory Consequence (CRL),"m4 YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -21171,8 +21206,8 @@ ELLIS F UNGER
 11/13/2020 04:24:29 PM
 
 ' Reference ID: 4701634
-"
-FDA CRL: nan,FDA_Letter,"Date: 12/22/2020 | Issue: g fy U.S. FOOD & DRUG
+",FDA_Historical,11/13/2020
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g fy U.S. FOOD & DRUG
 a ADMINISTRATION
 
 BLA 761082
@@ -21636,8 +21671,8 @@ ALBERT B DEISSEROTH
 12/22/2020 12:18:04 PM
 
 Reference ID: 4721287
-"
-FDA CRL: nan,FDA_Letter,"Date: 09/12/2013 | Issue: seca,
+",FDA_Historical,12/22/2020
+,TYPE B: Statistical/Regulatory Consequence (CRL),"seca,
 ; eng
 
 RS
@@ -22451,8 +22486,8 @@ RICHARD PAZDUR
 09/12/2013
 
 Reference ID: 3372401
-"
-FDA CRL: nan,FDA_Letter,"Date: 02/10/2010 | Issue: presi,
+",FDA_Historical,09/12/2013
+,TYPE B: Statistical/Regulatory Consequence (CRL),"presi,
 
 s ty
 i 4 DEPARTMENT OF HEALTH AND HUMAN SERVICES
@@ -22595,8 +22630,8 @@ signature.
 
 SHARON H HERTZ
 02/10/2010
-"
-FDA CRL: nan,FDA_Letter,"Date: 10/22/2013 | Issue: sec,
+",FDA_Historical,02/10/2010
+,TYPE B: Statistical/Regulatory Consequence (CRL),"sec,
 ; Can
 
 >
@@ -22995,8 +23030,8 @@ SHAW T CHEN
 10/22/2013
 
 Reference ID: 3394281
-"
-FDA CRL: nan,FDA_Letter,"Date: 05/23/2017 | Issue: pute,
+",FDA_Historical,10/22/2013
+,TYPE B: Statistical/Regulatory Consequence (CRL),"pute,
 
 Mie
 
@@ -23197,8 +23232,8 @@ JOSEPH E GOOTENBERG
 05/23/2017
 
 Reference ID: 4101806
-"
-FDA CRL: nan,FDA_Letter,"Date: 07/28/2021 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,05/23/2017
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -23493,8 +23528,8 @@ ALIZA M THOMPSON
 07/28/2021 04:27:54 PM
 
 Reference ID: 4833092
-"
-FDA CRL: nan,FDA_Letter,"Date: 04/20/2018 | Issue: pute
+",FDA_Historical,07/28/2021
+,TYPE B: Statistical/Regulatory Consequence (CRL),"pute
 
 Mie
 
@@ -23932,8 +23967,8 @@ LALEH AMIRI KORDESTANI
 04/20/2018
 
 Reference ID: 4251743
-"
-FDA CRL: nan,FDA_Letter,"Date: 11/19/2021 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,04/20/2018
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -24311,8 +24346,8 @@ STEVEN J LEMERY
 11/19/2021 09:40:01 AM
 
 Reference ID: 4890571
-"
-FDA CRL: nan,FDA_Letter,"Date: 01/25/2024 | Issue: ¢ IN U.S. FOOD & DRUG
+",FDA_Historical,11/19/2021
+,TYPE B: Statistical/Regulatory Consequence (CRL),"¢ IN U.S. FOOD & DRUG
 
 ADMINISTRATION
 Net
@@ -24650,8 +24685,8 @@ electronic signatures for this electronic record.
 Signing on Behalf of Wb)
 
 Reference ID: 5317105
-"
-FDA CRL: nan,FDA_Letter,"Date: 05/29/2025 | Issue: ADMINISTRATION
+",FDA_Historical,01/25/2024
+,TYPE B: Statistical/Regulatory Consequence (CRL),"ADMINISTRATION
 
 i Lk YN U.S. FOOD & DRUG
 
@@ -24742,8 +24777,8 @@ electronic signatures for this electronic record.
 05/29/2025 01:00:58 PM
 
 Reference ID: 5599724
-"
-FDA CRL: nan,FDA_Letter,"Date: 01/25/2024 | Issue: ( g en U.S. FOOD & DRUG
+",FDA_Historical,05/29/2025
+,TYPE B: Statistical/Regulatory Consequence (CRL),"( g en U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -25016,8 +25051,8 @@ electronic signatures for this electronic record.
 01/25/2024 09:19:18 AM
 
 Reference ID: 5316661
-"
-FDA CRL: nan,FDA_Letter,"Date: 03/29/2024 | Issue: ADMINISTRATION
+",FDA_Historical,01/25/2024
+,TYPE B: Statistical/Regulatory Consequence (CRL),"ADMINISTRATION
 
 a g PN U.S. FOOD & DRUG
 
@@ -25251,8 +25286,8 @@ electronic signatures for this electronic record.
 03/29/2024 08:02:41 AM
 
 Reference ID: 5355652
-"
-FDA CRL: nan,FDA_Letter,"Date: 07/23/2020 | Issue: i Lk YN U.S. FOOD & DRUG
+",FDA_Historical,03/29/2024
+,TYPE B: Statistical/Regulatory Consequence (CRL),"i Lk YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -26005,8 +26040,8 @@ ERIC P BASTINGS
 07/23/2020 06:28:07 AM
 
 Reference ID: 4655864
-"
-FDA CRL: nan,FDA_Letter,"Date: 06/30/2022 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,07/23/2020
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -26304,8 +26339,8 @@ RIGOBERTO A ROCA
 06/30/2022 05:19:44 PM
 
 Reference ID: 5007085
-"
-FDA CRL: nan,FDA_Letter,"Date: 09/23/2015 | Issue: pute,
+",FDA_Historical,06/30/2022
+,TYPE B: Statistical/Regulatory Consequence (CRL),"pute,
 
 Mie
 
@@ -26413,8 +26448,8 @@ WILLIAM H Dunn
 09/23/2015
 
 Reference ID: 3824030
-"
-FDA CRL: nan,FDA_Letter,"Date: 12/03/2020 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,09/23/2015
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -27444,8 +27479,8 @@ NORMAN L STOCKBRIDGE
 12/03/2020 02:43:31 PM
 
 Reference ID: 4711363
-"
-FDA CRL: nan,FDA_Letter,"Date: 12/22/2020 | Issue: g YN U.S. FOOD & DRUG
+",FDA_Historical,12/03/2020
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g YN U.S. FOOD & DRUG
 
 ADMINISTRATION
 
@@ -28070,8 +28105,8 @@ RIGOBERTO A ROCA
 12/22/2020 10:03:57 PM
 
 Reference ID: 4721759
-"
-FDA CRL: nan,FDA_Letter,"Date: 04/29/2021 | Issue: g fy U.S. FOOD & DRUG
+",FDA_Historical,12/22/2020
+,TYPE B: Statistical/Regulatory Consequence (CRL),"g fy U.S. FOOD & DRUG
 
 “wl ADMINISTRATION
 
@@ -28337,8 +28372,8 @@ SUMATHI NAMBIAR
 04/29/2021 06:16:24 PM
 
 Reference ID: 49280862
-"
-FDA CRL: nan,FDA_Letter,"Date: 01/19/2024 | Issue: 4 YN U.S. FOOD & DRUG
+",FDA_Historical,04/29/2021
+,TYPE B: Statistical/Regulatory Consequence (CRL),"4 YN U.S. FOOD & DRUG
 i ADMINISTRATION
 
 BLA 761258
@@ -28633,4 +28668,25 @@ PAUL G KLUETZ
 01/19/2024 03:47:29 PM
 
 Reference ID: 5313602
-"
+",FDA_Historical,01/19/2024
+Multiplicity & Endpoints,Requirement,"- Requirement: All primary and secondary endpoints must be pre-specified in the protocol.
+- Multiplicity: If multiple outcomes or interim analyses are used, the Type I Error (Alpha) must be controlled. Failure to adjust for multiple comparisons (e.g., Bonferroni, Hochberg) is a major reason for rejection.
+- Subgroup Analysis: Results of subgroup analyses must be interpreted with caution. They are generally hypothesis-generating, not confirmatory.",ICH_E9,
+Missing Data & Bias,Requirement,"- ITT Principle: The ""Intention-To-Treat"" (ITT) population must be the primary analysis set. All randomized patients must be included.
+- Missing Data: The protocol must pre-specify how missing data will be handled. Simple ""Last Observation Carried Forward"" (LOCF) is often considered biased. Sensitivity analyses must be performed to see if missing data changed the outcome.
+- Blinding: Breaking the blind or having ""unblinded"" personnel involved in data cleaning is a critical violation (BIMO citation 312.60).",ICH_E9,
+Estimand Framework,Framework,"- Concept: An 'Estimand' defines exactly ""what"" is being estimated. 
+- Intercurrent Events: The protocol must specify how to handle events like: 
+    a) Patient starts a ""rescue"" medication.
+    b) Patient dies from a non-study cause.
+    c) Patient discontinues drug due to side effects.
+- Requirement: Relying only on ""Treatment Policy"" (ITT) without sensitivity analyses for these events is a major ""Subtle Failure.""",ICH_E9_R1,
+Data Integrity,Requirement,"- Requirement: Investigators must maintain accurate, complete, and verifiable case histories.
+- Statistical Validity: Data must be ""fit for purpose."" If Case Report Forms (CRFs) are inconsistent with the electronic database, the statistical validity of the trial is void. ",21 CFR 312.62,
+Adaptive Designs,Guidance,"- Pre-specification: All adaptive design features must be pre-specified in the protocol and statistical analysis plan (SAP).
+- Type I Error Control: The overall Type I Error rate must be controlled, accounting for adaptations.
+- Simulation: Extensive simulations must be provided to demonstrate the operating characteristics of the design under various scenarios.",FDA_Guidance,
+Operational Bias & Data Blinding,Guidance,"
+- Operational Bias: Even if a trial is ""Double Blind,"" bias can leak if the team making ""Protocol Deviation"" decisions has seen the aggregate data trends.
+- Data Cleaning: If data is cleaned or ""queried"" more aggressively for the placebo group than the treatment group, the P-value is invalid.
+- Requirement: There must be a clear ""Firewall"" between the Data Monitoring Committee (DMC) and the personnel managing trial operations. ",FDA_Guidance,

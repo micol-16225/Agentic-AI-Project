@@ -6,60 +6,79 @@ MASTER_FILE = "master_regulatory_library.csv"
 HISTORICAL_FILE = "fda_letters.csv"
 
 
+
+# 2. Define the VERBATIM records (No summaries allowed)
+verbatim_records = [
+    # --- STATUTORY: ICH E9 (R1) ---
+    {
+        "title": "ICH E9 (R1) Section 3.3.1",
+        "type": "Statutory",
+        "content": "An estimand is a precise description of the treatment effect reflecting the clinical question posed by a given clinical trial objective. It summarises at a population level what the outcomes would be in the same patients under different treatment conditions being compared."
+    },
+    {
+        "title": "ICH E9 (R1) Section 5.2",
+        "type": "Statutory",
+        "content": "The use of the last observation carried forward (LOCF) approach is generally not acceptable because it can result in biased estimates of the treatment effect and can lead to misleading conclusions."
+    },
+    {
+        "title": "ICH E9 (R1) Section 5.1",
+        "type": "Statutory",
+        "content": "Strategies for handling intercurrent events include: Treatment-policy, Hypothetical, Composite, While-on-treatment, and Stratum-plus-variable."
+    },
+    
+    # --- STATUTORY: 21 CFR ---
+    {
+        "title": "21 CFR 314.126(a)",
+        "type": "Statutory",
+        "content": "Reports of adequate and well-controlled investigations provide the primary basis for determining whether there is 'substantial evidence' to support the claims of effectiveness for new drugs and antibiotics."
+    },
+    {
+        "title": "21 CFR 314.126(b)(6)",
+        "type": "Statutory",
+        "content": "The protocol and report of the study should describe the procedures used to accomplish minimization of bias on the part of the subjects, observers, and analysts of the data."
+    },
+
+    # --- STATUTORY: FDA MULTIPLICITY ---
+    {
+        "title": "FDA Multiplicity Guidance (2022) Section III",
+        "type": "Statutory",
+        "content": "Procedures to control the Type I error rate should be pre-specified to ensure that the probability of making at least one Type I error does not exceed the desired level of significance."
+    },
+    {
+        "title": "ICH E9 Section 5.2.1",
+        "type": "Statutory",
+        "content": "The Full Analysis Set (FAS) should be used in the primary analysis. The FAS is as close as possible to the intention-to-treat ideal and includes all randomized subjects who received at least one dose of study medication."
+    },
+    {
+        "title": "ICH E9 Section 5.7",
+        "type": "Statutory",
+        "content": "The study protocol should identify those subgroups that are expected to be of primary interest and the statistical methods for examining them. Interactions between treatment and subgroups should be explored."
+    },
+    {
+        "title": "FDA Multiplicity Guidance Section V",
+        "type": "Statutory",
+        "content": "A common method to control the FWER is a hierarchical (or fixed-sequence) testing procedure where the primary and secondary endpoints are tested in a pre-specified order."
+    },
+    # --- EXPANDED VERBATIM RECORDS (SAP & PROTOCOL PILLARS) ---
+    {
+        "title": "ICH E9 Section 5.2.1",
+        "type": "Statutory",
+        "content": "The Full Analysis Set (FAS) should be used in the primary analysis. The FAS is as close as possible to the intention-to-treat ideal and includes all randomized subjects who received at least one dose of study medication."
+    },
+    {
+        "title": "ICH E3 Section 11.4.2.7",
+        "type": "Statutory",
+        "content": "The SAP should describe the statistical methods for handling dropouts and missing data. If any 'ad hoc' analyses were performed, they must be clearly identified and justified."
+    },
+    {
+        "title": "ICH E6 (R2) Section 5.5.3",
+        "type": "Statutory",
+        "content": "When using electronic trial data handling systems, the sponsor should ensure and document that the systems are designed to permit data changes in such a way that the data changes are documented and that there is no deletion of entered data (i.e., maintain an audit trail)."
+    }
+]
+
+
 wisdom_sections = [
-    {
-        "source": "ICH_E9", 
-        "type": "Requirement", 
-        "title": "Multiplicity & Endpoints", 
-        "content": '''- Requirement: All primary and secondary endpoints must be pre-specified in the protocol.
-- Multiplicity: If multiple outcomes or interim analyses are used, the Type I Error (Alpha) must be controlled. Failure to adjust for multiple comparisons (e.g., Bonferroni, Hochberg) is a major reason for rejection.
-- Subgroup Analysis: Results of subgroup analyses must be interpreted with caution. They are generally hypothesis-generating, not confirmatory.'''
-    },
-    {
-        "source": "ICH_E9", 
-        "type": "Requirement", 
-        "title": "Missing Data & Bias", 
-        "content": '''- ITT Principle: The "Intention-To-Treat" (ITT) population must be the primary analysis set. All randomized patients must be included.
-- Missing Data: The protocol must pre-specify how missing data will be handled. Simple "Last Observation Carried Forward" (LOCF) is often considered biased. Sensitivity analyses must be performed to see if missing data changed the outcome.
-- Blinding: Breaking the blind or having "unblinded" personnel involved in data cleaning is a critical violation (BIMO citation 312.60).'''
-    },
-    {
-        "source": "ICH_E9_R1", 
-        "type": "Framework", 
-        "title": "Estimand Framework", 
-        "content": '''- Concept: An 'Estimand' defines exactly "what" is being estimated. 
-- Intercurrent Events: The protocol must specify how to handle events like: 
-    a) Patient starts a "rescue" medication.
-    b) Patient dies from a non-study cause.
-    c) Patient discontinues drug due to side effects.
-- Requirement: Relying only on "Treatment Policy" (ITT) without sensitivity analyses for these events is a major "Subtle Failure."'''
-    },
-    {
-        "source": "21 CFR 312.62",
-        "type": "Requirement",
-        "title": "Data Integrity",
-        "content": '''- Requirement: Investigators must maintain accurate, complete, and verifiable case histories.
-- Statistical Validity: Data must be "fit for purpose." If Case Report Forms (CRFs) are inconsistent with the electronic database, the statistical validity of the trial is void. '''
-
-    },
-    {
-        "source": "FDA_Guidance", 
-        "type": "Guidance", 
-        "title": "Adaptive Designs", 
-        "content": '''- Pre-specification: All adaptive design features must be pre-specified in the protocol and statistical analysis plan (SAP).
-- Type I Error Control: The overall Type I Error rate must be controlled, accounting for adaptations.
-- Simulation: Extensive simulations must be provided to demonstrate the operating characteristics of the design under various scenarios.'''
-    },
-    {
-        "source": "FDA_Guidance",  
-        "type": "Guidance",
-        "title": "Operational Bias & Data Blinding", 
-        "content": '''
-- Operational Bias: Even if a trial is "Double Blind," bias can leak if the team making "Protocol Deviation" decisions has seen the aggregate data trends.
-- Data Cleaning: If data is cleaned or "queried" more aggressively for the placebo group than the treatment group, the P-value is invalid.
-- Requirement: There must be a clear "Firewall" between the Data Monitoring Committee (DMC) and the personnel managing trial operations. '''
-
-    },
     {
         "source": "BIMO_Pitfalls", 
         "type": "Pitfall", 
@@ -73,54 +92,7 @@ wisdom_sections = [
         "content": '''- MMRM (Mixed Model for Repeated Measures): $Y_i = X_i\\beta + Z_i b_i + \\epsilon_i$ where $\epsilon_i \sim N(0, R_i)$.
 - Cox Proportional Hazards: $h(t|x) = h_0(t) \exp(\\beta^T x)$.
 - Alpha Spending (O'Brien-Fleming): $\alpha(t) = 2 - 2\Phi(Z_{\alpha/2} / \sqrt{t})$.'''
-    }
-]
-
-
-elite_100_sections = [
-    {
-        "source": "Elite_100_Index",
-        "type": "Academic_Rigor",
-        "title": "Multiplicity & P-Hacking",
-        "content": '''DOMAIN: MULTIPLICITY & P-HACKING (Logic: Controlling False Positives)
-- Key Citations: Benjamini & Hochberg (1995) JRSSB; Westfall & Young (1993) JASA; Adda et al. (PNAS 2020).
-- Expert Rule: Flag "Spikes" in p-values near 0.05. If multiple secondary endpoints are claimed as "Successes" without FDR control, cite Benjamini & Hochberg.'''
     },
-    {
-        "source": "Elite_100_Index",
-        "type": "Academic_Rigor",
-        "title": "Missing Data & Estimands",
-        "content": '''DOMAIN: MISSING DATA & ESTIMANDS (Logic: Handling Drop-outs)
-- Key Citations: Rubin (1976) Biometrika; Hernán & Robins (2024) Causal Inference; ICH E9(R1).
-- Expert Rule: Distinguish between MAR/MNAR. If drop-outs are treatment-related (e.g., side effects), "Missing at Random" assumptions fail. Demand sensitivity analyses per Rubin (1976).'''
-    },
-    {
-        "source": "Elite_100_Index",
-        "type": "Academic_Rigor",
-        "title": "Adaptive Designs",
-        "content": '''DOMAIN: ADAPTIVE DESIGNS (Logic: The "Promising Zone")
-- Key Citations: Mehta & Pocock (2011) Stat. Med.; O'Brien & Fleming (1979) Biometrics.
-- Expert Rule: Sample size re-estimation (SSR) is only valid without penalty if the interim result is in the "Promising Zone." Ad-hoc doubling of N is a "Statistical Penalty" event.'''
-    },
-    {
-        "source": "Elite_100_Index",
-        "type": "Academic_Rigor",
-        "title": "External Validity",
-        "content": '''DOMAIN: EXTERNAL VALIDITY (Logic: Generalizability)
-- Key Citations: Rothwell (2005) Lancet; Pearl (2011) JASA.
-- Expert Rule: Flag "Sanitized" populations. If exclusion criteria make the study group unrepresentative of real-world patients, cite Rothwell (2005).'''
-    },
-    {
-        "source": "Elite_100_Index",
-        "type": "Academic_Rigor",
-        "title": "Causal Inference",
-        "content": '''DOMAIN: CAUSAL INFERENCE (Logic: Fairness)
-- Key Citations: Rosenbaum & Rubin (1983) Biometrika; Robins et al. (2000) Epidemiology.
-- Expert Rule: Ensure "Fair Comparison." Check for Propensity Score usage or G-estimation if treatment switching occurred.'''
-    }
-]
-
-final_wisdom_sections = [
     {
         "source": "Design_Principles",
         "type": "Architecture",
@@ -154,6 +126,50 @@ If the human "Rejects" a step, the Agent must provide a "Sensitivity Analysis" s
 ]
 
 
+academic_sections = [
+    {
+        "source": "academic_Index",
+        "type": "Academic_Rigor",
+        "title": "Multiplicity & P-Hacking",
+        "content": '''DOMAIN: MULTIPLICITY & P-HACKING (Logic: Controlling False Positives)
+- Key Citations: Benjamini & Hochberg (1995) JRSSB; Westfall & Young (1993) JASA; Adda et al. (PNAS 2020).
+- Expert Rule: Flag "Spikes" in p-values near 0.05. If multiple secondary endpoints are claimed as "Successes" without FDR control, cite Benjamini & Hochberg.'''
+    },
+    {
+        "source": "academic_Index",
+        "type": "Academic_Rigor",
+        "title": "Missing Data & Estimands",
+        "content": '''DOMAIN: MISSING DATA & ESTIMANDS (Logic: Handling Drop-outs)
+- Key Citations: Rubin (1976) Biometrika; Hernán & Robins (2024) Causal Inference; ICH E9(R1).
+- Expert Rule: Distinguish between MAR/MNAR. If drop-outs are treatment-related (e.g., side effects), "Missing at Random" assumptions fail. Demand sensitivity analyses per Rubin (1976).'''
+    },
+    {
+        "source": "academic_Index",
+        "type": "Academic_Rigor",
+        "title": "Adaptive Designs",
+        "content": '''DOMAIN: ADAPTIVE DESIGNS (Logic: The "Promising Zone")
+- Key Citations: Mehta & Pocock (2011) Stat. Med.; O'Brien & Fleming (1979) Biometrics.
+- Expert Rule: Sample size re-estimation (SSR) is only valid without penalty if the interim result is in the "Promising Zone." Ad-hoc doubling of N is a "Statistical Penalty" event.'''
+    },
+    {
+        "source": "academic_Index",
+        "type": "Academic_Rigor",
+        "title": "External Validity",
+        "content": '''DOMAIN: EXTERNAL VALIDITY (Logic: Generalizability)
+- Key Citations: Rothwell (2005) Lancet; Pearl (2011) JASA.
+- Expert Rule: Flag "Sanitized" populations. If exclusion criteria make the study group unrepresentative of real-world patients, cite Rothwell (2005).'''
+    },
+    {
+        "source": "academic_Index",
+        "type": "Academic_Rigor",
+        "title": "Causal Inference",
+        "content": '''DOMAIN: CAUSAL INFERENCE (Logic: Fairness)
+- Key Citations: Rosenbaum & Rubin (1983) Biometrika; Robins et al. (2000) Epidemiology.
+- Expert Rule: Ensure "Fair Comparison." Check for Propensity Score usage or G-estimation if treatment switching occurred.'''
+    }
+]
+
+
 def hydrate_full():
     print("🚀 Starting Master Library Unification...")
     
@@ -180,7 +196,7 @@ def hydrate_full():
         print(f"✅ Found {len(historical_df)} historical records from fda_letters.csv.")
 
     # 3. Create Wisdom DataFrame
-    static_df = pd.DataFrame(wisdom_sections + elite_100_sections + final_wisdom_sections)
+    static_df = pd.DataFrame(verbatim_records + wisdom_sections + academic_sections)
     print(f"✅ Loaded {len(static_df)} biostats wisdom sections.")
 
     # 4. MERGE EVERYTHING
