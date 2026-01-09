@@ -14,12 +14,19 @@ SAP_KEYWORDS = ["STATISTICAL", "SAMPLE SIZE", "UNBLINDED", "ESTIMAND", "MULTIPLI
 def fetch_and_map_precedents():
     print(f"📡 Starting Ingestor: Targeting SAP Precedents...")
     
-    # We query for 'clinical trial' to keep it relevant to your SAP audit
-    query = 'text:"clinical+trial"+AND+(text:"statistical"+OR+text:"analysis")'
-    params = {'search': query, 'limit': 50}
+    # 1. Use raw string for query to prevent double-encoding
+    # Note: openFDA prefers spaces as + in the raw string
+    # Simplified flat query - better for openFDA's parser
+    query = 'search=text:"clinical+trial"+statistical+analysis&limit=50'
+    full_url = f"{BASE_URL}?{query}"
     
     try:
-        response = requests.get(BASE_URL, params=params, timeout=20)
+        # 2. Call the URL directly without the params= dict
+        response = requests.get(full_url, timeout=20)
+        
+        # Log the actual URL for debugging (Check this in your VS Code terminal!)
+        print(f"🔗 Requesting: {response.url}")
+        
         response.raise_for_status()
         data = response.json()
         results = data.get('results', [])
