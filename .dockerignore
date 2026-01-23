@@ -1,0 +1,38 @@
+# Ignore Git and OS junk
+.git
+.gitignore
+**/.DS_Store
+
+# Ignore local Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Ignore your "Junk" folders/files
+# Add the names of the files or folders you don't want in the container here:
+'Agent Example.ipynb'
+auditor_agent.py
+check_models.py
+check_now.py
+genai_models.py
+guardian_int.py
+gurdian_kb_final.json
+ingestor_state.json
+lifecycle_agent.py
+lifecycle_agent2.py
+lifecycle_agent3OLD.py
+llm_analysis.py
+llm_analysis_prompts.json
+llm_master_analysis.json
+master_ingestor.py
+master_organizer.py
+prep_for_llm.py
+quick_check.py
+run_llm.py
+streamlit_app.py
+streamlit_app2.py
+test_agent.py
+truth_check.py
+

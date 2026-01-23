@@ -4,12 +4,12 @@ import os
 from dotenv import load_dotenv
 from lifecycle_agent4 import BiostatLifecycleAgent4, ACADEMIC_MANDATE
 
+# --- 1. CONFIGURATION & STATE ---
+st.set_page_config(page_title="BioStat Lifecycle v4", layout="wide", page_icon="🧬")
+
 # Load Environment
 load_dotenv()
 api_key = os.getenv("GROQ_API_KEY")
-
-# --- 1. CONFIGURATION & STATE ---
-st.set_page_config(page_title="BioStat Lifecycle v4", layout="wide", page_icon="🧬")
 
 # Initialize Session State for Agent 4's specific outputs
 # This ensures these variables exist even before the user clicks any buttons

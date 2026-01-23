@@ -10,45 +10,6 @@ ICH E9 Section 5.7,Statutory,The study protocol should identify those subgroups 
 FDA Multiplicity Guidance Section V,Statutory,A common method to control the FWER is a hierarchical (or fixed-sequence) testing procedure where the primary and secondary endpoints are tested in a pre-specified order.,,
 ICH E3 Section 11.4.2.7,Statutory,"The SAP should describe the statistical methods for handling dropouts and missing data. If any 'ad hoc' analyses were performed, they must be clearly identified and justified.",,
 ICH E6 (R2) Section 5.5.3,Statutory,"When using electronic trial data handling systems, the sponsor should ensure and document that the systems are designed to permit data changes in such a way that the data changes are documented and that there is no deletion of entered data (i.e., maintain an audit trail).",,
-Common BIMO Pitfalls,Pitfall,"- Source Verification: 100% of data in the final report must match the ""Source Docs"" (hospital notes). ",BIMO_Pitfalls,
-Statistical Formulas,Technical,"- MMRM (Mixed Model for Repeated Measures): $Y_i = X_i\beta + Z_i b_i + \epsilon_i$ where $\epsilon_i \sim N(0, R_i)$.
-- Cox Proportional Hazards: $h(t|x) = h_0(t) \exp(\beta^T x)$.
-- Alpha Spending (O'Brien-Fleming): $lpha(t) = 2 - 2\Phi(Z_{lpha/2} / \sqrt{t})$.",Big_Pharma_Models,
-The Architect: Design Principles,Architecture,"--- SECTION 11: DESIGN PRINCIPLES (THE ARCHITECT) ---
-- Rule of Parsimony: Minimize exclusion criteria to maximize real-world application.
-- Endpoint Hierarchy: Prioritize ""Hard"" clinical endpoints over ""Surrogate"" markers.
-- Blinding Firewall: Protocols must define the ""Firewall"" between unblinded statisticians and trial leads.",Design_Principles,
-Reasoning & Human-In-The-Loop,Process_Standard,"--- SECTION 12: REASONING & HUMAN-IN-THE-LOOP (HITL) PROTOCOLS ---
-GOAL: Transform ""Black Box"" AI into ""White Box"" Augmented Intelligence. 
-
-REASONING STANDARDS:
-1. TRACEABILITY: Every recommendation must be traced back to ICH guidelines or Elite 100 Index.
-2. MATHEMATICAL EXPLICITNESS: Provide distribution assumptions (e.g., ""Normal likelihood with Unstructured Covariance Matrix"") and LaTeX notation.
-3. CLINICAL CONTEXT: Connect math to the patient (e.g., MAR violations due to toxicity).
-
-HUMAN-IN-THE-LOOP (HITL) MANDATORY GATES:
-- G-01 (Feasibility): Verify recruitment potential for suggested N.
-- G-02 (Risk Appetite): Approve ""Promising Zone"" boundaries for Adaptive Designs.
-- G-03 (Ethics/Safety): Verify clinical importance of composite endpoint components.
-- G-04 (Assumptions): Verify if Effect Size (delta) is Minimally Clinically Important (MCID).
-
-VERIFICATION LOGIC:
-If the human ""Rejects"" a step, the Agent must provide a ""Sensitivity Analysis"" showing how the design changes under the human's preferred assumptions.",HITL_Protocol,
-Multiplicity & P-Hacking,Academic_Rigor,"DOMAIN: MULTIPLICITY & P-HACKING (Logic: Controlling False Positives)
-- Key Citations: Benjamini & Hochberg (1995) JRSSB; Westfall & Young (1993) JASA; Adda et al. (PNAS 2020).
-- Expert Rule: Flag ""Spikes"" in p-values near 0.05. If multiple secondary endpoints are claimed as ""Successes"" without FDR control, cite Benjamini & Hochberg.",academic_Index,
-Missing Data & Estimands,Academic_Rigor,"DOMAIN: MISSING DATA & ESTIMANDS (Logic: Handling Drop-outs)
-- Key Citations: Rubin (1976) Biometrika; Hernán & Robins (2024) Causal Inference; ICH E9(R1).
-- Expert Rule: Distinguish between MAR/MNAR. If drop-outs are treatment-related (e.g., side effects), ""Missing at Random"" assumptions fail. Demand sensitivity analyses per Rubin (1976).",academic_Index,
-Adaptive Designs,Academic_Rigor,"DOMAIN: ADAPTIVE DESIGNS (Logic: The ""Promising Zone"")
-- Key Citations: Mehta & Pocock (2011) Stat. Med.; O'Brien & Fleming (1979) Biometrics.
-- Expert Rule: Sample size re-estimation (SSR) is only valid without penalty if the interim result is in the ""Promising Zone."" Ad-hoc doubling of N is a ""Statistical Penalty"" event.",academic_Index,
-External Validity,Academic_Rigor,"DOMAIN: EXTERNAL VALIDITY (Logic: Generalizability)
-- Key Citations: Rothwell (2005) Lancet; Pearl (2011) JASA.
-- Expert Rule: Flag ""Sanitized"" populations. If exclusion criteria make the study group unrepresentative of real-world patients, cite Rothwell (2005).",academic_Index,
-Causal Inference,Academic_Rigor,"DOMAIN: CAUSAL INFERENCE (Logic: Fairness)
-- Key Citations: Rosenbaum & Rubin (1983) Biometrika; Robins et al. (2000) Epidemiology.
-- Expert Rule: Ensure ""Fair Comparison."" Check for Propensity Score usage or G-estimation if treatment switching occurred.",academic_Index,
 ,TYPE B: Statistical/Regulatory Consequence (CRL),"ser,
 GO ” y
 
@@ -28669,24 +28630,3 @@ PAUL G KLUETZ
 
 Reference ID: 5313602
 ",FDA_Historical,01/19/2024
-Multiplicity & Endpoints,Requirement,"- Requirement: All primary and secondary endpoints must be pre-specified in the protocol.
-- Multiplicity: If multiple outcomes or interim analyses are used, the Type I Error (Alpha) must be controlled. Failure to adjust for multiple comparisons (e.g., Bonferroni, Hochberg) is a major reason for rejection.
-- Subgroup Analysis: Results of subgroup analyses must be interpreted with caution. They are generally hypothesis-generating, not confirmatory.",ICH_E9,
-Missing Data & Bias,Requirement,"- ITT Principle: The ""Intention-To-Treat"" (ITT) population must be the primary analysis set. All randomized patients must be included.
-- Missing Data: The protocol must pre-specify how missing data will be handled. Simple ""Last Observation Carried Forward"" (LOCF) is often considered biased. Sensitivity analyses must be performed to see if missing data changed the outcome.
-- Blinding: Breaking the blind or having ""unblinded"" personnel involved in data cleaning is a critical violation (BIMO citation 312.60).",ICH_E9,
-Estimand Framework,Framework,"- Concept: An 'Estimand' defines exactly ""what"" is being estimated. 
-- Intercurrent Events: The protocol must specify how to handle events like: 
-    a) Patient starts a ""rescue"" medication.
-    b) Patient dies from a non-study cause.
-    c) Patient discontinues drug due to side effects.
-- Requirement: Relying only on ""Treatment Policy"" (ITT) without sensitivity analyses for these events is a major ""Subtle Failure.""",ICH_E9_R1,
-Data Integrity,Requirement,"- Requirement: Investigators must maintain accurate, complete, and verifiable case histories.
-- Statistical Validity: Data must be ""fit for purpose."" If Case Report Forms (CRFs) are inconsistent with the electronic database, the statistical validity of the trial is void. ",21 CFR 312.62,
-Adaptive Designs,Guidance,"- Pre-specification: All adaptive design features must be pre-specified in the protocol and statistical analysis plan (SAP).
-- Type I Error Control: The overall Type I Error rate must be controlled, accounting for adaptations.
-- Simulation: Extensive simulations must be provided to demonstrate the operating characteristics of the design under various scenarios.",FDA_Guidance,
-Operational Bias & Data Blinding,Guidance,"
-- Operational Bias: Even if a trial is ""Double Blind,"" bias can leak if the team making ""Protocol Deviation"" decisions has seen the aggregate data trends.
-- Data Cleaning: If data is cleaned or ""queried"" more aggressively for the placebo group than the treatment group, the P-value is invalid.
-- Requirement: There must be a clear ""Firewall"" between the Data Monitoring Committee (DMC) and the personnel managing trial operations. ",FDA_Guidance,
