@@ -33,8 +33,8 @@ if 'final_protocol' not in st.session_state:
 def load_production_agent():
     return BiostatLifecycleAgent4(
         api_key=api_key,
-        statutory_path="statutory_truth.csv",
-        intel_path="optimizer_intelligence.csv"
+        statutory_path="statutory_truth_with_ids.csv",
+        intel_path="optimizer_intelligence_with_ids.csv"
     )
 
 agent = load_production_agent()
@@ -162,7 +162,7 @@ with tab1:
 with tab2:
     st.header("Phase 2: Adversarial Regulatory Audit")
     if st.session_state.protocol:
-        if st.button("Run Tiered Scan (Law vs. Precedent)"):
+        if st.button("Run Tiered Scan (Law, FDA Precedents, Academic Papers)"):
             with st.spinner("Dispatching Parallel Letter Auditors..."):
                 # Agent 4 uses Statutory Truth for Section 1/2
                 st.session_state.audit_report = agent.audit_protocol(st.session_state.protocol)
