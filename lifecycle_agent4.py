@@ -10,6 +10,12 @@ from concurrent.futures import as_completed
 from dotenv import load_dotenv
 from groq import Groq
 
+from sentence_transformers import SentenceTransformer, util
+import torch
+
+import hashlib
+import json
+
 # This looks for the .env file and loads the key into your system memory
 load_dotenv()
 
@@ -20,8 +26,8 @@ client = Groq(
 
 ACADEMIC_MANDATE = """
 TONE & STYLE: 
-- Professional, precise, and scholarly. Avoid "AI-assistant" filler.
-- Use industry-standard terminology (e.g., 'Intercurrent Events', 'MAR/MNAR assumptions', 'Family-wise Error Rate').
+- Professional, precise, and scholarly. Avoid "AI-assistant" filler and pleasantries.
+- Use clinical-trial industry-standard terminology. 
 - Communicate with the authority of a Senior Methodologist defending a design before a Regulatory Board.
 
 EVIDENTIARY STANDARDS:
@@ -32,13 +38,63 @@ EVIDENTIARY STANDARDS:
 """
 
 class BiostatLifecycleAgent4:
+    # Use the S-BioBERT version for semantic similarity
+    _model = None 
+    _embedding_cache = {} #short term memory for embeddings to avoid redundant computation
+    _disk_cache_path = "brain_cache.json" # long-term memory for Q&A pairs to avoid redundant API calls
+
     def __init__(self, api_key, statutory_path="statutory_truth.csv", intel_path="optimizer_intelligence.csv", model_id="llama-3.1-8b-instant"):
         self.client = Groq(api_key=api_key)
         self.model_id = model_id
         # UPDATED: Dual-path initialization for Task #2 & #4
         self.statutory_path = statutory_path
         self.intel_path = intel_path
+        # Lazy load the model so it only occupies RAM when the agent is used
+        if BiostatLifecycleAgent4._model is None:
+            BiostatLifecycleAgent4._model = SentenceTransformer('pritamdeka/S-BioBert-snli-multinli-stsb')
+        self.model = BiostatLifecycleAgent4._model
+
+        # NEW: Pre-embed the libraries for Token/Compute efficiency
+        self._precompute_library_embeddings(statutory_path, intel_path)
+
+    def _precompute_library_embeddings(self, stat_path, intel_path):
+        print("📊 Pre-computing library embeddings...")
+        # Pre-load Dataframes
+        self.stat_df = pd.read_csv(stat_path)
+        self.intel_df = pd.read_csv(intel_path)
+        
+        # Pre-embed Academic Rigor (The Intel Path)
+        academic_rows = self.intel_df[self.intel_df['type'] == 'Academic_Rigor']['content'].fillna("").tolist()
+        self.academic_embeddings = self.model.encode(academic_rows, convert_to_tensor=True)
+        self.academic_texts = academic_rows
+
+        # Pre-embed FDA Precedents (The Stat Path)
+        precedent_rows = self.stat_df[self.stat_df['type'].str.contains('Precedent|TYPE', na=False)]['content'].fillna("").tolist()
+        self.precedent_embeddings = self.model.encode(precedent_rows, convert_to_tensor=True)
+        self.precedent_texts = precedent_rows
     
+    def _check_memory(self, prompt):
+        fingerprint = hashlib.md5(prompt.encode()).hexdigest()
+        if os.path.exists(self._disk_cache_path):
+            with open(self._disk_cache_path, "r") as f:
+                memory = json.load(f)
+                return memory.get(fingerprint)
+        return None
+
+    def _save_to_memory(self, prompt, response):
+        fingerprint = hashlib.md5(prompt.encode()).hexdigest()
+        memory = {}
+        if os.path.exists(self._disk_cache_path):
+            try:
+                with open(self._disk_cache_path, "r") as f:
+                    memory = json.load(f)
+            except json.JSONDecodeError:
+                memory = {}
+        memory[fingerprint] = response
+        with open(self._disk_cache_path, "w") as f:
+            json.dump(memory, f)
+    
+
     def _load_library(self, search_query="", mode="audit"):
         """
         UPDATED: Swaps between Statutory Truth and Optimizer Intelligence.
@@ -50,6 +106,8 @@ class BiostatLifecycleAgent4:
         STAT_PATH = "statutory_truth.csv"
         INTEL_PATH = "optimizer_intelligence.csv"
 
+        EMBEDDING_CACHE = {}
+
         def get_track_context(file_path, filter_type, query, limit=5, mandatory=False):
             if not os.path.exists(file_path):
                 return ""
@@ -60,7 +118,7 @@ class BiostatLifecycleAgent4:
             # Filter by type (e.g., 'Statutory', 'Academic_Rigor', or 'Precedent')
             # For Precedents, we use string contains to catch 'TYPE B/C'
             if "TYPE" in filter_type or "Precedent" in filter_type:
-                subset_df = df[df['type'].str.contains('TYPE|Precedent', na=False)]
+                subset_df = df[df['type'].str.strip().str.contains('TYPE|Precedent', na=False)]
             else:
                 subset_df = df[df['type'] == filter_type]
 
@@ -70,24 +128,42 @@ class BiostatLifecycleAgent4:
             if mandatory:
                 return "\n".join([f"- [{row['title']}]: {row['content']}" for _, row in subset_df.head(limit).iterrows()])
 
-            # --- RAG SEARCH (Your Original TF-IDF Logic) ---
             texts = subset_df['content'].fillna("").astype(str).tolist()
+
+            # USE THE CLASS CACHE
+            cache_key = f"{file_path}_{filter_type}"
+            if cache_key not in BiostatLifecycleAgent4._embedding_cache:
+                print(f"🧬 Encoding {cache_key}...")
+                texts = subset_df['content'].fillna("").tolist()
+                BiostatLifecycleAgent4._embedding_cache[cache_key] = self.model.encode(texts, convert_to_tensor=True)
+            
+            doc_embeddings = BiostatLifecycleAgent4._embedding_cache[cache_key]
+
+            # --- NEW BIOBERT RAG SEARCH ---
             try:
-                vectorizer = TfidfVectorizer(stop_words='english')
-                boosted_query = f"{query} ICH FDA regulation statistics"
-                matrix = vectorizer.fit_transform(texts + [boosted_query])
-                sims = cosine_similarity(matrix[-1], matrix[:-1])
+                # 1. Skip re-encoding the documents! Use doc_embeddings instead.
+
+                # 2. Turn your search query into a "Bio-vector"
+                query_embedding = self.model.encode(query, convert_to_tensor=True)
                 
-                # Debugging as requested
-                max_score = sims[0].max()
-                print(f"🔍 [RAG DEBUG] File: {file_path} | Type: {filter_type} | Max Score: {max_score:.4f}")
+                # 3. Find which papers are "closest" in meaning to your question
+                # This is much smarter than just matching words!
+                cosine_scores = util.cos_sim(query_embedding, doc_embeddings)[0]
+                
+                # 4. Pick the best ones
+                top_results = torch.topk(cosine_scores, k=min(len(texts), limit))
+                indices = top_results.indices.tolist()
+                scores = top_results.values.tolist()
 
-                actual_limit = min(len(texts), limit)
-                indices = sims[0].argsort()[-actual_limit:][::-1]
+                print(f"🔍 [BIOBERT DEBUG] Top Score: {scores[0]:.4f}")
+
                 return "\n".join([f"- [{subset_df.iloc[i]['title']}]: {subset_df.iloc[i]['content']}" for i in indices])
-            except:
-                return "\n".join([f"- [{row['title']}]: {row['content']}" for _, row in subset_df.head(limit).iterrows()])
 
+            except Exception as e:
+                print(f"❌ Error in BioBERT: {e}")
+                # Fallback to just showing the first few rows if the brain breaks
+                return "\n".join([f"- [{row['title']}]: {row['content']}" for _, row in subset_df.head(limit).iterrows()])
+        
         # --- ORCHESTRATION LOGIC ---
         if mode == "audit":
             # Auditor ONLY sees the Statutory Truth
@@ -115,15 +191,29 @@ class BiostatLifecycleAgent4:
         
         return in_tokens + out_tokens
 
+    
     def _generate_response(self, prompt, max_retries=5):
+        # 1. Check if we already know the answer
+        cached_answer = self._check_memory(prompt)
+        if cached_answer:
+            print("🧠 Using cached memory (0 tokens used!)", flush=True)
+            return cached_answer
+        
         for i in range(max_retries):
             try:
+                # 2. Use the 'system' role for the Academic Mandate
                 chat_completion = self.client.chat.completions.create(
-                    messages=[{"role": "user", "content": prompt}],
+                    messages=[
+                        {"role": "system", "content": ACADEMIC_MANDATE},
+                        {"role": "user", "content": prompt}
+                    ],
                     model=self.model_id,
                     temperature=0.0
                 )
                 response = chat_completion.choices[0].message.content
+
+                # 3. Save the answer so we don't pay for it again
+                self._save_to_memory(prompt, response)
                 
                 # Tracking
                 self.track_usage(prompt, response)
@@ -251,37 +341,56 @@ class BiostatLifecycleAgent4:
 
     def audit_protocol(self, user_protocol, historical_lessons="", user_directives=""):
         """
-        THE ORCHESTRATOR: Synthesizes Law, Academic Papers, and Parallel Letter Findings.
+        THE ORCHESTRATOR: Now fully upgraded to BioBERT Semantic Search.
         """
-        # 1. LOAD TIERED SOURCES (ML Ops Refactor)
-        # We load the Hard Gate for Law and Precedents
+        # 1. LOAD TIERED SOURCES
         stat_df = pd.read_csv("statutory_truth.csv")
         stat_df.columns = [c.strip() for c in stat_df.columns]
 
-        # We load the Intelligence for Academic Rigor
         intel_df = pd.read_csv("optimizer_intelligence.csv")
         intel_df.columns = [c.strip() for c in intel_df.columns]
 
-        # SOURCE 1: THE LAW (Statutory Truth)
+        # --- SOURCE 1: THE LAW (KEEP INTACT) ---
+        # We send ALL of these because you want them intact
         law_df = stat_df[stat_df['type'] == 'Statutory']
-        law_context = "\n".join([f"LAW ID: {r['title']}\n{r['content']}" for _, r in law_df.iterrows()])
+        law_context = "\n".join([f"LAW: {r['content']}" for _, r in law_df.iterrows()])
 
-        # SOURCE 2: ACADEMIC PAPERS (Optimizer Intelligence)
-        acad_df = intel_df[intel_df['type'] == 'Academic_Rigor']
-        acad_context = "\n".join([f"PAPER ID: {r['title']}\n{r['content']}" for _, r in acad_df.iterrows()])
+        # --- SOURCE 2: ACADEMIC PAPERS (COMPRESS/FILTER) ---
+        # Instead of all papers, we use your BioBERT to find the 3 best ones
+        paper_texts = intel_df[intel_df['type'] == 'Academic_Rigor']['content'].tolist()
+        paper_embeddings = self.model.encode(paper_texts, convert_to_tensor=True)
+        proto_embed = self.model.encode(user_protocol, convert_to_tensor=True)
+        
+        # Pick the top 5 papers only
+        scores = util.cos_sim(proto_embed, paper_embeddings)[0]
+        top_papers = torch.topk(scores, k=min(len(paper_texts), 5)).indices.tolist()
+        acad_context = "\n".join([paper_texts[idx] for idx in top_papers])
 
-        # SOURCE 3: FDA LETTERS (Statutory Truth - Filtered for relevance)
-        # Note: We look for 'Precedent' or 'TYPE' in the Statutory file
+        # --- SOURCE 3: FDA LETTERS (Semantic Search Upgrade) ---
         letter_df = stat_df[stat_df['type'].str.contains('Precedent|TYPE', na=False)].copy()
 
+        candidates = []
         if not letter_df.empty:
-            vectorizer = TfidfVectorizer(stop_words='english')
-            matrix = vectorizer.fit_transform(letter_df['content'].fillna("").tolist() + [user_protocol])
-            sims = cosine_similarity(matrix[-1], matrix[:-1])
-            top_indices = sims[0].argsort()[-3:][::-1]
-            candidates = [letter_df.iloc[idx] for idx in top_indices]
-        else:
-            candidates = []
+            try:
+                # Vectorize the protocol and the historical letters
+                texts = letter_df['content'].fillna("").tolist()
+                
+                # Use the class-level BioBERT model
+                doc_embeddings = self.model.encode(texts, convert_to_tensor=True)
+                protocol_embedding = self.model.encode(user_protocol, convert_to_tensor=True)
+                
+                # Compute similarity
+                cos_sims = util.cos_sim(protocol_embedding, doc_embeddings)[0]
+                
+                # Get top 3 most relevant precedents
+                top_results = torch.topk(cos_sims, k=min(len(texts), 3))
+                indices = top_results.indices.tolist()
+                
+                candidates = [letter_df.iloc[idx] for idx in indices]
+                print(f"🎯 BioBERT found {len(candidates)} relevant FDA precedents.")
+            except Exception as e:
+                print(f"🚨 BioBERT Search Failed: {e}. Falling back to top 3 rows.")
+                candidates = [letter_df.iloc[i] for i in range(min(len(letter_df), 3))]
 
         # 2. EXECUTE PARALLEL WORKERS (FDA Letters Only)
         print(f"🚀 Dispatching {len(candidates)} Parallel Letter Auditors...")
@@ -307,8 +416,9 @@ class BiostatLifecycleAgent4:
         print("⚖️ Synthesizing Law, Academia, and Precedent Findings...")
         final_prompt = f"""
         {ACADEMIC_MANDATE}
-        ROLE: FDA Statistical Reviewer (Adversarial Audit).
+        ROLE: FDA Statistical Reviewer (Audit).
         GOAL: Identify specific violations in the current protocol that risk FDA rejection.
+        Conduct a balanced regulatory review. Determine if the protocol is 'Submission-Ready' or requires specific corrections.
 
         --- SOURCE 1: THE LAW (STATUTORY) ---
         {law_context}
@@ -324,6 +434,7 @@ class BiostatLifecycleAgent4:
         ### MANDATORY VALIDATION RULES ###
         1. VERBATIM ONLY: All quotes in Section 1 and 2 must be 100% character-accurate.
         2. RELEVANCE: For every citation, you MUST explain the "Violation Logic": Why is this specific rule relevant to this protocol, and how exactly does the draft violate it?
+        3. BALANCED JUDGMENT: If the protocol adheres to Source 1 (The Law) and Source 3 (Academic Rigor), you MUST explicitly state that the section is 'Compliant.' Do not invent risks where the standards are met.
 
         CRITICAL: 
         If you are unsure of the EXACT wording of a quote, omit it entirely. Do not paraphrase. If you output a quote that is not present in Source 1 or in Source 2, the audit will be considered a legal liability. I prefer a report with 3 100% accurate quotes over a report with 20 paraphrased quotes.
@@ -349,8 +460,12 @@ class BiostatLifecycleAgent4:
         | Category | Specific Violation | Source of Rule | Risk Level (High/Med) |
         | :--- | :--- | :--- | :--- |
 
-        ### SECTION 5: INTERNAL MONOLOGUE ###
-        (Provide your high-level adversarial summary. If you were the FDA reviewer, what is the #1 reason you would reject this protocol today?)
+        ### SECTION 5: REGULATORY VERDICT ###
+        1. VERDICT: [PROCEED / CAUTION / REJECT]
+        2. JUSTIFICATION: 
+            If 'PROCEED', explain how the protocol successfully mitigates common industry pitfalls found in the Precedents. Be specific and use the sources as evidence.
+            If 'CAUTION', explain what are the risk points that if not mitigated, could lead to FDA pushback, and how to mitigate them. Be specific and use the sources as evidence.
+            If 'REJECT', explain what are the major flaws in the protocol, and why they would lead to an FDA rejection. Be specific and use the sources as evidence.
         """
         report = self._generate_response(final_prompt)
         return report if report else "🚨 Error: Synthesis Failed"
@@ -431,3 +546,4 @@ class BiostatLifecycleAgent4:
             
         return current_protocol
     
+

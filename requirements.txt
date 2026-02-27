@@ -1,8 +1,19 @@
+# --- Existing UI and API Stack ---
 streamlit==1.41.0
-pandas==2.2.3
-scikit-learn==1.6.1
 groq==1.0.0
 pydantic==2.10.0
 python-dotenv==1.0.1
 beautifulsoup4==4.12.3
 requests==2.32.5
+
+# --- Data Science & BioBERT Core ---
+# Note: Upgrading pandas/sklearn slightly for BioBERT compatibility
+pandas>=2.2.3
+scikit-learn>=1.6.1
+torch>=2.2.0
+transformers>=4.36.0
+tokenizers>=0.15.0
+
+# --- Audit & Source of Truth Tools ---
+# Useful for the 'validating like a crazy agent' phase
+accelerate>=0.25.0
