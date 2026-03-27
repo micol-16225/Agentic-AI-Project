@@ -66,9 +66,14 @@ class BiostatLifecycleAgent4:
 
         # 1. Lazy load BioBERT (Optimized for Task #2: Memory management)
         if BiostatLifecycleAgent4._model is None:
-            print("🧬 Loading BioBERT model...")
-            BiostatLifecycleAgent4._model = SentenceTransformer('pritamdeka/S-BioBert-snli-multinli-stsb')
-        self.model = BiostatLifecycleAgent4._model
+            #print("🧬 Loading BioBERT model...")
+            #BiostatLifecycleAgent4._model = SentenceTransformer('pritamdeka/S-BioBert-snli-multinli-stsb')
+            #self.model = BiostatLifecycleAgent4._model
+            # OLD: BioBERT (Too heavy for Free Tier)
+            
+            # NEW: MiniLM (Optimized for AWS Free Tier)
+            self.model = SentenceTransformer('all-MiniLM-L6-v2')
+        
 
         # 2. Load the Knowledge Base (Optimized with your new doc_ids)
         print("📊 Pre-loading ID-mapped Knowledge Base...")
