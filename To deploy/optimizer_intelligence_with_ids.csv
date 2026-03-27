@@ -1,0 +1,19 @@
+doc_id,source,type,title,content
+TECH_STATISTICAL_FORMULAS,Big_Pharma_Models,Technical,Statistical Formulas,"- MMRM (Mixed Model for Repeated Measures): $Y_i = X_i\beta + Z_i b_i + \epsilon_i$
+- Cox Proportional Hazards: $h(t|x) = h_0(t) \exp(\beta^T x)$"
+ARCH_THE_ARCHITECT_DESIGN_PRINCIPLES,Design_Principles,Architecture,The Architect: Design Principles,Rule of Parsimony: Minimize exclusion criteria. Endpoint Hierarchy: Prioritize hard clinical endpoints.
+ACAD_MULTIPLICITY_P_HACKING,academic_Index,Academic_Rigor,Multiplicity & P-Hacking,"DOMAIN: MULTIPLICITY & P-HACKING (Logic: Controlling False Positives)
+- Key Citations: Benjamini & Hochberg (1995) JRSSB; Westfall & Young (1993) JASA; Adda et al. (PNAS 2020).
+- Expert Rule: Flag ""Spikes"" in p-values near 0.05. If multiple secondary endpoints are claimed as ""Successes"" without FDR control, cite Benjamini & Hochberg."
+ACAD_MISSING_DATA_ESTIMANDS,academic_Index,Academic_Rigor,Missing Data & Estimands,"DOMAIN: MISSING DATA & ESTIMANDS (Logic: Handling Drop-outs)
+- Key Citations: Rubin (1976) Biometrika; Hernán & Robins (2024) Causal Inference; ICH E9(R1).
+- Expert Rule: Distinguish between MAR/MNAR. If drop-outs are treatment-related (e.g., side effects), ""Missing at Random"" assumptions fail. Demand sensitivity analyses per Rubin (1976)."
+ACAD_ADAPTIVE_DESIGNS,academic_Index,Academic_Rigor,Adaptive Designs,"DOMAIN: ADAPTIVE DESIGNS (Logic: The ""Promising Zone"")
+- Key Citations: Mehta & Pocock (2011) Stat. Med.; O'Brien & Fleming (1979) Biometrics.
+- Expert Rule: Sample size re-estimation (SSR) is only valid without penalty if the interim result is in the ""Promising Zone."" Ad-hoc doubling of N is a ""Statistical Penalty"" event."
+ACAD_EXTERNAL_VALIDITY,academic_Index,Academic_Rigor,External Validity,"DOMAIN: EXTERNAL VALIDITY (Logic: Generalizability)
+- Key Citations: Rothwell (2005) Lancet; Pearl (2011) JASA.
+- Expert Rule: Flag ""Sanitized"" populations. If exclusion criteria make the study group unrepresentative of real-world patients, cite Rothwell (2005)."
+ACAD_CAUSAL_INFERENCE,academic_Index,Academic_Rigor,Causal Inference,"DOMAIN: CAUSAL INFERENCE (Logic: Fairness)
+- Key Citations: Rosenbaum & Rubin (1983) Biometrika; Robins et al. (2000) Epidemiology.
+- Expert Rule: Ensure ""Fair Comparison."" Check for Propensity Score usage or G-estimation if treatment switching occurred."
