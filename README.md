@@ -80,7 +80,7 @@ docker push <aws_account_id>.dkr.ecr.us-east-1.amazonaws.com/auditor-agent-v2:la
 ### Cloud Execution:
 Deployed on AWS App Runner, providing a scalable, managed environment for the auditing agent.
 
-## 📂 Key Files in this “To Deploy” Repo
+## 📂 Key Files in this “To Deploy” Folder
 
 lifecycle_agent4.py: Core agentic logic and RAG retrieval system.
 
@@ -90,3 +90,6 @@ statutory_truth_with_ids.csv: The regulatory "Source of Truth" knowledge base.
 
 Dockerfile: Multi-stage build configuration optimized for CPU-based cloud environments.
 
+## Important: Ignore "Archive" Folder 
+
+The Archive folder is only to keep track of the development of this project and tool. There is no current usage of the content of such folder to an external user. 
